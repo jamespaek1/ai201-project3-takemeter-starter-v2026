@@ -1,0 +1,974 @@
+[
+  {
+    "id": 49999229,
+    "label": "grounded",
+    "rationale": "Describes the author's forum workflow and its reported use on several large projects."
+  },
+  {
+    "id": 49998049,
+    "label": "ungrounded",
+    "rationale": "Criticizes LLM-written posts without identifying a particular post or passage."
+  },
+  {
+    "id": 49999818,
+    "label": "request",
+    "rationale": "Asks for mobile fullscreen and landscape controls."
+  },
+  {
+    "id": 49993079,
+    "label": "grounded",
+    "rationale": "Supports the versatility claim with specific image-format capabilities and replacement use cases."
+  },
+  {
+    "id": 49995373,
+    "label": "request",
+    "rationale": "Asks whether the displayed dots are ASCII characters or Unicode.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49999306,
+    "label": "grounded",
+    "rationale": "Recounts the family's foundry, lathe operation, and manufactured parts as firsthand history."
+  },
+  {
+    "id": 49991050,
+    "label": "grounded",
+    "rationale": "Names the Gorton article and supplies sources for the related reading recommendation."
+  },
+  {
+    "id": 49999381,
+    "label": "grounded",
+    "rationale": "Supports the game-engine criticism with observed trailer demos and specific game types."
+  },
+  {
+    "id": 49995310,
+    "label": "ungrounded",
+    "rationale": "Argues for a writing style and complains about MCP explanations without a concrete passage or case.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49993455,
+    "label": "grounded",
+    "rationale": "Compares the authentication requirement with specific OpenAI and former Google workflows."
+  },
+  {
+    "id": 49999510,
+    "label": "ungrounded",
+    "rationale": "Predicts paid ranking without a reported event, mechanism, or source establishing that plan."
+  },
+  {
+    "id": 49994937,
+    "label": "grounded",
+    "rationale": "Quotes the translation pipeline and explains why it qualifies as an emulation stack."
+  },
+  {
+    "id": 49999634,
+    "label": "request",
+    "rationale": "Requests audio accompanying the visualization."
+  },
+  {
+    "id": 49992460,
+    "label": "grounded",
+    "rationale": "Quotes the benchmark's task and grading descriptions to support the criticism."
+  },
+  {
+    "id": 49995030,
+    "label": "grounded",
+    "rationale": "Supports the firmware abundance claim with multiple named projects and their links."
+  },
+  {
+    "id": 49995954,
+    "label": "grounded",
+    "rationale": "Explains how isolated actor state creates a second-storage and query problem."
+  },
+  {
+    "id": 49992110,
+    "label": "grounded",
+    "rationale": "Reports disabling inlining and a resulting binary-size reduction of tens of kilobytes."
+  },
+  {
+    "id": 49996243,
+    "label": "request",
+    "rationale": "Requests caching artwork on the site's server after observing direct Wikipedia image requests.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49991997,
+    "label": "grounded",
+    "rationale": "Describes the author's inspector, data-collection mechanisms, and linked demonstration."
+  },
+  {
+    "id": 49991267,
+    "label": "request",
+    "rationale": "Asks whether plate solving works with the stated older phone and weak night-sky signal."
+  },
+  {
+    "id": 49990675,
+    "label": "grounded",
+    "rationale": "Points to the article's opening self-link and repeated conclusion to support its criticism.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49990074,
+    "label": "request",
+    "rationale": "Asks for a ticket reference and the recent filing to enable follow-up."
+  },
+  {
+    "id": 49987489,
+    "label": "grounded",
+    "rationale": "Explains the false-positive collision problem using a concrete pair of domain hashes."
+  },
+  {
+    "id": 49992276,
+    "label": "grounded",
+    "rationale": "Defines codemode by explaining the sandbox and tool-composition mechanism."
+  },
+  {
+    "id": 49999110,
+    "label": "request",
+    "rationale": "Seeks clarification of the primary workflows of five listed products."
+  },
+  {
+    "id": 49998629,
+    "label": "ungrounded",
+    "rationale": "Reports a broad habit but gives no concrete instance or code change supporting the benefits.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49997519,
+    "label": "grounded",
+    "rationale": "Identifies Firefox's scrollWidth behavior and links the author's corresponding fix."
+  },
+  {
+    "id": 49991410,
+    "label": "grounded",
+    "rationale": "Links the Chromium issue to support the browser-support history behind the opinion."
+  },
+  {
+    "id": 49995453,
+    "label": "ungrounded",
+    "rationale": "Offers an aesthetic judgment and hypothetical car analogy without concrete supporting evidence."
+  },
+  {
+    "id": 49999776,
+    "label": "request",
+    "rationale": "Suggests explicitly defining precision and accuracy at the beginning of the article."
+  },
+  {
+    "id": 49991744,
+    "label": "grounded",
+    "rationale": "Names the VIC-20 typeface and links sources about it."
+  },
+  {
+    "id": 49992591,
+    "label": "grounded",
+    "rationale": "Reports playing Steampunk Match and reaching a specific leaderboard position."
+  },
+  {
+    "id": 49996473,
+    "label": "ungrounded",
+    "rationale": "Primarily vents about perceived LLM-written blogs; the question functions as frustration rather than a concrete request.",
+    "hard_case": true,
+    "alternative_label": "request"
+  },
+  {
+    "id": 49993881,
+    "label": "grounded",
+    "rationale": "Identifies a write-up and explains its extraction and classifier content as support for the recommendation."
+  },
+  {
+    "id": 49997782,
+    "label": "request",
+    "rationale": "Asks what incentive exists for spending tokens to submit reviews."
+  },
+  {
+    "id": 49998016,
+    "label": "grounded",
+    "rationale": "Supplies release years, a review quotation, and firsthand play experience."
+  },
+  {
+    "id": 49998083,
+    "label": "grounded",
+    "rationale": "Explains that fast time-domain motion prevents useful human interpretation of these visualizations."
+  },
+  {
+    "id": 49993369,
+    "label": "grounded",
+    "rationale": "Supplies a source and multiple quoted codeword examples supporting the interest in telegraph codes."
+  },
+  {
+    "id": 49998002,
+    "label": "grounded",
+    "rationale": "Recounts the author's Android synthesizer project and later reuse of its engine."
+  },
+  {
+    "id": 49995842,
+    "label": "request",
+    "rationale": "Asks for capability and use-case comparisons with named durable-execution products."
+  },
+  {
+    "id": 49996638,
+    "label": "ungrounded",
+    "rationale": "Expresses a visual preference without a concrete comparison or example from the animations."
+  },
+  {
+    "id": 49992043,
+    "label": "grounded",
+    "rationale": "Quotes a reported reasoning leak as the observed basis for the compression hypothesis.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49994997,
+    "label": "grounded",
+    "rationale": "Gives a price range and points to a specific community discussing the firmware ecosystem."
+  },
+  {
+    "id": 49996250,
+    "label": "request",
+    "rationale": "Asks about Rivet comparisons and self-hosting outside GCP."
+  },
+  {
+    "id": 49993832,
+    "label": "request",
+    "rationale": "Asks whether a table-driven Debug implementation was considered, using facet as context.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49993289,
+    "label": "grounded",
+    "rationale": "Describes matching gallery features in the author's prior project as the basis for the training-data suspicion.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49995901,
+    "label": "grounded",
+    "rationale": "Gives a concrete historical example of process monsters whose deaths sent kill signals."
+  },
+  {
+    "id": 49991732,
+    "label": "grounded",
+    "rationale": "Supports the alternative recommendation with the no-extra-hardware distinction and a PiFinder link."
+  },
+  {
+    "id": 49990597,
+    "label": "grounded",
+    "rationale": "Uses the claimed historical shift from handwritten assembly to compilers as an example supporting the analogy.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49984924,
+    "label": "grounded",
+    "rationale": "Explains the access-control versus functionality distinction behind the recommendation for specialist advice.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49988699,
+    "label": "grounded",
+    "rationale": "Reports a personal Pi-hole blocklist of 14–16 million domains as context for the proposed alternative."
+  },
+  {
+    "id": 49989794,
+    "label": "grounded",
+    "rationale": "Explains a specific virtual-bash-command approach supporting the claim that the added apparatus is unnecessary."
+  },
+  {
+    "id": 49999046,
+    "label": "request",
+    "rationale": "Proposes a Docker-specialized agent and model after describing unsuccessful setup attempts.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49998443,
+    "label": "grounded",
+    "rationale": "Links runtime documentation and identifies existing automatic compiler optimization behavior."
+  },
+  {
+    "id": 49996012,
+    "label": "request",
+    "rationale": "Requests voice control for displaying messages from an iPad."
+  },
+  {
+    "id": 49991860,
+    "label": "grounded",
+    "rationale": "Supports the compatibility discussion with specific iOS, macOS, and Linux behavior."
+  },
+  {
+    "id": 49995217,
+    "label": "grounded",
+    "rationale": "Names and links the author's similar status-visualization project."
+  },
+  {
+    "id": 49999760,
+    "label": "ungrounded",
+    "rationale": "Praises the overview and suggests a book without a concrete example supporting the quality judgment.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49995742,
+    "label": "grounded",
+    "rationale": "Reports owning the linked C64-style keyboard as the basis for the recommendation."
+  },
+  {
+    "id": 49993449,
+    "label": "grounded",
+    "rationale": "Reports the concrete result that the linked playground returns HTTP 403."
+  },
+  {
+    "id": 49999267,
+    "label": "ungrounded",
+    "rationale": "Gives general writing prescriptions without an observed case or source demonstrating their effects."
+  },
+  {
+    "id": 49994064,
+    "label": "grounded",
+    "rationale": "Describes the earlier OpenAI and Google detection workflows supporting the criticism."
+  },
+  {
+    "id": 49998124,
+    "label": "ungrounded",
+    "rationale": "Speculates about agentic Stack Overflow and uses a rhetorical question rather than a specific observed failure."
+  },
+  {
+    "id": 49995462,
+    "label": "ungrounded",
+    "rationale": "Recommends a bare link without explaining its content or how it supports the recommendation."
+  },
+  {
+    "id": 49996855,
+    "label": "request",
+    "rationale": "Asks for permission and licensing terms for using the visualizations."
+  },
+  {
+    "id": 49992522,
+    "label": "grounded",
+    "rationale": "Provides a concrete quoted telegram exchange as the comment's illustrative example."
+  },
+  {
+    "id": 49998878,
+    "label": "grounded",
+    "rationale": "Reports creating and links a firmware collection before adding a speculative concern.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49996305,
+    "label": "grounded",
+    "rationale": "Supports the performance criticism with a stated write-latency comparison and linked alternative."
+  },
+  {
+    "id": 49992439,
+    "label": "grounded",
+    "rationale": "Explains how runtime profiles guide PGO inlining decisions to support the recommendation."
+  },
+  {
+    "id": 49998834,
+    "label": "ungrounded",
+    "rationale": "Offers congratulations and a broad personal idea without a concrete basis for the quality assessment."
+  },
+  {
+    "id": 49994117,
+    "label": "ungrounded",
+    "rationale": "Describes an imagined humorous future scene rather than a reported observation."
+  },
+  {
+    "id": 49995241,
+    "label": "request",
+    "rationale": "Asks whether the app has a polar-alignment feature."
+  },
+  {
+    "id": 49990501,
+    "label": "ungrounded",
+    "rationale": "Expresses fatigue with AI arguments and ends in a rhetorical question without supporting examples."
+  },
+  {
+    "id": 49985916,
+    "label": "ungrounded",
+    "rationale": "Expresses sympathy and asserts a lawyer guarantees action without a supporting case or source."
+  },
+  {
+    "id": 49989805,
+    "label": "grounded",
+    "rationale": "Explains the probabilistic-storage and false-positive tradeoff behind the Bloom-filter proposal."
+  },
+  {
+    "id": 49991317,
+    "label": "grounded",
+    "rationale": "Quotes the delayed definition and names its section to support the headline criticism."
+  },
+  {
+    "id": 49997009,
+    "label": "grounded",
+    "rationale": "Supplies a specifically identified sandbox-documentation source for missing security information."
+  },
+  {
+    "id": 49999280,
+    "label": "ungrounded",
+    "rationale": "Asserts likely branch-predictor gains without measurements or an explanation of the affected branches."
+  },
+  {
+    "id": 49999387,
+    "label": "ungrounded",
+    "rationale": "Offers praise and predicts world-changing impact without a concrete supporting example."
+  },
+  {
+    "id": 49991527,
+    "label": "grounded",
+    "rationale": "Gives Telegram's treatment of WebP as a specific example of compatibility problems."
+  },
+  {
+    "id": 49996504,
+    "label": "grounded",
+    "rationale": "Describes browsing named animation examples and links the particular works behind the reaction."
+  },
+  {
+    "id": 49980627,
+    "label": "grounded",
+    "rationale": "Recounts the author's research path and identifies the article's animations and predecessor."
+  },
+  {
+    "id": 49992823,
+    "label": "ungrounded",
+    "rationale": "Speculates that an expanded character set would make a nice coding font without testing or examples."
+  },
+  {
+    "id": 49993470,
+    "label": "grounded",
+    "rationale": "Reports hosting a game platform and receiving a specific 403 error on the new service."
+  },
+  {
+    "id": 49995834,
+    "label": "ungrounded",
+    "rationale": "Offers a recipe-link analogy after an unspecified blog encounter, without a concrete passage or site.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49993715,
+    "label": "request",
+    "rationale": "Asks why sign-in is required, despite the frustrated wording.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49998015,
+    "label": "grounded",
+    "rationale": "Describes two intrusive popups and their absence on a subsequent visit."
+  },
+  {
+    "id": 49993928,
+    "label": "grounded",
+    "rationale": "Explains the shift from emulation to reverse engineering and direct ports behind the preservation claim.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49995877,
+    "label": "grounded",
+    "rationale": "Reports a specific mobile scrolling situation that makes image-caption association unclear."
+  },
+  {
+    "id": 49992668,
+    "label": "ungrounded",
+    "rationale": "Dismisses the technology through a hypothetical joke rather than an observed benchmark."
+  },
+  {
+    "id": 49998543,
+    "label": "ungrounded",
+    "rationale": "Expresses sound preferences and predicts sameness without a concrete listening comparison or example."
+  },
+  {
+    "id": 49993025,
+    "label": "grounded",
+    "rationale": "Names concrete compiler controls and explains the inlining-versus-performance tradeoff."
+  },
+  {
+    "id": 49994048,
+    "label": "request",
+    "rationale": "Proposes expanding artists and combining scraping efforts with WikiArt."
+  },
+  {
+    "id": 49993770,
+    "label": "grounded",
+    "rationale": "Reports a procfs-scraper implementation problem caused by disappearing process IDs."
+  },
+  {
+    "id": 49993902,
+    "label": "request",
+    "rationale": "Asks why camera gimbals lack a long-exposure astrophotography mode."
+  },
+  {
+    "id": 49990435,
+    "label": "grounded",
+    "rationale": "Reports that a specifically named linked talk appears to have been deleted."
+  },
+  {
+    "id": 49994299,
+    "label": "grounded",
+    "rationale": "Cites a dated appellate ruling and news source as support for the legal-advice claim."
+  },
+  {
+    "id": 49987962,
+    "label": "grounded",
+    "rationale": "Describes the author's proxy-memory mapping setup and explains why it avoids DNS queries."
+  },
+  {
+    "id": 49989442,
+    "label": "request",
+    "rationale": "Asks how to disable codemode and includes the unsuccessful configuration."
+  },
+  {
+    "id": 49998290,
+    "label": "grounded",
+    "rationale": "Reports a specific attempt a few weeks earlier that led to the assessment of brittleness.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49999040,
+    "label": "request",
+    "rationale": "Seeks confirmation that the leading-if pattern is called a guard clause.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49999436,
+    "label": "grounded",
+    "rationale": "Recounts a workplace incident and links the page the author created in response."
+  },
+  {
+    "id": 49991617,
+    "label": "grounded",
+    "rationale": "Supports the browser comparison with the concrete difference in progressive-loading settings."
+  },
+  {
+    "id": 49995275,
+    "label": "grounded",
+    "rationale": "Reports creating animated ASCII sequences for local dial-up bulletin boards."
+  },
+  {
+    "id": 49997839,
+    "label": "grounded",
+    "rationale": "Quotes exact screw and nut dimensions to illustrate the historical precision technique."
+  },
+  {
+    "id": 49992444,
+    "label": "grounded",
+    "rationale": "Identifies misaligned characters and describes checking them with a drawn line in Paint."
+  },
+  {
+    "id": 49992552,
+    "label": "ungrounded",
+    "rationale": "Imagines a future personalized game feed; the timing question is speculative rather than a concrete information request.",
+    "hard_case": true,
+    "alternative_label": "request"
+  },
+  {
+    "id": 49994391,
+    "label": "ungrounded",
+    "rationale": "Generalizes about bloggers building suspense without a specific passage or example."
+  },
+  {
+    "id": 49994123,
+    "label": "grounded",
+    "rationale": "Reports the agreement screen encountered and having to consult comments to identify the service."
+  },
+  {
+    "id": 49997459,
+    "label": "ungrounded",
+    "rationale": "The linked rating establishes a score, but the main praise of design supplies no concrete supporting feature.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49995334,
+    "label": "grounded",
+    "rationale": "Reports an earlier i7 emulation attempt and its approximately 15 FPS performance."
+  },
+  {
+    "id": 49996725,
+    "label": "ungrounded",
+    "rationale": "Expresses disappointment without identifying what any visualization failed to explain."
+  },
+  {
+    "id": 49996336,
+    "label": "grounded",
+    "rationale": "Uses the described historical disappearance of costly-communication tricks as support for the prediction.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49995360,
+    "label": "grounded",
+    "rationale": "Reports recent purchases and firmware availability as the basis for enthusiasm."
+  },
+  {
+    "id": 49996001,
+    "label": "request",
+    "rationale": "Asks about large-dataset performance and the timeline's plotting implementation."
+  },
+  {
+    "id": 49994594,
+    "label": "grounded",
+    "rationale": "Links psDoom and explains the concrete consequence of killing the init process."
+  },
+  {
+    "id": 49995322,
+    "label": "request",
+    "rationale": "Asks how lens distance is determined and affects app accuracy."
+  },
+  {
+    "id": 49990445,
+    "label": "grounded",
+    "rationale": "Describes the article's reason-by-reason counterargument structure as the basis for criticizing its purpose.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49990052,
+    "label": "ungrounded",
+    "rationale": "Predicts more copying and server-side migration without a concrete example or source."
+  },
+  {
+    "id": 49989399,
+    "label": "request",
+    "rationale": "Explicitly asks the author to rewrite the README's first sentence personally."
+  },
+  {
+    "id": 49989208,
+    "label": "grounded",
+    "rationale": "Describes failed embedded calls triggering large rewrites and explains the observed token increase."
+  },
+  {
+    "id": 49997121,
+    "label": "grounded",
+    "rationale": "Identifies existing alternatives and their Docker, tooling, and network-isolation setup behind the redundancy criticism.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49998706,
+    "label": "ungrounded",
+    "rationale": "States a maxim without a concrete use case or supporting example."
+  },
+  {
+    "id": 49997258,
+    "label": "request",
+    "rationale": "Proposes controlling displayed content from another device and describes the desired signage use case."
+  },
+  {
+    "id": 49991751,
+    "label": "grounded",
+    "rationale": "Identifies the concrete technical limitation that the same extension does not distinguish lossless from lossy content.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49996984,
+    "label": "grounded",
+    "rationale": "Identifies and links a related ASCII-animation library as a concrete comparison."
+  },
+  {
+    "id": 49999644,
+    "label": "ungrounded",
+    "rationale": "Expresses surprise about recent inventions without naming an invention or providing a dated example."
+  },
+  {
+    "id": 49996194,
+    "label": "ungrounded",
+    "rationale": "Names preferred keyboard fonts but supplies no concrete basis for their asserted superiority."
+  },
+  {
+    "id": 49993264,
+    "label": "ungrounded",
+    "rationale": "Expresses opposition to Google's ownership without concrete evidence supporting the broader control claim."
+  },
+  {
+    "id": 49997740,
+    "label": "ungrounded",
+    "rationale": "Offers general advice about contextual writing preferences without a concrete case."
+  },
+  {
+    "id": 49995484,
+    "label": "request",
+    "rationale": "Asks whether the image-encoding standard is open or limited to model builders."
+  },
+  {
+    "id": 49997805,
+    "label": "grounded",
+    "rationale": "Provides an explicitly described source for the tools sorted by rating."
+  },
+  {
+    "id": 49994544,
+    "label": "ungrounded",
+    "rationale": "Expresses a hope about future browser game availability without supporting evidence."
+  },
+  {
+    "id": 49992286,
+    "label": "grounded",
+    "rationale": "Links a timestamped video and states the agent-communication example it supports."
+  },
+  {
+    "id": 49995550,
+    "label": "grounded",
+    "rationale": "Reports installing sloop through WebUSB and describes the resulting samples, sequences, and interface."
+  },
+  {
+    "id": 49995819,
+    "label": "request",
+    "rationale": "Requests richer information for each artwork beyond the broad gallery introductions."
+  },
+  {
+    "id": 49994365,
+    "label": "ungrounded",
+    "rationale": "Makes a performance joke without a measured FPS value or concrete failure description."
+  },
+  {
+    "id": 49997673,
+    "label": "request",
+    "rationale": "Asks the named participant to contact the author at the supplied site."
+  },
+  {
+    "id": 49990434,
+    "label": "grounded",
+    "rationale": "Quotes a passage and identifies its reliance on ought as the basis for the rebuttal criticism."
+  },
+  {
+    "id": 49993345,
+    "label": "ungrounded",
+    "rationale": "Uses a rhetorical retirement question to judge the author's priorities rather than seeking concrete project information.",
+    "hard_case": true,
+    "alternative_label": "request"
+  },
+  {
+    "id": 49998553,
+    "label": "grounded",
+    "rationale": "Identifies seeing Claude in the contributor list as the specific event behind the reaction.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49994954,
+    "label": "grounded",
+    "rationale": "Describes actual workflow operations and a concrete loop over workflow IDs to explain codemode's benefits."
+  },
+  {
+    "id": 49997599,
+    "label": "grounded",
+    "rationale": "Explains the author's experimental workflow and uv's cross-platform environments supporting the comparison."
+  },
+  {
+    "id": 49998856,
+    "label": "grounded",
+    "rationale": "Identifies the specific refactoring needed to apply the discussed pattern to FizzBuzz."
+  },
+  {
+    "id": 49999471,
+    "label": "grounded",
+    "rationale": "Quotes the exact tagline that motivates the criticism of the writing style.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49991514,
+    "label": "ungrounded",
+    "rationale": "Explicitly guesses why executives changed position without supporting internal evidence."
+  },
+  {
+    "id": 49995615,
+    "label": "ungrounded",
+    "rationale": "Offers aesthetic reactions about ornamentation and dithering without a concrete rendering example or comparison.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49999689,
+    "label": "request",
+    "rationale": "Requests technology-history book suggestions and states reading preferences."
+  },
+  {
+    "id": 49990634,
+    "label": "request",
+    "rationale": "Requests an equivalent version for the ZX Spectrum."
+  },
+  {
+    "id": 49993538,
+    "label": "grounded",
+    "rationale": "Reports trying games and observing choppy performance even in a match-three game."
+  },
+  {
+    "id": 49996262,
+    "label": "grounded",
+    "rationale": "Describes the author's reading workflow and use of both structures on a personal blog."
+  },
+  {
+    "id": 49993983,
+    "label": "grounded",
+    "rationale": "Links a specifically identified OpenAI provenance resource and notes its rate limit."
+  },
+  {
+    "id": 49997827,
+    "label": "request",
+    "rationale": "Asks whether the tool creates a prompt-injection risk rather than presenting evidence that it does.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49995516,
+    "label": "grounded",
+    "rationale": "Reports seeing a GTA 6 example the previous day and its later removal."
+  },
+  {
+    "id": 49993505,
+    "label": "request",
+    "rationale": "Proposes simpler engineered communication and seeks ways to make reading and writing simpler.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49999371,
+    "label": "request",
+    "rationale": "Requests an SD-card-equipped device or hardware modification to enable sampling."
+  },
+  {
+    "id": 49994570,
+    "label": "request",
+    "rationale": "Requests an option to disable the added canvas texture after describing the modification."
+  },
+  {
+    "id": 49991506,
+    "label": "ungrounded",
+    "rationale": "Claims traditional vision wins on three metrics without measurements or a supporting mechanism."
+  },
+  {
+    "id": 49990897,
+    "label": "ungrounded",
+    "rationale": "Argues broadly about AI judgment but gives no concrete decision example demonstrating the claimed limitation.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49999062,
+    "label": "ungrounded",
+    "rationale": "Predicts enforcement failure and offers broad mitigation advice without a concrete case or measured result."
+  },
+  {
+    "id": 49989138,
+    "label": "ungrounded",
+    "rationale": "Prefers one development environment without giving a specific feature or experience supporting better performance."
+  },
+  {
+    "id": 49989660,
+    "label": "request",
+    "rationale": "Asks why the post is on a personal blog and supplies related readability context.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49997052,
+    "label": "grounded",
+    "rationale": "Quotes a distinctive heading as the textual basis for the claimed model attribution; the attribution itself remains unverified.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49998841,
+    "label": "grounded",
+    "rationale": "Quotes the branch-free-loop point and explains vectorization and parallel hardware benefits."
+  },
+  {
+    "id": 49996255,
+    "label": "request",
+    "rationale": "Quotes the unwanted prose and asks for it to be cleaned up.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49996166,
+    "label": "grounded",
+    "rationale": "Links browser-support sources and supplies contrasting coverage percentages."
+  },
+  {
+    "id": 49995051,
+    "label": "request",
+    "rationale": "Asks for clarification because the pieces do not appear animated to the commenter."
+  },
+  {
+    "id": 49999351,
+    "label": "request",
+    "rationale": "Seeks a successor to the Gingery books while supplying related machine-building resources.",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49991459,
+    "label": "request",
+    "rationale": "Asks for the original C64 keyboard font."
+  },
+  {
+    "id": 49999120,
+    "label": "grounded",
+    "rationale": "Reports reproducing the same-page new-tab behavior in Firefox and Chrome."
+  },
+  {
+    "id": 49996395,
+    "label": "grounded",
+    "rationale": "Explains the author's conclusion-first practice and links a specific example."
+  },
+  {
+    "id": 49999300,
+    "label": "ungrounded",
+    "rationale": "Makes a universal claim about artists' preferences without evidence or examples."
+  },
+  {
+    "id": 49998197,
+    "label": "ungrounded",
+    "rationale": "Asserts similarity to complain skills without explaining a concrete matching behavior or example."
+  },
+  {
+    "id": 49993618,
+    "label": "grounded",
+    "rationale": "Uses a named emulator and historical hardware comparison to support the progress claim."
+  },
+  {
+    "id": 49997884,
+    "label": "ungrounded",
+    "rationale": "Proposes a hypothetical communication mechanism without an observed implementation or supporting example."
+  },
+  {
+    "id": 49997747,
+    "label": "grounded",
+    "rationale": "Supports the criticism with stated hardware comparison and a specific alternative available in VCV Rack."
+  },
+  {
+    "id": 49993986,
+    "label": "grounded",
+    "rationale": "Reports a concrete failed interaction, including an attempted crouch jump onto benches."
+  },
+  {
+    "id": 49991388,
+    "label": "request",
+    "rationale": "Asks why an Android plus version is unavailable."
+  },
+  {
+    "id": 49990748,
+    "label": "grounded",
+    "rationale": "Describes the author's reported shift from routine coding toward innovation and design."
+  },
+  {
+    "id": 49991556,
+    "label": "grounded",
+    "rationale": "Explains how a repository can source and patch remote code to support the claim that deletion will not solve copying."
+  }
+]

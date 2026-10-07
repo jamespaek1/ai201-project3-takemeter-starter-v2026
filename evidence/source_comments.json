@@ -1,0 +1,2007 @@
+{
+  "collected_at": "2026-10-07T22:53:19.121039+00:00",
+  "source_api": "https://github.com/HackerNews/API",
+  "method": "First 25 direct comments per selected technology thread; whole comments, 8–180 whitespace words, live and unique; interleaved by thread.",
+  "comments": [
+    {
+      "id": 49999229,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49999229",
+      "author": "Olscore",
+      "posted_at": 1791409575,
+      "text": "Interesting seeing other people's approaches to orchestration.\nI've been working on Pullboard and just open sourced it: https://github.com/pullboard-dev/pullboard\nTo me, orchestration is not really the core problem. The bigger challenge is handling agent coherency over long periods of time, (drift) so my solution is a living forum-like system where agents shout to one another, document work in items, and follow doctrine handed down by the developer and work against a known specification that's checkable. I have used this workflow in several large projects that MUST be correct, and it works for me. Currently cleaning it up for other users.",
+      "raw_html": "Interesting seeing other people&#x27;s approaches to orchestration.<p>I&#x27;ve been working on Pullboard and just open sourced it: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pullboard-dev&#x2F;pullboard\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;pullboard-dev&#x2F;pullboard</a><p>To me, orchestration is not really the core problem. The bigger challenge is handling agent coherency over long periods of time, (drift) so my solution is a living forum-like system where agents shout to one another, document work in items, and follow doctrine handed down by the developer and work against a known specification that&#x27;s checkable. I have used this workflow in several large projects that MUST be correct, and it works for me. Currently cleaning it up for other users."
+    },
+    {
+      "id": 49998049,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49998049",
+      "author": "socializer",
+      "posted_at": 1791403203,
+      "text": "I am continually impressed by the ability of LLMs to take trivial ideas and turn them into lengthy and obtuse blog posts with unnecessary analogies.",
+      "raw_html": "I am continually impressed by the ability of LLMs to take trivial ideas and turn them into lengthy and obtuse blog posts with unnecessary analogies."
+    },
+    {
+      "id": 49999818,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49999818",
+      "author": "WhiskerFatigue",
+      "posted_at": 1791413335,
+      "text": "Neat! For mobile, it would be nice to have an on-screen button to toggle full screen and turn the page landscape.",
+      "raw_html": "Neat! For mobile, it would be nice to have an on-screen button to toggle full screen and turn the page landscape."
+    },
+    {
+      "id": 49993079,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49993079",
+      "author": "jug",
+      "posted_at": 1791381982,
+      "text": "And soon Firefox will include it in Stable. During October it will go from Safari only to majority coverage. Eventful month!\nWhile AVIF may have a slight edge in some cases like in fairly lossy compression, you won't really go _wrong_ with JPEG XL (unless strongly CPU constrained) and I think the strength of the format is its extreme versatility as a \"be all end all image format\" for some time where comparative performance depending on functionality ranges from respectable to excellent. It can work as a replacement for AVIF, PNG, JPEG, WebP, even certain TIFF required scenarios (high bit depth, multichannel, layers) depending on use cases.",
+      "raw_html": "And soon Firefox will include it in Stable. During October it will go from Safari only to majority coverage. Eventful month!<p>While AVIF may have a slight edge in some cases like in fairly lossy compression, you won&#x27;t really go _wrong_ with JPEG XL (unless strongly CPU constrained) and I think the strength of the format is its extreme versatility as a &quot;be all end all image format&quot; for some time where comparative performance depending on functionality ranges from respectable to excellent. It can work as a replacement for AVIF, PNG, JPEG, WebP, even certain TIFF required scenarios (high bit depth, multichannel, layers) depending on use cases."
+    },
+    {
+      "id": 49995373,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49995373",
+      "author": "boguscoder",
+      "posted_at": 1791391706,
+      "text": "This looks aesthetically pleasing but this is not ASCII Art it seems, where’s ascii? All those differently sized dots are not ascii chars, are they? Perhaps this is unicode-art?",
+      "raw_html": "This looks aesthetically pleasing but this is not ASCII Art it seems, where’s ascii? All those differently sized dots are not ascii chars, are they? Perhaps this is unicode-art?"
+    },
+    {
+      "id": 49999306,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49999306",
+      "author": "ghm2180",
+      "posted_at": 1791410089,
+      "text": "Thank you for making this. My dad(now retired) owned a machine tool manufacturing space in the 70s and 80s in a small town in north india. After foreign CNC machines left no demand for manual/semi automatic ones in the country, he switched over to a foundry to manufacture cast iron parts in a blast cupola furnace and later a rotary furnace(better for smaller on demand work). But he kept the lathe around along with an employee to finish the parts. And your animation brings back a lot of memories for me. I learned to operate the lathe and had all manners of fun. It is kind of like yak shaving. Your clothes turn black but you just love the mechanical back and forth of it. He made pulleys, Truck engine parts, housing for water motors(fun fact municipal water is scarce and not of adequate pressurized in homes, farms, factories etc so these are ubiquitous) etc.\nI sent this to my dad. I am sure he will enjoy reading this.",
+      "raw_html": "Thank you for making this. My dad(now retired) owned a machine tool manufacturing space in the 70s and 80s in a small town in north india. After foreign CNC machines left no demand for manual&#x2F;semi automatic ones in the country, he switched over to a foundry to manufacture cast iron parts in a blast cupola furnace and later a rotary furnace(better for smaller on demand work). But he kept the lathe around along with an employee to finish the parts. And your animation brings back a lot of memories for me. I learned to operate the lathe and had all manners of fun. It is kind of like yak shaving. Your clothes turn black but you just love the mechanical back and forth of it. He made pulleys, Truck engine parts, housing for water motors(fun fact municipal water is scarce and not of adequate pressurized in homes, farms, factories etc so these are ubiquitous) etc.<p>I sent this to my dad. I am sure he will enjoy reading this."
+    },
+    {
+      "id": 49991050,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49991050",
+      "author": "jankhg",
+      "posted_at": 1791371123,
+      "text": "This reminds me of this beautifully written article about the font Gorton.\nhttps://aresluna.org/the-hardest-working-font-in-manhattan/\nhttps://news.ycombinator.com/item?id=49201953",
+      "raw_html": "This reminds me of this beautifully written article about the font Gorton.<p><a href=\"https:&#x2F;&#x2F;aresluna.org&#x2F;the-hardest-working-font-in-manhattan&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;aresluna.org&#x2F;the-hardest-working-font-in-manhattan&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49201953\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49201953</a>"
+    },
+    {
+      "id": 49999381,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49999381",
+      "author": "tavavex",
+      "posted_at": 1791410511,
+      "text": "I may just like games too much, but I can't take this seriously in its current form. This feels like one of the old and basic 'build your own game' toolboxes for non-developers, but with AI - not an 'AI game engine'. It shows that even the demos they made for the trailer are all simplistic endless games that remind me of average Flash games with a different coat of paint. When your entire 'game idea' can be expressed in two sentences, it's going to get old fast. There's only so many endless runners, trivia and single screen 'move from point to point' games one can tolerate. I can't see this specific product having any impact on the gaming industry, despite many people here already talking about the industry at large.",
+      "raw_html": "I may just like games too much, but I can&#x27;t take this seriously in its current form. This feels like one of the old and basic &#x27;build your own game&#x27; toolboxes for non-developers, but with AI - not an &#x27;AI game engine&#x27;. It shows that even the demos they made for the trailer are all simplistic endless games that remind me of average Flash games with a different coat of paint. When your entire &#x27;game idea&#x27; can be expressed in two sentences, it&#x27;s going to get old fast. There&#x27;s only so many endless runners, trivia and single screen &#x27;move from point to point&#x27; games one can tolerate. I can&#x27;t see this specific product having any impact on the gaming industry, despite many people here already talking about the industry at large."
+    },
+    {
+      "id": 49995310,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49995310",
+      "author": "phreack",
+      "posted_at": 1791391489,
+      "text": "I always insist that education is not storytelling and should not be structured as such. People want to save \"twists\" and \"revelations\" for maximum impact and it's harmful. It should actually be the other way around and be, keeping the theme, \"spoilery\" and repetitive. Like a good presentation you should start by saying what you'll say, say it, then conclude by saying what you said.\nLLMs have made this problem extremely worse. Imagine how'd you'd explain what an MCP is in a couple words and technically, then try to look it up. There's phone books worth of pages and text that never end up getting to the point.",
+      "raw_html": "I always insist that education is not storytelling and should not be structured as such. People want to save &quot;twists&quot; and &quot;revelations&quot; for maximum impact and it&#x27;s harmful. It should actually be the other way around and be, keeping the theme, &quot;spoilery&quot; and repetitive. Like a good presentation you should start by saying what you&#x27;ll say, say it, then conclude by saying what you said.<p>LLMs have made this problem extremely worse. Imagine how&#x27;d you&#x27;d explain what an MCP is in a couple words and technically, then try to look it up. There&#x27;s phone books worth of pages and text that never end up getting to the point."
+    },
+    {
+      "id": 49993455,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49993455",
+      "author": "Tiberium",
+      "posted_at": 1791383709,
+      "text": "It's baffling that this requires auth. OpenAI's own tool (https://openai.com/research/verify/) doesn't require auth.\nEven Google themselves previously offered a no-auth way (just very niche): if you uploaded an image to Google Image search, and went to \"About this image\", it would show if the image was Google AI-generated. Now it doesn't.",
+      "raw_html": "It&#x27;s baffling that this requires auth. OpenAI&#x27;s own tool (<a href=\"https:&#x2F;&#x2F;openai.com&#x2F;research&#x2F;verify&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;openai.com&#x2F;research&#x2F;verify&#x2F;</a>) doesn&#x27;t require auth.<p>Even Google themselves previously offered a no-auth way (just very niche): if you uploaded an image to Google Image search, and went to &quot;About this image&quot;, it would show if the image was Google AI-generated. Now it doesn&#x27;t."
+    },
+    {
+      "id": 49999510,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49999510",
+      "author": "geekymartian",
+      "posted_at": 1791411360,
+      "text": "Seeing Armature's pitch, It's very easy to see this is going to be pay-to-rank-higher as the next move once some critical mass of people starts pointing out their agents for this site as a reference. Adwords for tooling!!",
+      "raw_html": "Seeing Armature&#x27;s pitch, It&#x27;s very easy to see this is going to be pay-to-rank-higher as the next move once some critical mass of people starts pointing out their agents for this site as a reference. Adwords for tooling!!"
+    },
+    {
+      "id": 49994937,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49994937",
+      "author": "wren6991",
+      "posted_at": 1791389963,
+      "text": "> PSP games running in the browser without an emulator. The game's MIPS machine code is translated ahead of time into C++, compiled to WebAssembly, and linked against a small reimplementation of the PSP's operating system and graphics chip that draws with WebGL2.\nFeels slightly pedantic to point this out, but this describes an emulation stack. A lot of emulators are already doing some kind of lift+JIT on the target's machine code (just not through WASM)",
+      "raw_html": "&gt; PSP games running in the browser without an emulator. The game&#x27;s MIPS machine code is translated ahead of time into C++, compiled to WebAssembly, and linked against a small reimplementation of the PSP&#x27;s operating system and graphics chip that draws with WebGL2.<p>Feels slightly pedantic to point this out, but this describes an emulation stack. A lot of emulators are already doing some kind of lift+JIT on the target&#x27;s machine code (just not through WASM)"
+    },
+    {
+      "id": 49999634,
+      "story_id": 49994481,
+      "story_title": "Open source 160 sound visualization experiments",
+      "source_url": "https://news.ycombinator.com/item?id=49999634",
+      "author": "Keyframe",
+      "posted_at": 1791412134,
+      "text": "would be helpful to hear the sound as the viz goes by.",
+      "raw_html": "would be helpful to hear the sound as the viz goes by."
+    },
+    {
+      "id": 49992460,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49992460",
+      "author": "OtherShrezzing",
+      "posted_at": 1791379344,
+      "text": "This page is (somewhat ironically) so extremely laden with Claude-speak that it's difficult to find the information in all the noise. But once you've waded through everything, you see these facts:\n>What the test measures: A model is given a passage and a fixed set of questions with short, checkable answers — a date, a name, a count.\nSo, a model is given content which is especially amenable to compression, and asked to reproduce it under certain constraints, like...\n>Why isn’t the plaintext baseline 100%? Answering questions about an uncompressed passage in plaintext scores ~91%.... a correct answer worded differently scores as a [failure]\nModels can (and do) give objectively correct answers, but are penalised for not having some kind of omniscient knowledge of the implementer's phrasing preferences.\nIf this phenomenon is emergent in models, this benchmark is not proof of it in any meaningful way.",
+      "raw_html": "This page is (somewhat ironically) so extremely laden with Claude-speak that it&#x27;s difficult to find the information in all the noise. But once you&#x27;ve waded through everything, you see these facts:<p>&gt;What the test measures: A model is given a passage and a fixed set of questions with short, checkable answers — a date, a name, a count.<p>So, a model is given content which is especially amenable to compression, and asked to reproduce it under certain constraints, like...<p>&gt;Why isn’t the plaintext baseline 100%? Answering questions about an uncompressed passage in plaintext scores ~91%.... a correct answer worded differently scores as a [failure]<p>Models can (and do) give objectively correct answers, but are penalised for not having some kind of omniscient knowledge of the implementer&#x27;s phrasing preferences.<p>If this phenomenon is emergent in models, this benchmark is not proof of it in any meaningful way."
+    },
+    {
+      "id": 49995030,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49995030",
+      "author": "vegadw",
+      "posted_at": 1791390350,
+      "text": "For those that haven't been following along, a TON of custom firmwares have shown up for the M-VAVE FM-1, a roughly ~$70 synth.\nBaudGirl's VA is probably the biggest right now: https://baudgirl.com/work/FM-1+VA\nBut there's also https://github.com/hugelton/Felucca, https://github.com/charlesvestal/fm1-x0x, https://www.groove-os.com, https://isod89.github.io/sloop-fm1/webapp/installer/, and https://github.com/charlesvestal/fm1-fomni\nAFAIK, all of them are vibecoded, but that doesn't mean they're not super fun.\nEdit: Someone made a good firmware list: https://fm1-editor.com/firmware/",
+      "raw_html": "For those that haven&#x27;t been following along, a TON of custom firmwares have shown up for the M-VAVE FM-1, a roughly ~$70 synth.<p>BaudGirl&#x27;s VA is probably the biggest right now: <a href=\"https:&#x2F;&#x2F;baudgirl.com&#x2F;work&#x2F;FM-1+VA\" rel=\"nofollow\">https:&#x2F;&#x2F;baudgirl.com&#x2F;work&#x2F;FM-1+VA</a><p>But there&#x27;s also <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hugelton&#x2F;Felucca\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hugelton&#x2F;Felucca</a>, <a href=\"https:&#x2F;&#x2F;github.com&#x2F;charlesvestal&#x2F;fm1-x0x\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;charlesvestal&#x2F;fm1-x0x</a>, <a href=\"https:&#x2F;&#x2F;www.groove-os.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.groove-os.com</a>, <a href=\"https:&#x2F;&#x2F;isod89.github.io&#x2F;sloop-fm1&#x2F;webapp&#x2F;installer&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;isod89.github.io&#x2F;sloop-fm1&#x2F;webapp&#x2F;installer&#x2F;</a>, and <a href=\"https:&#x2F;&#x2F;github.com&#x2F;charlesvestal&#x2F;fm1-fomni\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;charlesvestal&#x2F;fm1-fomni</a><p>AFAIK, all of them are vibecoded, but that doesn&#x27;t mean they&#x27;re not super fun.<p>Edit: Someone made a good firmware list: <a href=\"https:&#x2F;&#x2F;fm1-editor.com&#x2F;firmware&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;fm1-editor.com&#x2F;firmware&#x2F;</a>"
+    },
+    {
+      "id": 49995954,
+      "story_id": 49980399,
+      "story_title": "Show HN: Durable Actors – OSS Durable Objects with configurable compute",
+      "source_url": "https://news.ycombinator.com/item?id=49995954",
+      "author": "jeremycarter",
+      "posted_at": 1791394009,
+      "text": "Looks great but one of the common problems with the virtual actor model is state query. It's all well and good to have nice separated state dbs but for most use cases that means further double up on storing the state again in another database that can query it. I don't think anyone has come up with a nice solution for this problem without using a loose document database, but even then actors can change their schema.\nPerhaps emitting versioned domain events transactionally with the actor state is an option without prescribing an exact solution.",
+      "raw_html": "Looks great but one of the common problems with the virtual actor model is state query. It&#x27;s all well and good to have nice separated state dbs but for most use cases that means further double up on storing the state again in another database that can query it. I don&#x27;t think anyone has come up with a nice solution for this problem without using a loose document database, but even then actors can change their schema.<p>Perhaps emitting versioned domain events transactionally with the actor state is an option without prescribing an exact solution."
+    },
+    {
+      "id": 49992110,
+      "story_id": 49949680,
+      "story_title": "Rust's derive often implies inline",
+      "source_url": "https://news.ycombinator.com/item?id=49992110",
+      "author": "Sharlin",
+      "posted_at": 1791377783,
+      "text": "I’m fairly convinced that Debug should never be inlined. Display probably neither, the fmt machinery is heavy enough that not inlining is probably not a bottleneck even in serialization-heavy workloads. I’ve had to #[inline(never)] some of my own Debug/Display impls, shrinking the binary by tens of kilobytes (out of a few hundred, so relatively a significant reduction).",
+      "raw_html": "I’m fairly convinced that Debug should never be inlined. Display probably neither, the fmt machinery is heavy enough that not inlining is probably not a bottleneck even in serialization-heavy workloads. I’ve had to #[inline(never)] some of my own Debug&#x2F;Display impls, shrinking the binary by tens of kilobytes (out of a few hundred, so relatively a significant reduction)."
+    },
+    {
+      "id": 49996243,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49996243",
+      "author": "Sophira",
+      "posted_at": 1791395214,
+      "text": "This looks incredibly cool!\nBut I do note that it's pulling the images from Wikipedia's servers directly. That feels like it could be pretty bad for Wikipedia's bandwidth. I think I'd feel more comfortable if the art was cached by artfrompixels.com itself, where licensing allows. (And I imagine that for a lot of it there'll be no issue.)",
+      "raw_html": "This looks incredibly cool!<p>But I do note that it&#x27;s pulling the images from Wikipedia&#x27;s servers directly. That feels like it could be pretty bad for Wikipedia&#x27;s bandwidth. I think I&#x27;d feel more comfortable if the art was cached by artfrompixels.com itself, where licensing allows. (And I imagine that for a lot of it there&#x27;ll be no issue.)"
+    },
+    {
+      "id": 49991997,
+      "story_id": 49991986,
+      "story_title": "Show HN: Procinsh – A 3D Linux process inspector",
+      "source_url": "https://news.ycombinator.com/item?id=49991997",
+      "author": "a_kawashiro",
+      "posted_at": 1791377151,
+      "text": "I built procinsh, a 3D Linux process inspector inspired by Ghost in the Shell.\nIt visualizes running processes and their relationships in a 3D UI. Process activity, memory maps, file I/O, and socket communication are reflected in real time.\nThe backend is written in Rust and uses procfs, eBPF, ptrace, and process_vm_readv to collect information from the system.\nDemo video:\nhttps://www.youtube.com/watch?v=9rnWvN8ej2A\nMore details about the motivation and implementation:\nhttps://akawashiro.com/articles/procinsh-en",
+      "raw_html": "I built procinsh, a 3D Linux process inspector inspired by Ghost in the Shell.<p>It visualizes running processes and their relationships in a 3D UI. Process activity, memory maps, file I&#x2F;O, and socket communication are reflected in real time.<p>The backend is written in Rust and uses procfs, eBPF, ptrace, and process_vm_readv to collect information from the system.<p>Demo video:\n<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9rnWvN8ej2A\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9rnWvN8ej2A</a><p>More details about the motivation and implementation:\n<a href=\"https:&#x2F;&#x2F;akawashiro.com&#x2F;articles&#x2F;procinsh-en\" rel=\"nofollow\">https:&#x2F;&#x2F;akawashiro.com&#x2F;articles&#x2F;procinsh-en</a>"
+    },
+    {
+      "id": 49991267,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49991267",
+      "author": "chantepierre",
+      "posted_at": 1791372638,
+      "text": "Hey, I'd actually use that. I build telescopes (see personal site in profile) and only do visual astronomy. I voluntarily prefer to use old-ish phones, i.e. currently I am using an iPhone SE 2022. Do you think the weak signal under the night sky would work with your plate solving ?",
+      "raw_html": "Hey, I&#x27;d actually use that. I build telescopes (see personal site in profile) and only do visual astronomy. I voluntarily prefer to use old-ish phones, i.e. currently I am using an iPhone SE 2022. Do you think the weak signal under the night sky would work with your plate solving ?"
+    },
+    {
+      "id": 49990675,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990675",
+      "author": "dev0p",
+      "posted_at": 1791368067,
+      "text": "> Code as Art\nCode is code.\nCode can be art, code can also be simply a tool to reach a goal.\nIf you want to create art, do it with your own two hands and your brain.\nIf you want to just Do The Thing, codegen it. No one cares. In before \"Except your users having to use your vibeslop\" FYI your Hand-Crafted Artisanal Code will still have bugs, so it's a moot point.\nHeck, the very first thing the author does is links to another one of his own blog post where the above points are explicitly stated and explained, then restates at the end of the paragraph that there are no valid arguments for this one. So why keep beating this dead horse? Especially as the opener of the article.\nThis kind of mindset baffles me.",
+      "raw_html": "&gt; Code as Art<p>Code is code.<p>Code can be art, code can also be simply a tool to reach a goal.<p>If you want to create art, do it with your own two hands and your brain.<p>If you want to just Do The Thing, codegen it. No one cares. In before &quot;Except your users having to use your vibeslop&quot; FYI your Hand-Crafted Artisanal Code will still have bugs, so it&#x27;s a moot point.<p>Heck, the very first thing the author does is links to another one of his own blog post where the above points are explicitly stated and explained, then restates at the end of the paragraph that there are no valid arguments for this one. So why keep beating this dead horse? Especially as the opener of the article.<p>This kind of mindset baffles me."
+    },
+    {
+      "id": 49990074,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49990074",
+      "author": "summarity",
+      "posted_at": 1791363500,
+      "text": "Is there a ticket code or other contact you've been in touch with?\nAs for DMCA filings, we publish all of them here: https://github.com/github/dmca\nI see two from Photopea, one from 2022 (https://github.com/github/dmca/blob/d97814f268e07e62aabe8b5c...) and one from 2024 (https://github.com/github/dmca/blob/d97814f268e07e62aabe8b5c...) - could you point to the recent filing?\nI work at GH, but am not involved in DMCA filings, and can in no way answer or judge this case, but potentially follow up internally.",
+      "raw_html": "Is there a ticket code or other contact you&#x27;ve been in touch with?<p>As for DMCA filings, we publish all of them here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;github&#x2F;dmca\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;github&#x2F;dmca</a><p>I see two from Photopea, one from 2022 (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;github&#x2F;dmca&#x2F;blob&#x2F;d97814f268e07e62aabe8b5c43d48643560eb1a5&#x2F;2022&#x2F;03&#x2F;2022-03-22-photopea.md?plain=1#L27\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;github&#x2F;dmca&#x2F;blob&#x2F;d97814f268e07e62aabe8b5c...</a>) and one from 2024 (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;github&#x2F;dmca&#x2F;blob&#x2F;d97814f268e07e62aabe8b5c43d48643560eb1a5&#x2F;2024&#x2F;07&#x2F;2024-07-15-photopea.md?plain=1#L21\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;github&#x2F;dmca&#x2F;blob&#x2F;d97814f268e07e62aabe8b5c...</a>) - could you point to the recent filing?<p>I work at GH, but am not involved in DMCA filings, and can in no way answer or judge this case, but potentially follow up internally."
+    },
+    {
+      "id": 49987489,
+      "story_id": 49986862,
+      "story_title": "ESP32-C3 Adblock",
+      "source_url": "https://news.ycombinator.com/item?id=49987489",
+      "author": "muti",
+      "posted_at": 1791341507,
+      "text": "Weird how the readme talks about hash collisions, but not in the way I would expect. Two blocked domains with the same hash isn't a problem, they both need to be blocked.\nWhere hash collisions matter is false positives, e.g. if hash(google.com) = hash(adserver.com). There does appear to be a web dashboard and /unblock api so should be straightforward to resolve.",
+      "raw_html": "Weird how the readme talks about hash collisions, but not in the way I would expect. Two blocked domains with the same hash isn&#x27;t a problem, they both need to be blocked.<p>Where hash collisions matter is false positives, e.g. if hash(google.com) = hash(adserver.com). There does appear to be a web dashboard and &#x2F;unblock api so should be straightforward to resolve."
+    },
+    {
+      "id": 49992276,
+      "story_id": 49978333,
+      "story_title": "What is Codemode",
+      "source_url": "https://news.ycombinator.com/item?id=49992276",
+      "author": "ohgodhelpplease",
+      "posted_at": 1791378581,
+      "text": "If you're like me and you're still wondering what \"codemode\" is after reading the article and comments:\nIt's giving the harness a small js sandbox to compose tool calls and manipulate the data they return before reading it into context.",
+      "raw_html": "If you&#x27;re like me and you&#x27;re still wondering what &quot;codemode&quot; is after reading the article and comments:<p>It&#x27;s giving the harness a small js sandbox to compose tool calls and manipulate the data they return before reading it into context."
+    },
+    {
+      "id": 49999110,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49999110",
+      "author": "blutoot",
+      "posted_at": 1791408925,
+      "text": "I'm honestly getting lost between what primary usecase/workflow each of these is intended for:\n1. https://kagent.dev/\n2. https://github.com/kubernetes-sigs/agent-sandbox\n3. https://github.com/docker/docker-agent (this project)\n4. https://docs.langchain.com/oss/python/deepagents/sandboxes#s...\n5. https://www.cloudflare.com/products/sandboxes/",
+      "raw_html": "I&#x27;m honestly getting lost between what primary usecase&#x2F;workflow each of these is intended for:\n1. <a href=\"https:&#x2F;&#x2F;kagent.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;kagent.dev&#x2F;</a>\n2. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;kubernetes-sigs&#x2F;agent-sandbox\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;kubernetes-sigs&#x2F;agent-sandbox</a>\n3. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;docker&#x2F;docker-agent\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;docker&#x2F;docker-agent</a> (this project)\n4. <a href=\"https:&#x2F;&#x2F;docs.langchain.com&#x2F;oss&#x2F;python&#x2F;deepagents&#x2F;sandboxes#sandboxes\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.langchain.com&#x2F;oss&#x2F;python&#x2F;deepagents&#x2F;sandboxes#s...</a>\n5. <a href=\"https:&#x2F;&#x2F;www.cloudflare.com&#x2F;products&#x2F;sandboxes&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cloudflare.com&#x2F;products&#x2F;sandboxes&#x2F;</a>"
+    },
+    {
+      "id": 49998629,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49998629",
+      "author": "ninalanyon",
+      "posted_at": 1791406277,
+      "text": "I've done this for years.  Not every time of course but where it makes the code easier to understand and maintain.\nSpeed was almost never the reason.",
+      "raw_html": "I&#x27;ve done this for years.  Not every time of course but where it makes the code easier to understand and maintain.<p>Speed was almost never the reason."
+    },
+    {
+      "id": 49997519,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49997519",
+      "author": "pvillano",
+      "posted_at": 1791400710,
+      "text": "https://bigwords.page/#smol!%20!%20!%20!%20!%20!%20!%20!%20!...!\nYou seem to have the same bug I had when I first implemented https://screaming.saej.in/\nIn Firefox, scrollWidth includes spaces that extend into the margin, so it's possible for text to fit perfectly on the screen, but scrollWidth > clientWidth. Fix here https://saej.in/posts/screaming/",
+      "raw_html": "<a href=\"https:&#x2F;&#x2F;bigwords.page&#x2F;#smol!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20!%20\" rel=\"nofollow\">https:&#x2F;&#x2F;bigwords.page&#x2F;#smol!%20!%20!%20!%20!%20!%20!%20!%20!...</a>!<p>You seem to have the same bug I had when I first implemented <a href=\"https:&#x2F;&#x2F;screaming.saej.in&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;screaming.saej.in&#x2F;</a><p>In Firefox, scrollWidth includes spaces that extend into the margin, so it&#x27;s possible for text to fit perfectly on the screen, but scrollWidth &gt; clientWidth. Fix here <a href=\"https:&#x2F;&#x2F;saej.in&#x2F;posts&#x2F;screaming&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;saej.in&#x2F;posts&#x2F;screaming&#x2F;</a>"
+    },
+    {
+      "id": 49991410,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49991410",
+      "author": "xx_ns",
+      "posted_at": 1791373594,
+      "text": "It's exciting to see JXL support being re-added in Chrome after being removed a while ago and them seemingly not being interested in supporting it [1].\nI think JXL is a cool image format, but was being held back by the most popular browser not supporting it, limiting its use (in the web especially) by a lot.\n[1]: https://issues.chromium.org/issues/40270698",
+      "raw_html": "It&#x27;s exciting to see JXL support being re-added in Chrome after being removed a while ago and them seemingly not being interested in supporting it [1].<p>I think JXL is a cool image format, but was being held back by the most popular browser not supporting it, limiting its use (in the web especially) by a lot.<p>[1]: <a href=\"https:&#x2F;&#x2F;issues.chromium.org&#x2F;issues&#x2F;40270698\" rel=\"nofollow\">https:&#x2F;&#x2F;issues.chromium.org&#x2F;issues&#x2F;40270698</a>"
+    },
+    {
+      "id": 49995453,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49995453",
+      "author": "gavmor",
+      "posted_at": 1791392029,
+      "text": "Gorgeous, impressive, well done—\nBut it strikes me as an affectation of technical austerity, i.e. you’re borrowing the credibility of a constrained medium without embracing its constraints.\nAgain, it's very pretty but... it's a bit like reconfiguring your Tesla to look more like a Citroën 2CV.",
+      "raw_html": "Gorgeous, impressive, well done—<p>But it strikes me as an <i>affectation</i> of technical austerity, i.e. you’re borrowing the credibility of a constrained medium without embracing its constraints.<p>Again, it&#x27;s very pretty but... it&#x27;s a bit like reconfiguring your Tesla to look more like a Citroën 2CV."
+    },
+    {
+      "id": 49999776,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49999776",
+      "author": "hexapus",
+      "posted_at": 1791413032,
+      "text": "This is very neat.  My engineering nerd friend was immediately turned off by the seeming conflation of \"precision\" and \"accuracy\" in the title/subtitle though.  As this article seems aimed at laypeople, clearing up the difference upfront by defining them might be helpful, as they are not interchangeable.",
+      "raw_html": "This is very neat.  My engineering nerd friend was immediately turned off by the seeming conflation of &quot;precision&quot; and &quot;accuracy&quot; in the title&#x2F;subtitle though.  As this article seems aimed at laypeople, clearing up the difference upfront by defining them might be helpful, as they are not interchangeable."
+    },
+    {
+      "id": 49991744,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49991744",
+      "author": "tniemi",
+      "posted_at": 1791375621,
+      "text": "The old versions of VIC-20 used a font called Microgramma.\nhttps://www.reddit.com/r/vintagecomputing/comments/1pjw7q6/t...\nhttps://en.wikipedia.org/wiki/Microgramma_(typeface)",
+      "raw_html": "The old versions of VIC-20 used a font called Microgramma.<p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;vintagecomputing&#x2F;comments&#x2F;1pjw7q6&#x2F;the_vic20_trinity&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;vintagecomputing&#x2F;comments&#x2F;1pjw7q6&#x2F;t...</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Microgramma_(typeface)\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Microgramma_(typeface)</a>"
+    },
+    {
+      "id": 49992591,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49992591",
+      "author": "xnx",
+      "posted_at": 1791379824,
+      "text": "Just got #2 in the world (for now) on \"Steampunk Match\". Very impressive what's possible in the browser. No way I would've thought this was AI generated. It was much higher quality than the vibe coded games out of Claude. The best outcome would be for this to enable some new weird games that wouldn't have gotten made otherwise, and also to bankrupt games that basically operate as casinos.",
+      "raw_html": "Just got #2 in the world (for now) on &quot;Steampunk Match&quot;. Very impressive what&#x27;s possible in the browser. No way I would&#x27;ve thought this was AI generated. It was much higher quality than the vibe coded games out of Claude. The best outcome would be for this to enable some new weird games that wouldn&#x27;t have gotten made otherwise, and also to bankrupt games that basically operate as casinos."
+    },
+    {
+      "id": 49996473,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49996473",
+      "author": "jrochkind1",
+      "posted_at": 1791396263,
+      "text": "Some weeks i feel like the majority of software blogs I see are LLM written now. They are usually terrible.\nMaybe someone can tell the LLM's about these anti-patterns, like, seriously, would it help?\nI'd prefer of course if people just actually themselves wrote the text that they expect me to read my human self.",
+      "raw_html": "Some weeks i feel like the majority of software blogs I see are LLM written now. They are usually terrible.<p>Maybe someone can tell the LLM&#x27;s about these anti-patterns, like, seriously, would it help?<p>I&#x27;d prefer of course if people just actually themselves wrote the text that they expect me to read my human self."
+    },
+    {
+      "id": 49993881,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49993881",
+      "author": "Retr0id",
+      "posted_at": 1791385656,
+      "text": "It's a real shame Google isn't more transparent about how it actually works, and doesn't provide any mechanism for classifying images in bulk or offline.\nThis is the best SynthID write-up I've found so far: https://fyx.me/articles/attempting-model-extraction-of-googl...\nIt covers how it actually works (probably), and how to train your own classifier for it, with some seemingly decent results.",
+      "raw_html": "It&#x27;s a real shame Google isn&#x27;t more transparent about how it actually works, and doesn&#x27;t provide any mechanism for classifying images in bulk or offline.<p>This is the best SynthID write-up I&#x27;ve found so far: <a href=\"https:&#x2F;&#x2F;fyx.me&#x2F;articles&#x2F;attempting-model-extraction-of-google-deepmind-synthid-image-watermark-detector-and-exploring-adversarial-machine-learning-attacks-against-synthid&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;fyx.me&#x2F;articles&#x2F;attempting-model-extraction-of-googl...</a><p>It covers how it actually works (probably), and how to train your own classifier for it, with some seemingly decent results."
+    },
+    {
+      "id": 49997782,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49997782",
+      "author": "klntsky",
+      "posted_at": 1791401906,
+      "text": "What is the incentive for me to spend my tokens on submitting reviews?",
+      "raw_html": "What is the incentive for me to spend my tokens on submitting reviews?"
+    },
+    {
+      "id": 49998016,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49998016",
+      "author": "accrual",
+      "posted_at": 1791403033,
+      "text": "FWIW, the two God of War games released on PSP were considered some of the most graphically impressive on the platform. Both came out late in the console's lifetime (2008 and 2010).\nAn IGN review also described one of them as \"it looks better than a big chunk of PS2 games\". [0] I've played one of them and yes, it felt like playing a resized PS2 game.\n[0] https://web.archive.org/web/20121020044819/http://www.ign.co...",
+      "raw_html": "FWIW, the two God of War games released on PSP were considered some of the most graphically impressive on the platform. Both came out late in the console&#x27;s lifetime (2008 and 2010).<p>An IGN review also described one of them as &quot;it looks better than a big chunk of PS2 games&quot;. [0] I&#x27;ve played one of them and yes, it felt like playing a resized PS2 game.<p>[0] <a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20121020044819&#x2F;http:&#x2F;&#x2F;www.ign.com&#x2F;articles&#x2F;2010&#x2F;10&#x2F;25&#x2F;god-of-war-ghost-of-sparta-review\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20121020044819&#x2F;http:&#x2F;&#x2F;www.ign.co...</a>"
+    },
+    {
+      "id": 49998083,
+      "story_id": 49994481,
+      "story_title": "Open source 160 sound visualization experiments",
+      "source_url": "https://news.ycombinator.com/item?id=49998083",
+      "author": "horacemorace",
+      "posted_at": 1791403443,
+      "text": "None of these help me understand what the sound is like because they’re all time-domain which runs way too fast for humans to intuit.\nVisualizations in the frequency domain are a lot more natural.",
+      "raw_html": "None of these help me understand what the sound is like because they’re all time-domain which runs way too fast for humans to intuit. \nVisualizations in the frequency domain are a lot more natural."
+    },
+    {
+      "id": 49993369,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49993369",
+      "author": "netsharc",
+      "posted_at": 1791383342,
+      "text": "The Cablese/Telegraphese is more interesting than the use in LLM. DuckDuckGo'ed \"paromella\":\nhttps://en.wikipedia.org/wiki/Commercial_code_(communication...\nSome codes I found interesting:\n> INSANE - at what price, free on board and freight, can you offer us cotton for shipment by steamer sailing this week?\n> COGNOSCO - dining out this evening, send my dress clothes here\nUseful codeword!\n> ANNOSUS — Confined yesterday, Twins, both dead, Mother not expected to live\nHow often did that one come into use??",
+      "raw_html": "The Cablese&#x2F;Telegraphese is more interesting than the use in LLM. DuckDuckGo&#x27;ed &quot;paromella&quot;:<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Commercial_code_(communications)\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Commercial_code_(communication...</a><p>Some codes I found interesting:<p>&gt; INSANE - at what price, free on board and freight, can you offer us cotton for shipment by steamer sailing this week?<p>&gt; COGNOSCO - dining out this evening, send my dress clothes here<p>Useful codeword!<p>&gt; ANNOSUS — Confined yesterday, Twins, both dead, Mother not expected to live<p>How often did that one come into use??"
+    },
+    {
+      "id": 49998002,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49998002",
+      "author": "raphlinus",
+      "posted_at": 1791402936,
+      "text": "This really feels like full circle for me. Back around 2012, I started \"music synthesizer for Android\" and put an app on the Play Store. This was a 20% project for me – I was on Google Fonts at the time, but I really wanted to play with Android. I decided to emulate DX7 because I had really wanted one as a teen (I did have a CX5M, so I was familiar with FM synthesis).\nI set myself the goal of putting a DX7 in the hands of a million people. My little app only got a fraction of that, but now that the engine is in Dexed and now the M-VAVE, it seems like that might well happen.\nI wonder if they'd send me one. But for $60 I can just get one :)",
+      "raw_html": "This really feels like full circle for me. Back around 2012, I started &quot;music synthesizer for Android&quot; and put an app on the Play Store. This was a 20% project for me – I was on Google Fonts at the time, but I really wanted to play with Android. I decided to emulate DX7 because I had really wanted one as a teen (I did have a CX5M, so I was familiar with FM synthesis).<p>I set myself the goal of putting a DX7 in the hands of a million people. My little app only got a fraction of that, but now that the engine is in Dexed and now the M-VAVE, it seems like that might well happen.<p>I wonder if they&#x27;d send me one. But for $60 I can just get one :)"
+    },
+    {
+      "id": 49995842,
+      "story_id": 49980399,
+      "story_title": "Show HN: Durable Actors – OSS Durable Objects with configurable compute",
+      "source_url": "https://news.ycombinator.com/item?id=49995842",
+      "author": "verst",
+      "posted_at": 1791393546,
+      "text": "How do you compare to Azure Durable Functions, Temporal, AWS Lambda Durable Functions?\nCan't Durable Entities meet the same use cases?\nEDIT: Of course I am not talking about the difference in OSS vs not. Rather I'm interested in the difference in use cases and capabilities. Some of the aforementioned have ways to run things locally as well, though they are designed as distributed cloud-based PaaS services.",
+      "raw_html": "How do you compare to Azure Durable Functions, Temporal, AWS Lambda Durable Functions?<p>Can&#x27;t Durable Entities meet the same use cases?<p>EDIT: Of course I am not talking about the difference in OSS vs not. Rather I&#x27;m interested in the difference in use cases and capabilities. Some of the aforementioned have ways to run things locally as well, though they are designed as distributed cloud-based PaaS services."
+    },
+    {
+      "id": 49992860,
+      "story_id": 49949680,
+      "story_title": "Rust's derive often implies inline",
+      "source_url": "https://news.ycombinator.com/item?id=49992860",
+      "author": "vlovich123",
+      "posted_at": 1791380916,
+      "text": "I feel like Debug should be lazily emitted altogether when it’s first used - just a special marker that’s never expanded since 99% of the Debug implementations aren’t used and having the rest marked #[cold] as inline is obviously wrong.  Of course implementing it in practice sounds exceptionally difficult.\nThat being said, even the justifying performance improvement PR was itself a mix of improvements and regressions",
+      "raw_html": "I feel like Debug should be lazily emitted altogether when it’s first used - just a special marker that’s never expanded since 99% of the Debug implementations aren’t used and having the rest marked #[cold] as inline is obviously wrong.  Of course implementing it in practice sounds exceptionally difficult.<p>That being said, even the justifying performance improvement PR was itself a mix of improvements and regressions"
+    },
+    {
+      "id": 49994201,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49994201",
+      "author": "alexpatin",
+      "posted_at": 1791386916,
+      "text": "This is super cool and I look forward to sharing with my art friends. One piece of unsolicited feedback: it is really nice to focus on a particular image in the gallery, but when I'm done, it puts me back in normal cursor mode and I have to click to 'step inside' again. Minor annoyance. Otherwise really neat.",
+      "raw_html": "This is super cool and I look forward to sharing with my art friends. One piece of unsolicited feedback: it is really nice to focus on a particular image in the gallery, but when I&#x27;m done, it puts me back in normal cursor mode and I have to click to &#x27;step inside&#x27; again. Minor annoyance. Otherwise really neat."
+    },
+    {
+      "id": 49993912,
+      "story_id": 49991986,
+      "story_title": "Show HN: Procinsh – A 3D Linux process inspector",
+      "source_url": "https://news.ycombinator.com/item?id=49993912",
+      "author": "g3z",
+      "posted_at": 1791385794,
+      "text": "this looks something pulled straight from a hacker tv show that I would have thought fake as hell",
+      "raw_html": "this looks something pulled straight from a hacker tv show that I would have thought fake as hell"
+    },
+    {
+      "id": 49991661,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49991661",
+      "author": "danbruc",
+      "posted_at": 1791375138,
+      "text": "- Accurate up to within 10 arcseconds (1/360 of a degree)\n- Computes coordinates in less than a second\nFor comparison, the sky moves 15 arcseconds per second. So without a motorized mount to keep the telescope on target, the accuracy will be short-lived.",
+      "raw_html": "<i>- Accurate up to within 10 arcseconds (1&#x2F;360 of a degree)<p>- Computes coordinates in less than a second</i><p>For comparison, the sky moves 15 arcseconds per second. So without a motorized mount to keep the telescope on target, the accuracy will be short-lived."
+    },
+    {
+      "id": 49990528,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990528",
+      "author": "falsaberN1",
+      "posted_at": 1791367190,
+      "text": "I like coding. You can take away my AWK and C, Bash and Go and Javascript (yes I even enjoy coding Javascript unironically, sue me. I like making self-contained HTML5 one-file-and-offline tools for fun) only from my cold, dead hands. But don't we get one of these articles like once a week at least? It's getting kind of tiresome.\nLike, I get the idea, I really do, but is there a need to announce it to the winds so often? Is this a pride thing?",
+      "raw_html": "I like coding. You can take away my AWK and C, Bash and Go and Javascript (yes I even enjoy coding Javascript unironically, sue me. I like making self-contained HTML5 one-file-and-offline tools for fun) only from my cold, dead hands. But don&#x27;t we get one of these articles like once a week at least? It&#x27;s getting kind of tiresome.<p>Like, I get the idea, I really do, but is there a need to announce it to the winds so often? Is this a pride thing?"
+    },
+    {
+      "id": 49989198,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49989198",
+      "author": "IvanK_net",
+      "posted_at": 1791355589,
+      "text": "Hey guys, thank you all very much for your comments! I just woke up, I did not really believe my post would get this much attention, so thanks!\nHonestly, I was a hoping that giving attention to this problem here at HN might lead to someone from Github actually noticing my problem and looking into it.\nI think I will try solving it with a lawyer. But it would be really cool if I could spend my days writing code instead of dealing with lawyers and stuff.",
+      "raw_html": "Hey guys, thank you all very much for your comments! I just woke up, I did not really believe my post would get this much attention, so thanks!<p>Honestly, I was a hoping that giving attention to this problem here at HN might lead to someone from Github actually noticing my problem and looking into it.<p>I think I will try solving it with a lawyer. But it would be really cool if I could spend my days writing code instead of dealing with lawyers and stuff."
+    },
+    {
+      "id": 49989497,
+      "story_id": 49986862,
+      "story_title": "ESP32-C3 Adblock",
+      "source_url": "https://news.ycombinator.com/item?id=49989497",
+      "author": "yoavm",
+      "posted_at": 1791358326,
+      "text": "If you're ever thinking about getting an ESP32-C3, do yourself a favor and get the variant that you can connect an external antenna to. The normal C3 has a built-in antenna that is extremely weak, making it useless for most things I was planning using it for.",
+      "raw_html": "If you&#x27;re ever thinking about getting an ESP32-C3, do yourself a favor and get the variant that you can connect an external antenna to. The normal C3 has a built-in antenna that is extremely weak, making it useless for most things I was planning using it for."
+    },
+    {
+      "id": 49988381,
+      "story_id": 49978333,
+      "story_title": "What is Codemode",
+      "source_url": "https://news.ycombinator.com/item?id=49988381",
+      "author": "ylxdzsw",
+      "posted_at": 1791348933,
+      "text": "I'm not sure why almost all codemode implementations choose Javascript. I prototyped an agent[1] to use bash as the language for codemode, which in my opinion worked equally well and requires no teaching (there is literally 0 prompt to teach the LLM about codemode. A tool named \"bash\" is enough to have them know the usage).\n[1] https://github.com/ylxdzsw/mu",
+      "raw_html": "I&#x27;m not sure why almost all codemode implementations choose Javascript. I prototyped an agent[1] to use bash as the language for codemode, which in my opinion worked equally well and requires no teaching (there is literally 0 prompt to teach the LLM about codemode. A tool named &quot;bash&quot; is enough to have them know the usage).<p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;ylxdzsw&#x2F;mu\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ylxdzsw&#x2F;mu</a>"
+    },
+    {
+      "id": 49996927,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49996927",
+      "author": "blakeashleyjr",
+      "posted_at": 1791397955,
+      "text": "While I love new open source dev (especially in Go!), agent harnesses are turning into JS frameworks from yesteryear.\nAll the cool kids have one!",
+      "raw_html": "While I love new open source dev (especially in Go!), agent harnesses are turning into JS frameworks from yesteryear.<p>All the cool kids have one!"
+    },
+    {
+      "id": 49999467,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49999467",
+      "author": "gorgoiler",
+      "posted_at": 1791411065,
+      "text": "Erm, no?  You write f(w: Walrus) -> Walrus and then let the caller handle Walrus|None and Iterable[Walrus] however they wish!\nAnd if someone decides the codebase needs an abstraction over (and therefore specific functions to handle) Iterable[Walrus|None] then you check the weather and suggest they take a break and go for a stroll.  (You check the weather to see if you should lend them your brolly.)\nWhat am I missing?",
+      "raw_html": "Erm, no?  You write <i>f(w: Walrus) -&gt; Walrus</i> and then let the caller handle <i>Walrus|None</i> and <i>Iterable[Walrus]</i> however they wish!<p>And if someone decides the codebase needs an abstraction over (and therefore specific functions to handle) <i>Iterable[Walrus|None]</i> then you check the weather and suggest they take a break and go for a stroll.  (You check the weather to see if you should lend them your brolly.)<p>What am I missing?"
+    },
+    {
+      "id": 49999698,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49999698",
+      "author": "aghilmort",
+      "posted_at": 1791412532,
+      "text": "1. this is great!\n2. QR code support? %QR=256x256&QR_ECC=min etc.?\n3. prolly other natural / ez \"make it big\" - base64 tho not all browsers will support long enough URL to be worth it",
+      "raw_html": "1. this is great!<p>2. QR code support? %QR=256x256&amp;QR_ECC=min etc.?<p>3. prolly other natural &#x2F; ez &quot;make it big&quot; - base64 tho not all browsers will support long enough URL to be worth it"
+    },
+    {
+      "id": 49991443,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49991443",
+      "author": "swiftcoder",
+      "posted_at": 1791373819,
+      "text": "See previous HN discussions for context:\nGoogle set to deprecate JPEG XL support in Chrome 110 - https://news.ycombinator.com/item?id=33399940\nJPEG XL support has officially been removed from Chromium - https://news.ycombinator.com/item?id=33933208\nChrome Jpegxl Issue Reopened - https://news.ycombinator.com/item?id=46033330\nThe case agains JPEG XL - https://news.ycombinator.com/item?id=49690554",
+      "raw_html": "See previous HN discussions for context:<p>Google set to deprecate JPEG XL support in Chrome 110 - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=33399940\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=33399940</a><p>JPEG XL support has officially been removed from Chromium - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=33933208\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=33933208</a><p>Chrome Jpegxl Issue Reopened - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46033330\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46033330</a><p>The case agains JPEG XL - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49690554\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49690554</a>"
+    },
+    {
+      "id": 49995481,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49995481",
+      "author": "BugsJustFindMe",
+      "posted_at": 1791392137,
+      "text": "I see nothing being animated because my system is set to prefer reduced motion. That's a cool accommodation, but I wish at least the demo page made that more obvious.\nAlso, the art scenes section is not ASCII.",
+      "raw_html": "I see nothing being animated because my system is set to prefer reduced motion. That&#x27;s a cool accommodation, but I wish at least the demo page made that more obvious.<p>Also, the art scenes section is not ASCII."
+    },
+    {
+      "id": 49999231,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49999231",
+      "author": "qchris",
+      "posted_at": 1791409590,
+      "text": "Anyone interested in this might also enjoy the book The Perfectionists: How Precision Engineers Created The Modern World, by Simon Winchester. I read it a few years ago, and thought it was a really interesting journey through bootstrapping precision and how that fundamentally changed our relationship to certain types of things, particularly related to mass production of \"good enough\".",
+      "raw_html": "Anyone interested in this might also enjoy the book <i>The Perfectionists: How Precision Engineers Created The Modern World</i>, by Simon Winchester. I read it a few years ago, and thought it was a really interesting journey through bootstrapping precision and how that fundamentally changed our relationship to certain types of things, particularly related to mass production of &quot;good enough&quot;."
+    },
+    {
+      "id": 49999529,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49999529",
+      "author": "pinkmuffinere",
+      "posted_at": 1791411446,
+      "text": "These are absolutely beautiful! However, I think I often feel that when looking at fonts somebody has shared online, which makes me wonder how much I love the font, vs how much I just like the design aesthetic of people that craft fonts.\nAlso I understand why only the uppercase version is given, but it does pretty much preclude me from using the font, since 95% of the letters I type are lowercase",
+      "raw_html": "These are absolutely beautiful! However, I think I often feel that when looking at fonts somebody has shared online, which makes me wonder how much I love the font, vs how much I just like the design aesthetic of people that craft fonts.<p>Also I understand why only the uppercase version is given, but it does pretty much preclude me from using the font, since 95% of the letters I type are lowercase"
+    },
+    {
+      "id": 49995165,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49995165",
+      "author": "pkal",
+      "posted_at": 1791390900,
+      "text": "I don't want to (and can't) use this myself, but I've always wanted to see if an AI could implement an idea I had for a while: \"A 4D version of Agar.io where you move through a 3D slice of space by moving the mouse cursor, and then rotate through the fourth dimension using the scroll wheel.  All other game principles remain the same.\"  Will this implement support for multi-player games as well?  The really interesting part here for me is how well the AI will implement a game unconventional UI and how successful it is at making it usable and intuitive for humans.",
+      "raw_html": "I don&#x27;t want to (and can&#x27;t) use this myself, but I&#x27;ve always wanted to see if an AI could implement an idea I had for a while: &quot;A 4D version of Agar.io where you move through a 3D slice of space by moving the mouse cursor, and then rotate through the fourth dimension using the scroll wheel.  All other game principles remain the same.&quot;  Will this implement support for multi-player games as well?  The really interesting part here for me is how well the AI will implement a game unconventional UI and how successful it is at making it usable and intuitive for humans."
+    },
+    {
+      "id": 49995004,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49995004",
+      "author": "ram1500natrluvr",
+      "posted_at": 1791390247,
+      "text": "\"The meandering intro\" might be the most common mistake, by far, but the most damaging mistake, by far, is the failure to connect the topic with something the readers are familiar with (anti-pattern #2). Some things simply require a certain level of expertise/prerequisites to begin to understand, but I've repeatedly seen in software blogging, READMEs, etc. a failure to answer \"what is this, compared to what I'm familiar with, and if I'm not familiar with anything relevant, why should I want to be?\"\nThis applies to almost everything in the software space. New tool? New design pattern? New library? Language idiom? Language? Or, for more modern takes, new model? New harness? New harness option? New use pattern? Give a brief summary of what a project looks like without it, to convey the problem that its existence alone is solving. Then go into the details of how it might compare to other solutions.\nMaybe it's just a specific way of how my brain works that finds this sort of information intuitive, and the lack of it particularly annoying.",
+      "raw_html": "&quot;The meandering intro&quot; might be the most common mistake, by far, but the most damaging mistake, by far, is the failure to connect the topic with something the readers are familiar with (anti-pattern #2). Some things simply require a certain level of expertise&#x2F;prerequisites to begin to understand, but I&#x27;ve repeatedly seen in software blogging, READMEs, etc. a failure to answer &quot;what is this, compared to what I&#x27;m familiar with, and if I&#x27;m not familiar with anything relevant, why should I want to be?&quot;<p>This applies to almost everything in the software space. New tool? New design pattern? New library? Language idiom? Language? Or, for more modern takes, new model? New harness? New harness option? New use pattern? Give a brief summary of what a project looks like without it, to convey the problem that its existence alone is solving. Then go into the details of how it might compare to other solutions.<p>Maybe it&#x27;s just a specific way of how my brain works that finds this sort of information intuitive, and the lack of it particularly annoying."
+    },
+    {
+      "id": 49998736,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49998736",
+      "author": "justhw",
+      "posted_at": 1791406784,
+      "text": "I tested about 8 pictures. All 8 were made with OpenAI and Google. 2 were altered by and had text and picture overlays. The 6 didn't and SynthID caught them. The 2 altered passed. Interesting!",
+      "raw_html": "I tested about 8 pictures. All 8 were made with OpenAI and Google. 2 were altered by and had text and picture overlays. The 6 didn&#x27;t and SynthID caught them. The 2 altered passed. Interesting!"
+    },
+    {
+      "id": 49997809,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49997809",
+      "author": "Tade0",
+      "posted_at": 1791402035,
+      "text": "Reminds me of Stanisław Lem's Terminus:\nhttps://en.wikipedia.org/wiki/Terminus_(short_story)\nWho wrote all this? Not humans, that's for sure. But the style is that of human writing.",
+      "raw_html": "Reminds me of Stanisław Lem&#x27;s <i>Terminus</i>:<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Terminus_(short_story)\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Terminus_(short_story)</a><p>Who wrote all this? Not humans, that&#x27;s for sure. But the <i>style</i> is that of human writing."
+    },
+    {
+      "id": 49996558,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49996558",
+      "author": "pier25",
+      "posted_at": 1791396563,
+      "text": "I wonder how long it'll take until Sony takes this down",
+      "raw_html": "I wonder how long it&#x27;ll take until Sony takes this down"
+    },
+    {
+      "id": 49996638,
+      "story_id": 49994481,
+      "story_title": "Open source 160 sound visualization experiments",
+      "source_url": "https://news.ycombinator.com/item?id=49996638",
+      "author": "Jaxan",
+      "posted_at": 1791396880,
+      "text": "As someone who grew up with Milkdrop, these seem a bit dull/minimalistic.",
+      "raw_html": "As someone who grew up with Milkdrop, these seem a bit dull&#x2F;minimalistic."
+    },
+    {
+      "id": 49992043,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49992043",
+      "author": "z2",
+      "posted_at": 1791377401,
+      "text": "From recent ChatGPT (GPT5.6) conversations where I've seen occasional reasoning leaks into the UI, it's clear that something like this is already implemented, and I'd speculate that this is the majority of recent claims of less token usage. Not sure if they are literally prompting for cablese of course.\n\"Need check output vs prev. Ran script, results fine, need prep next step. Ready? Go.\"",
+      "raw_html": "From recent ChatGPT (GPT5.6) conversations where I&#x27;ve seen occasional reasoning leaks into the UI, it&#x27;s clear that something like this is already implemented, and I&#x27;d speculate that this is the majority of recent claims of less token usage. Not sure if they are literally prompting for cablese of course.<p>&quot;Need check output vs prev. Ran script, results fine, need prep next step. Ready? Go.&quot;"
+    },
+    {
+      "id": 49994997,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49994997",
+      "author": "chrisshroba",
+      "posted_at": 1791390223,
+      "text": "For context, this is a $65-$80 synthesizer that's been pretty popular for its cheap price tag, and there have been a bunch of third party firmwares being released to make it even more friendly and feature-packed than it already is out of the box. There's quite a bit of discussion in the subreddit:\nhttps://www.reddit.com/r/MVaveFM1/",
+      "raw_html": "For context, this is a $65-$80 synthesizer that&#x27;s been pretty popular for its cheap price tag, and there have been a bunch of third party firmwares being released to make it even more friendly and feature-packed than it already is out of the box. There&#x27;s quite a bit of discussion in the subreddit:<p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;MVaveFM1&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;MVaveFM1&#x2F;</a>"
+    },
+    {
+      "id": 49996250,
+      "story_id": 49980399,
+      "story_title": "Show HN: Durable Actors – OSS Durable Objects with configurable compute",
+      "source_url": "https://news.ycombinator.com/item?id=49996250",
+      "author": "divyagnan",
+      "posted_at": 1791395254,
+      "text": "This looks really nice! How would you compare it to Rivet? I think they were also originally pitched as an open source version of durable objects:  https://rivet.dev/actors/compare/rivet-actors-vs-cloudflare-...\nAlso are you able to self-host this outside of GCP (from the docs it seems like it is locked to GCP but I'm not that familiar with it so maybe not)?",
+      "raw_html": "This looks really nice! How would you compare it to Rivet? I think they were also originally pitched as an open source version of durable objects:  <a href=\"https:&#x2F;&#x2F;rivet.dev&#x2F;actors&#x2F;compare&#x2F;rivet-actors-vs-cloudflare-durable-objects&#x2F;\">https:&#x2F;&#x2F;rivet.dev&#x2F;actors&#x2F;compare&#x2F;rivet-actors-vs-cloudflare-...</a><p>Also are you able to self-host this outside of GCP (from the docs it seems like it is locked to GCP but I&#x27;m not that familiar with it so maybe not)?"
+    },
+    {
+      "id": 49993832,
+      "story_id": 49949680,
+      "story_title": "Rust's derive often implies inline",
+      "source_url": "https://news.ycombinator.com/item?id=49993832",
+      "author": "scottlamb",
+      "posted_at": 1791385461,
+      "text": "I wonder if they ever considered a table-driven approach for `#[derive(Debug)]`, as `facet` [1] does. That would have been my first instinct for something this formulaic where binary size and compilation time matter more than execution speed. But my impression is facet hasn't quite realized its promise on those fronts, so maybe the table-driven approach in std was similarly tried and rejected.\n[1] https://crates.io/crates/facet",
+      "raw_html": "I wonder if they ever considered a table-driven approach for `#[derive(Debug)]`, as `facet` [1] does. That would have been my first instinct for something this formulaic where binary size and compilation time matter more than execution speed. But my impression is facet hasn&#x27;t quite realized its promise on those fronts, so maybe the table-driven approach in std was similarly tried and rejected.<p>[1] <a href=\"https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;facet\" rel=\"nofollow\">https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;facet</a>"
+    },
+    {
+      "id": 49993289,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49993289",
+      "author": "aogaili",
+      "posted_at": 1791382948,
+      "text": "What is strange is that last year I spent a lot of time creating the exact same 3D gallery experience with Claude. I picked up the style of the lights, the benches, the walls, the cards position. I also added music, lights on top of the images and the exact tour experience.\nA year later, I see a very similar implementation!...I find that very odd.\nBut I do like the experience and site, there are few things I can pick from it myself for the project I've.\nBut it seems to me anything you use Claude for will be used aggressively to train the next model and some else in same prompting space can recreate it.\nNot take the anything from the author's work, mine was in a slightly different context.",
+      "raw_html": "What is strange is that last year I spent a lot of time creating the exact same 3D gallery experience with Claude. I picked up the style of the lights, the benches, the walls, the cards position. I also added music, lights on top of the images and the exact tour experience.<p>A year later, I see a very similar implementation!...I find that very odd.<p>But I do like the experience and site, there are few things I can pick from it myself for the project I&#x27;ve.<p>But it seems to me anything you use Claude for will be used aggressively to train the next model and some else in same prompting space can recreate it.<p>Not take the anything from the author&#x27;s work, mine was in a slightly different context."
+    },
+    {
+      "id": 49995901,
+      "story_id": 49991986,
+      "story_title": "Show HN: Procinsh – A 3D Linux process inspector",
+      "source_url": "https://news.ycombinator.com/item?id=49995901",
+      "author": "luckystarr",
+      "posted_at": 1791393793,
+      "text": "Over 20 years ago we had a doom in which your processes were represented by monsters and killing them sent the kill signal. :)",
+      "raw_html": "Over 20 years ago we had a doom in which your processes were represented by monsters and killing them sent the kill signal. :)"
+    },
+    {
+      "id": 49991732,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49991732",
+      "author": "skypanther",
+      "posted_at": 1791375549,
+      "text": "This looks like a nice alternative to PiFinder. No extra hardware required. https://www.pifinder.io/",
+      "raw_html": "This looks like a nice alternative to PiFinder. No extra hardware required. <a href=\"https:&#x2F;&#x2F;www.pifinder.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pifinder.io&#x2F;</a>"
+    },
+    {
+      "id": 49990597,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990597",
+      "author": "Regex777",
+      "posted_at": 1791367610,
+      "text": "My say about this\n1. I think most of us know the same thing is occurred when first compile came into the market (Most of them hated it saying 'High Quality ASM code would be only generated by humans' . Moving forward asm hasn't dead but we are only using it only at critically.\nI think we will do same with LLMs we use what useful and Move forward.\n2. Life's isn't just always staying in front of a box and writing some code. If AI does the job of creating useful code with quality i would be more than happy since i could get start to work on more abstract things like Arts and Humanity. which for our growth is essential as you can see the current society is currently disdain.\nFinally to conclude don't try to interrupt the flow just accept it and move forward.\nLife is SHORT",
+      "raw_html": "My say about this<p>1. I think most of us know the same thing is occurred when first compile came into the market (Most of them hated it saying &#x27;High Quality ASM code would be only generated by humans&#x27; . Moving forward asm hasn&#x27;t dead but we are only using it only at critically.\nI think we will do same with LLMs we use what useful and Move forward.<p>2. Life&#x27;s isn&#x27;t just always staying in front of a box and writing some code. If AI does the job of creating useful code with quality i would be more than happy since i could get start to work on more abstract things like Arts and Humanity. which for our growth is essential as you can see the current society is currently disdain.<p>Finally to conclude don&#x27;t try to interrupt the flow just accept it and move forward.<p>Life is SHORT"
+    },
+    {
+      "id": 49984924,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49984924",
+      "author": "JohnFen",
+      "posted_at": 1791325051,
+      "text": "You should discuss this with an attorney that is experienced with IP law to see what your options really are. IP law is very complex and sometimes very surprising. You need expert legal advice, not advice from the HN crowd.\nAs an aside, I thought that \"cracked\" software meant software that has had the copy protection or other access control bypassed or removed, not the alteration of the software functionality itself. If your software was actually cracked then you may have some fairly heavy law in your favor. For better or worse, bypassing access controls (even weak or simple access controls) gets special legal attention.",
+      "raw_html": "You should discuss this with an attorney that is experienced with IP law to see what your options really are. IP law is very complex and sometimes very surprising. You need expert legal advice, not advice from the HN crowd.<p>As an aside, I thought that &quot;cracked&quot; software meant software that has had the copy protection or other access control bypassed or removed, not the alteration of the software functionality itself. If your software was actually cracked then you may have some fairly heavy law in your favor. For better or worse, bypassing access controls (even weak or simple access controls) gets special legal attention."
+    },
+    {
+      "id": 49988699,
+      "story_id": 49986862,
+      "story_title": "ESP32-C3 Adblock",
+      "source_url": "https://news.ycombinator.com/item?id=49988699",
+      "author": "BLKNSLVR",
+      "posted_at": 1791351423,
+      "text": "I'm a bit of a paranoid freak that likes lists, so I've got a PiHole that has a total list of 14-16M blocked domains.\nGreat idea, and good for casual blocking, but I'm almost moving to an \"allow list\" mindset. This solution would probably work better for that, I wonder if the good parts of the internet would fit into an 140k list.",
+      "raw_html": "I&#x27;m a bit of a paranoid freak that likes lists, so I&#x27;ve got a PiHole that has a total list of 14-16M blocked domains.<p>Great idea, and good for casual blocking, but I&#x27;m almost moving to an &quot;allow list&quot; mindset. This solution would probably work better for that, I wonder if the good parts of the internet would fit into an 140k list."
+    },
+    {
+      "id": 49989794,
+      "story_id": 49978333,
+      "story_title": "What is Codemode",
+      "source_url": "https://news.ycombinator.com/item?id=49989794",
+      "author": "dnlgrmm",
+      "posted_at": 1791361013,
+      "text": "Sadly this seems like introducing a very complex apparatus for little gain. I don't need MCP or many tool calls that the agent can program around - in fact the promise of pi was that you basically just need bash and no other tools. The minimally-invasive approach would have been to just \"inject\" tool calls as virtual bash commands. No code mode required, no hands vs. brains dichotomy. LLM can use language of its own choosing to interact with tools.",
+      "raw_html": "Sadly this seems like introducing a very complex apparatus for little gain. I don&#x27;t need MCP or many tool calls that the agent can program around - in fact the promise of pi was that you basically just need bash and no other tools. The minimally-invasive approach would have been to just &quot;inject&quot; tool calls as virtual bash commands. No code mode required, no hands vs. brains dichotomy. LLM can use language of its own choosing to interact with tools."
+    },
+    {
+      "id": 49999046,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49999046",
+      "author": "rodolphoarruda",
+      "posted_at": 1791408631,
+      "text": "Last year (2025), I lost count of how many times I tried using an LLM to set up Docker. It was still the era of prompting, then copy-pasting the response and seeing if it worked... and it almost never did. It’s great to see this new Docker agent. For me, it would be even more appealing to see an agent and a model specialized in Docker working together, capable of proposing advanced configurations and getting them working on the first try.",
+      "raw_html": "Last year (2025), I lost count of how many times I tried using an LLM to set up Docker. It was still the era of prompting, then copy-pasting the response and seeing if it worked... and it almost never did. It’s great to see this new Docker agent. For me, it would be even more appealing to see an agent and a model specialized in Docker working together, capable of proposing advanced configurations and getting them working on the first try."
+    },
+    {
+      "id": 49998443,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49998443",
+      "author": "wallstop",
+      "posted_at": 1791405263,
+      "text": "What is missing here is any benchmarks backing up this argument for code structure.\nOf note, as of C#9 (and maybe prior), the dotnet runtime does this automatically whenever it is deemed safe. https://devblogs.microsoft.com/dotnet/performance-improvemen...\nThe same technique is applied as an optimization, when deemed safe, in all current gen c compilers (gcc, llvm, etc).\nI'm very confused why neither measurements nor references to when this is done automatically in most modern languages is included in the article.",
+      "raw_html": "What is missing here is any benchmarks backing up this argument for code structure.<p>Of note, as of C#9 (and maybe prior), the dotnet runtime does this automatically whenever it is deemed safe. <a href=\"https:&#x2F;&#x2F;devblogs.microsoft.com&#x2F;dotnet&#x2F;performance-improvements-in-net-9&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;devblogs.microsoft.com&#x2F;dotnet&#x2F;performance-improvemen...</a><p>The same technique is applied as an optimization, when deemed safe, in all current gen c compilers (gcc, llvm, etc).<p>I&#x27;m very confused why neither measurements nor references to when this is done automatically in most modern languages is included in the article."
+    },
+    {
+      "id": 49996012,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49996012",
+      "author": "ceejayoz",
+      "posted_at": 1791394258,
+      "text": "Hook it up to voice control so I can put an iPad in the back window of the car and tell other drivers… things.",
+      "raw_html": "Hook it up to voice control so I can put an iPad in the back window of the car and tell other drivers… things."
+    },
+    {
+      "id": 49991860,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49991860",
+      "author": "revolvingthrow",
+      "posted_at": 1791376277,
+      "text": "Glad to see it happen. I'd prefer it there was just one format rather than both jxl and avif, but at least it's the final nail in the coffin of webp which seems to have accomplished little but annoy people for not much gain.\nThe wider ecosystem support is still far from commonplace, but it is slowly changing. iOS 18 wouldn't work with .jxl in Photos, but 27 does. Similarly, quick look and preview works fine on MacOS 27, thumbnails show up properly etc. I also found no issues with .jxl on linux, and image editors are slowly adding support as well.\nPlain old jpg will still be everywhere for the next decade, but I'm glad that we finally have superior options with no real downsides, and without all the patent bullshit to boot.",
+      "raw_html": "Glad to see it happen. I&#x27;d prefer it there was just one format rather than both jxl and avif, but at least it&#x27;s the final nail in the coffin of webp which seems to have accomplished little but annoy people for not much gain.<p>The wider ecosystem support is still far from commonplace, but it is slowly changing. iOS 18 wouldn&#x27;t work with .jxl in Photos, but 27 does. Similarly, quick look and preview works fine on MacOS 27, thumbnails show up properly etc. I also found no issues with .jxl on linux, and image editors are slowly adding support as well.<p>Plain old jpg will still be everywhere for the next decade, but I&#x27;m glad that we finally have superior options with no real downsides, and without all the patent bullshit to boot."
+    },
+    {
+      "id": 49995217,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49995217",
+      "author": "robbomacrae",
+      "posted_at": 1791391131,
+      "text": "Thats awesome. I did something similar (much smaller scale) for Claude Code/Pi to show how much it's working https://github.com/robdmac/flow\nBut this ASCII Art reminds me of my original desire to have something for each server I SSH into to help me keep a mental map of where I am. I'm not SSH'ing into servers anymore but if I was, I'd totally be trying to remake these scenes on the terminal!",
+      "raw_html": "Thats awesome. I did something similar (much smaller scale) for Claude Code&#x2F;Pi to show how much it&#x27;s working <a href=\"https:&#x2F;&#x2F;github.com&#x2F;robdmac&#x2F;flow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;robdmac&#x2F;flow</a><p>But this ASCII Art reminds me of my original desire to have something for each server I SSH into to help me keep a mental map of where I am. I&#x27;m not SSH&#x27;ing into servers anymore but if I was, I&#x27;d totally be trying to remake these scenes on the terminal!"
+    },
+    {
+      "id": 49999760,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49999760",
+      "author": "peterldowns",
+      "posted_at": 1791412936,
+      "text": "Industrial history and the history of precision manufacturing is extremely exciting to me. This is an excellent overview and the animations — while not quite as smooth as https://ciechanow.ski/ — add to the experience.\nIf you liked this blog post, you may enjoy the book “English and American Tool Builders\" by Joseph Wickham Roe.",
+      "raw_html": "Industrial history and the history of precision manufacturing is extremely exciting to me. This is an excellent overview and the animations — while not quite as smooth as <a href=\"https:&#x2F;&#x2F;ciechanow.ski&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;ciechanow.ski&#x2F;</a> — add to the experience.<p>If you liked this blog post, you may enjoy the book “English and American Tool Builders&quot; by Joseph Wickham Roe."
+    },
+    {
+      "id": 49995742,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49995742",
+      "author": "bay_baobab_ii",
+      "posted_at": 1791393152,
+      "text": "8BitDo made a modern mechanical keyboard that looks like a C64. I got one and I am loving it.\nhttps://www.8bitdo.com/retro-mechanical-keyboard-c64/",
+      "raw_html": "8BitDo made a modern mechanical keyboard that looks like a C64. I got one and I am loving it.\n<a href=\"https:&#x2F;&#x2F;www.8bitdo.com&#x2F;retro-mechanical-keyboard-c64&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.8bitdo.com&#x2F;retro-mechanical-keyboard-c64&#x2F;</a>"
+    },
+    {
+      "id": 49993449,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49993449",
+      "author": "Kkoala",
+      "posted_at": 1791383673,
+      "text": "Points to https://playground.google/ which just returns 403 error. Cool",
+      "raw_html": "Points to <a href=\"https:&#x2F;&#x2F;playground.google&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;playground.google&#x2F;</a> which just returns 403 error. Cool"
+    },
+    {
+      "id": 49999267,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49999267",
+      "author": "janalsncm",
+      "posted_at": 1791409783,
+      "text": "I would say these all boil down to empathy. Think about who your target audience is, and write for the least informed among them.\nIt’s ok to be selective about your target audience. Most of us are writing for free anyways so we’re not losing revenue by not explaining what a computer is in an article about optimizing LLM throughput. You might be writing to other engineers who are familiar with the topic but not the particulars of your project.\nPut the most important thing above the fold. If you catch someone’s attention in the first 10 seconds, it buys you another 30.\nAdd visuals. Boxes and arrows, charts, videos where appropriate.\nIf you must write a meandering narrative, put it at the end, not the beginning.",
+      "raw_html": "I would say these all boil down to empathy. Think about who your target audience is, and write for the least informed among them.<p>It’s ok to be selective about your target audience. Most of us are writing for free anyways so we’re not losing revenue by not explaining what a computer is in an article about optimizing LLM throughput. You might be writing to other engineers who are familiar with the topic but not the particulars of your project.<p>Put the most important thing above the fold. If you catch someone’s attention in the first 10 seconds, it buys you another 30.<p>Add visuals. Boxes and arrows, charts, videos where appropriate.<p>If you must write a meandering narrative, put it at the end, not the beginning."
+    },
+    {
+      "id": 49994064,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49994064",
+      "author": "jdranczewski",
+      "posted_at": 1791386386,
+      "text": "Finally, the previous implementations were very silly! OpenAI had a nice tool, but it only detected their own watermarks, and Google's process was \"upload the image to Gemini and ask if it's AI generated\", which seemed like a perplexing waste of tokens and breath.\n(While a sibling comment points out putting the image through Google Image Search as an alternative, I don't remember this being signposted in the support article I've read, so I unfortunately didn't know about it)",
+      "raw_html": "Finally, the previous implementations were very silly! OpenAI had a nice tool, but it only detected their own watermarks, and Google&#x27;s process was &quot;upload the image to Gemini and ask if it&#x27;s AI generated&quot;, which seemed like a perplexing waste of tokens and breath.<p>(While a sibling comment points out putting the image through Google Image Search as an alternative, I don&#x27;t remember this being signposted in the support article I&#x27;ve read, so I unfortunately didn&#x27;t know about it)"
+    },
+    {
+      "id": 49998124,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49998124",
+      "author": "moezd",
+      "posted_at": 1791403671,
+      "text": "This is probably one step towards an agentic Stack Overflow. Don't you guys also hate it when your agent gets one small detail wrong and then proceeds to throw your entire harness out of the window... No? Oh well.",
+      "raw_html": "This is probably one step towards an agentic Stack Overflow. Don&#x27;t you guys also hate it when your agent gets one small detail wrong and then proceeds to throw your entire harness out of the window... No? Oh well."
+    },
+    {
+      "id": 49995462,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49995462",
+      "author": "mamonoleechi",
+      "posted_at": 1791392074,
+      "text": "if you liked this topic, you might be interested in https://thegamingemporium.com/recent/",
+      "raw_html": "if you liked this topic, you might be interested in <a href=\"https:&#x2F;&#x2F;thegamingemporium.com&#x2F;recent&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;thegamingemporium.com&#x2F;recent&#x2F;</a>"
+    },
+    {
+      "id": 49996855,
+      "story_id": 49994481,
+      "story_title": "Open source 160 sound visualization experiments",
+      "source_url": "https://news.ycombinator.com/item?id=49996855",
+      "author": "mikodin",
+      "posted_at": 1791397650,
+      "text": "Wow, these are beautiful! Are you open to others using these in applications? There is no license in the repo so I am unsure :)",
+      "raw_html": "Wow, these are beautiful! Are you open to others using these in applications? There is no license in the repo so I am unsure :)"
+    },
+    {
+      "id": 49992522,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49992522",
+      "author": "alexpotato",
+      "posted_at": 1791379571,
+      "text": "Actor to Winston Churchill:\n\"Show premiere Oct 10th STOP Bring a friend STOP If you have one STOP\"\nWinston Churchill to actor:\n\"Can't make premiere STOP Will come to second showing STOP If there is one STOP\"",
+      "raw_html": "Actor to Winston Churchill:<p>&quot;Show premiere Oct 10th STOP Bring a friend STOP If you have one STOP&quot;<p>Winston Churchill to actor:<p>&quot;Can&#x27;t make premiere STOP Will come to second showing STOP If there is one STOP&quot;"
+    },
+    {
+      "id": 49998878,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49998878",
+      "author": "cicloid",
+      "posted_at": 1791407675,
+      "text": "I started collecting all the links on an “awesome list” since this exploded https://github.com/cicloid/awesome-fm-1\nThe interesting question is how much of the fizz from these efforts will disappear if SOTA models start moving away from moral gray areas or because of security concerns the guardrails disable this type of work.",
+      "raw_html": "I started collecting all the links on an “awesome list” since this exploded <a href=\"https:&#x2F;&#x2F;github.com&#x2F;cicloid&#x2F;awesome-fm-1\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;cicloid&#x2F;awesome-fm-1</a><p>The interesting question is how much of the fizz from these efforts will disappear if SOTA models start moving away from moral gray areas or because of security concerns the guardrails disable this type of work."
+    },
+    {
+      "id": 49996305,
+      "story_id": 49980399,
+      "story_title": "Show HN: Durable Actors – OSS Durable Objects with configurable compute",
+      "source_url": "https://news.ycombinator.com/item?id=49996305",
+      "author": "anilgulecha",
+      "posted_at": 1791395558,
+      "text": "100ms for a write - not usable for anything beyond toys.\nI mean we have https://github.com/denoland/celld - with a known good open source history. Durable writes there are as low as 1ms.",
+      "raw_html": "100ms for a write - not usable for anything beyond toys.<p>I mean we have <a href=\"https:&#x2F;&#x2F;github.com&#x2F;denoland&#x2F;celld\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;denoland&#x2F;celld</a> - with a known good open source history. Durable writes there are as low as 1ms."
+    },
+    {
+      "id": 49992439,
+      "story_id": 49949680,
+      "story_title": "Rust's derive often implies inline",
+      "source_url": "https://news.ycombinator.com/item?id=49992439",
+      "author": "zamazan4ik",
+      "posted_at": 1791379237,
+      "text": "Or just try to avoid all of these optimization guesses by using Profile-Guided Optimization (PGO), that inserts/deletes all inlines based on actual application runtime profile.",
+      "raw_html": "Or just try to avoid all of these optimization guesses by using Profile-Guided Optimization (PGO), that inserts&#x2F;deletes all inlines based on actual application runtime profile."
+    },
+    {
+      "id": 49998834,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49998834",
+      "author": "theogzd",
+      "posted_at": 1791407367,
+      "text": "Just the other day I was thinking about creating something similar as a personal project, but I never thought of making the museum experience this immersive. Congrats! Time well spent and a nice use of AI for educational, artistic and historical purpose.",
+      "raw_html": "Just the other day I was thinking about creating something similar as a personal project, but I never thought of making the museum experience this immersive. Congrats! Time well spent and a nice use of AI for educational, artistic and historical purpose."
+    },
+    {
+      "id": 49994117,
+      "story_id": 49991986,
+      "story_title": "Show HN: Procinsh – A 3D Linux process inspector",
+      "source_url": "https://news.ycombinator.com/item?id=49994117",
+      "author": "zzulanas",
+      "posted_at": 1791386595,
+      "text": "now I can finally live my dream of saying \"it's a unix system I know this\" in front of my family and non-technical friends while pulling this thing up and inspecting my bloated tmux processes running 20 claude code instances",
+      "raw_html": "now I can finally live my dream of saying &quot;it&#x27;s a unix system I know this&quot; in front of my family and non-technical friends while pulling this thing up and inspecting my bloated tmux processes running 20 claude code instances"
+    },
+    {
+      "id": 49995241,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49995241",
+      "author": "_ph_",
+      "posted_at": 1791391237,
+      "text": "Looks cool! Plate solving is an incredibly useful technology for astronomy, putting it into the smartphone makes it available for a lot of \"non-smart\" setups. Only one question: does it have a polar align feature? This is my biggest challenge, when e.g. setting up a simple star tracker. The app would be very useful for this.",
+      "raw_html": "Looks cool! Plate solving is an incredibly useful technology for astronomy, putting it into the smartphone makes it available for a lot of &quot;non-smart&quot; setups. Only one question: does it have a polar align feature? This is my biggest challenge, when e.g. setting up a simple star tracker. The app would be very useful for this."
+    },
+    {
+      "id": 49990501,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990501",
+      "author": "pelagicAustral",
+      "posted_at": 1791366964,
+      "text": "I am not sure if I am more tired of people building with AI or people complaining about people building with AI. If you really that bothered, there is nothing stoping anybody from keep doing things the good old way... What's the big deal?",
+      "raw_html": "I am not sure if I am more tired of people building with AI or people complaining about people building with AI. If you really that bothered, there is nothing stoping anybody from keep doing things the good old way... What&#x27;s the big deal?"
+    },
+    {
+      "id": 49985916,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49985916",
+      "author": "bartread",
+      "posted_at": 1791330933,
+      "text": "Man, some of the comments this is getting are absolutely wild.\nOP, I’m sorry this is happening to you. It must be incredibly frustrating to have people ripping off something you’ve worked on for many years and pass it off as their own work. I would be furious in your position.\nI wish I could do something directly to help you but the best I can offer is to echo the best advice others have already given you: it’s time to get a lawyer. That is the one guaranteed route to get GitHub to sit up and take the action they should already have taken on your behalf.",
+      "raw_html": "Man, some of the comments this is getting are absolutely wild.<p>OP, I’m sorry this is happening to you. It must be incredibly frustrating to have people ripping off something you’ve worked on for many years and pass it off as their own work. I would be furious in your position.<p>I wish I could do something directly to help you but the best I can offer is to echo the best advice others have already given you: it’s time to get a lawyer. That is the one guaranteed route to get GitHub to sit up and take the action they should already have taken on your behalf."
+    },
+    {
+      "id": 49989805,
+      "story_id": 49986862,
+      "story_title": "ESP32-C3 Adblock",
+      "source_url": "https://news.ycombinator.com/item?id=49989805",
+      "author": "waysa",
+      "posted_at": 1791361123,
+      "text": "I think it could fit even more domains using a Bloom Filter or similar probabilistic data structure. With a chance of false-positives of course. But that's a trade-off the project already makes.",
+      "raw_html": "I think it could fit even more domains using a Bloom Filter or similar probabilistic data structure. With a chance of false-positives of course. But that&#x27;s a trade-off the project already makes."
+    },
+    {
+      "id": 49991317,
+      "story_id": 49978333,
+      "story_title": "What is Codemode",
+      "source_url": "https://news.ycombinator.com/item?id=49991317",
+      "author": "planb",
+      "posted_at": 1791372946,
+      "text": "The headline is \"What is codemode\". As someone who did not know what codemode is, I had to read until the section \"Orchestrating The Harness\", where it says \"If you are not familiar with Codemode, it’s basically just a way to issue tool calls from within some language, in our case JavaScript.\"\nI could then somehow get what is meant from the examples, but the contents of the article do not at all match the headline.",
+      "raw_html": "The headline is &quot;What is codemode&quot;. As someone who did not know what codemode is, I had to read until the section &quot;Orchestrating The Harness&quot;, where it says &quot;If you are not familiar with Codemode, it’s basically just a way to issue tool calls from within some language, in our case JavaScript.&quot;<p>I could then somehow get what is meant from the examples, but the contents of the article do not at all match the headline."
+    },
+    {
+      "id": 49997009,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49997009",
+      "author": "McScrooge",
+      "posted_at": 1791398307,
+      "text": "https://docker.github.io/docker-agent/configuration/sandbox/\nIf, like me, you couldn't find any security-related info on the linked page.",
+      "raw_html": "<a href=\"https:&#x2F;&#x2F;docker.github.io&#x2F;docker-agent&#x2F;configuration&#x2F;sandbox&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;docker.github.io&#x2F;docker-agent&#x2F;configuration&#x2F;sandbox&#x2F;</a><p>If, like me, you couldn&#x27;t find any security-related info on the linked page."
+    },
+    {
+      "id": 49999280,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49999280",
+      "author": "throwawayffffas",
+      "posted_at": 1791409885,
+      "text": "Just the branch predictor gains are probably worth it.",
+      "raw_html": "Just the branch predictor gains are probably worth it."
+    },
+    {
+      "id": 49999387,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49999387",
+      "author": "isaac-harvey",
+      "posted_at": 1791410596,
+      "text": "This sort of incredibly simple, crisp idea is what changes the world. Great job!",
+      "raw_html": "This sort of incredibly simple, crisp idea is what changes the world. Great job!"
+    },
+    {
+      "id": 49991527,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49991527",
+      "author": "kelseydh",
+      "posted_at": 1791374379,
+      "text": "Every time a new image format comes out, I think about the compatibility crisis between apps.\nE.g. Telegram still doesn't have sane support for .webp, it treats them as stickers.  MacOS can take a long time to update with support for new formats.  Image viewer apps even longer, many never updating to support new formats.",
+      "raw_html": "Every time a new image format comes out, I think about the compatibility crisis between apps.<p>E.g. Telegram still doesn&#x27;t have sane support for .webp, it treats them as stickers.  MacOS can take a long time to update with support for new formats.  Image viewer apps even longer, many never updating to support new formats."
+    },
+    {
+      "id": 49996504,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49996504",
+      "author": "burmask",
+      "posted_at": 1791396367,
+      "text": "I kept scrolling down and my amazement grew as I could see all fun the op had making this library.  Split-flap [https://ascii.rest/split-flap/] is awesome. And the nature ones [https://ascii.rest/fern/] got me thinking I need a digital frame to display them on.  Would be some cool wall art.  This ASCII sets a relaxed mood - except for that vibrating spinners page @ZeWaka :). Thank you for your contribution op!",
+      "raw_html": "I kept scrolling down and my amazement grew as I could see all fun the op had making this library.  Split-flap [<a href=\"https:&#x2F;&#x2F;ascii.rest&#x2F;split-flap&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;ascii.rest&#x2F;split-flap&#x2F;</a>] is awesome. And the nature ones [<a href=\"https:&#x2F;&#x2F;ascii.rest&#x2F;fern&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;ascii.rest&#x2F;fern&#x2F;</a>] got me thinking I need a digital frame to display them on.  Would be some cool wall art.  This ASCII sets a relaxed mood - except for that vibrating spinners page @ZeWaka :). Thank you for your contribution op!"
+    },
+    {
+      "id": 49980627,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49980627",
+      "author": "glinscott",
+      "posted_at": 1791303282,
+      "text": "Author here. This is a sequel to my beam engine article: https://glinscott.github.io/beam-engine/.\nI started digging into Watt's challenges getting an accurate cylinder bore for his pistons, and it spiraled out from there :).\nThe article covers some of the key techniques developed during the industrial revolution to measure and make incredibly precise parts.  There are a lot of animations and interactive figures to explore how it works.",
+      "raw_html": "Author here. This is a sequel to my beam engine article: <a href=\"https:&#x2F;&#x2F;glinscott.github.io&#x2F;beam-engine&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;glinscott.github.io&#x2F;beam-engine&#x2F;</a>.<p>I started digging into Watt&#x27;s challenges getting an accurate cylinder bore for his pistons, and it spiraled out from there :).<p>The article covers some of the key techniques developed during the industrial revolution to measure and make incredibly precise parts.  There are a lot of animations and interactive figures to explore how it works."
+    },
+    {
+      "id": 49992823,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49992823",
+      "author": "dar5hak",
+      "posted_at": 1791380729,
+      "text": "If creatively expanded to more characters, this would make a pretty nice coding font.",
+      "raw_html": "If creatively expanded to more characters, this would make a pretty nice coding font."
+    },
+    {
+      "id": 49993470,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49993470",
+      "author": "OsrsNeedsf2P",
+      "posted_at": 1791383769,
+      "text": "We've hosted an AI game development platform for a while now and found there's a big difference between \"making a game\" and \"making a fun game\". I'd love to see if they are solving the real problem, but the link to try it out is a 403 for me.",
+      "raw_html": "We&#x27;ve hosted an AI game development platform for a while now and found there&#x27;s a big difference between &quot;making a game&quot; and &quot;making a fun game&quot;. I&#x27;d love to see if they are solving the real problem, but the link to try it out is a 403 for me."
+    },
+    {
+      "id": 49995834,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49995834",
+      "author": "linsomniac",
+      "posted_at": 1791393507,
+      "text": "Last week, after following an HN link, I found myself thinking that tech blogs were starting to need that \"Jump to Recipe\" link that has taken over the food blogging world (for the better).",
+      "raw_html": "Last week, after following an HN link, I found myself thinking that tech blogs were starting to need that &quot;Jump to Recipe&quot; link that has taken over the food blogging world (for the better)."
+    },
+    {
+      "id": 49993715,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49993715",
+      "author": "nialv7",
+      "posted_at": 1791384881,
+      "text": "Why the hell do I need to sign in?",
+      "raw_html": "Why the hell do I need to sign in?"
+    },
+    {
+      "id": 49998015,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49998015",
+      "author": "GrinningFool",
+      "posted_at": 1791403033,
+      "text": "Didn't appreciate the two separate popups that took over my screen while trying to read a linked review.\nIt's good that they didn't show again the next time, but the second one almost sent me away from the site.",
+      "raw_html": "Didn&#x27;t appreciate the two separate popups that took over my screen while trying to read a linked review.<p>It&#x27;s good that they didn&#x27;t show again the next time, but the second one almost sent me away from the site."
+    },
+    {
+      "id": 49993928,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49993928",
+      "author": "fb03",
+      "posted_at": 1791385864,
+      "text": "AI is completely cracking up the emulation bubble. We're not even emulating things anymore, we're just reverse engineering things and directly porting games. This is an awesome timeline for old game preservation. These fuckers aren't profiting from the games anymore, yet they won't release their IP, or update their old games to newer, more accessible platforms. So I really appreciate the work these kinds of developers have been doing.",
+      "raw_html": "AI is completely cracking up the emulation bubble. We&#x27;re not even emulating things anymore, we&#x27;re just reverse engineering things and directly porting games. This is an awesome timeline for old game preservation. These fuckers aren&#x27;t profiting from the games anymore, yet they won&#x27;t release their IP, or update their old games to newer, more accessible platforms. So I really appreciate the work these kinds of developers have been doing."
+    },
+    {
+      "id": 49995877,
+      "story_id": 49994481,
+      "story_title": "Open source 160 sound visualization experiments",
+      "source_url": "https://news.ycombinator.com/item?id=49995877",
+      "author": "dvh",
+      "posted_at": 1791393696,
+      "text": "On mobile when I scroll few pages down while only looking at images, it is impossible to tell if caption is above or below image, where it belongs.",
+      "raw_html": "On mobile when I scroll few pages down while only looking at images, it is impossible to tell if caption is above or below image, where it belongs."
+    },
+    {
+      "id": 49992668,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49992668",
+      "author": "novideonoradio",
+      "posted_at": 1791380090,
+      "text": "Deeply unserious technology. Can't wait until an article about LLMs performing 20% better on programming benchmarks if asked to impersonate Kevin from The Office.",
+      "raw_html": "Deeply unserious technology. Can&#x27;t wait until an article about LLMs performing 20% better on programming benchmarks if asked to impersonate Kevin from The Office."
+    },
+    {
+      "id": 49998543,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49998543",
+      "author": "peteforde",
+      "posted_at": 1791405783,
+      "text": "I know this will not be a popular take, but surely I am not the only one who is super tired of endless control surfaces for the same FM and Karplus-Strong algos.\nI'm a weirdo, but I love the sound of acoustic and/or sampled instruments - especially drums - over the metallic plonks that supposedly sound like \"flute\" any day of the week.\nDon't get me wrong: the M-VAVE is looking like the Flipper Zero of music hacking, and the price is a steal. But at the end of the day, these sounds only really work for certain genres of music and even then there's only so many wavetable shapes before the same-ness has to set in.",
+      "raw_html": "I know this will not be a popular take, but surely I am not the only one who is super tired of endless control surfaces for the same FM and Karplus-Strong algos.<p>I&#x27;m a weirdo, but I love the sound of acoustic and&#x2F;or sampled instruments - especially drums - over the metallic plonks that supposedly sound like &quot;flute&quot; any day of the week.<p>Don&#x27;t get me wrong: the M-VAVE is looking like the Flipper Zero of music hacking, and the price is a steal. But at the end of the day, these sounds only really work for certain genres of music and even then there&#x27;s only so many wavetable shapes before the same-ness has to set in."
+    },
+    {
+      "id": 49993025,
+      "story_id": 49949680,
+      "story_title": "Rust's derive often implies inline",
+      "source_url": "https://news.ycombinator.com/item?id=49993025",
+      "author": "api",
+      "posted_at": 1791381676,
+      "text": "There's a joke that the LLVM heuristic for whether to inline a function is \"return true;\" LLVM tends to inline aggressively.\nYou can control this behavior with opt level \"s\" or \"z\" or \"#[inline(never)]\", but be aware that too little inlining can have large negative performance impacts.\nIt's hard to get inlining exactly right without profile guided optimization.",
+      "raw_html": "There&#x27;s a joke that the LLVM heuristic for whether to inline a function is &quot;return true;&quot; LLVM tends to inline aggressively.<p>You can control this behavior with opt level &quot;s&quot; or &quot;z&quot; or &quot;#[inline(never)]&quot;, but be aware that too little inlining can have large negative performance impacts.<p>It&#x27;s hard to get inlining exactly right without profile guided optimization."
+    },
+    {
+      "id": 49994048,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49994048",
+      "author": "ggerules",
+      "posted_at": 1791386327,
+      "text": "This is an awesome project. It could bring the art museum experience to those that can't travel to museums.\nBut it is missing so many artists and art movements. A better choice of source material and way more artists can be found on wikiart.org [0]. Maybe the creator could merge scraping efforts?\n[0] wikiart.org.",
+      "raw_html": "This is an awesome project. It could bring the art museum experience to those that can&#x27;t travel to museums.<p>But it is missing so many artists and art movements. A better choice of source material and way more artists can be found on wikiart.org [0]. Maybe the creator could merge scraping efforts?<p>[0] wikiart.org."
+    },
+    {
+      "id": 49993770,
+      "story_id": 49991986,
+      "story_title": "Show HN: Procinsh – A 3D Linux process inspector",
+      "source_url": "https://news.ycombinator.com/item?id=49993770",
+      "author": "hncbw02z5a",
+      "posted_at": 1791385130,
+      "text": "Did a procfs scraper once, handling pids vanishing mid-read took me ages.",
+      "raw_html": "Did a procfs scraper once, handling pids vanishing mid-read took me ages."
+    },
+    {
+      "id": 49993902,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49993902",
+      "author": "Tepix",
+      "posted_at": 1791385752,
+      "text": "Interesting, thanks.\nA related issue I’ve been wondering about: Why don’t gimbals for cameras and smartphones offer an astrophotography mode for long  exposures of the night sky?",
+      "raw_html": "Interesting, thanks.<p>A related issue I’ve been wondering about: Why don’t gimbals for cameras and smartphones offer an astrophotography mode for long  exposures of the night sky?"
+    },
+    {
+      "id": 49990435,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990435",
+      "author": "normie3000",
+      "posted_at": 1791366418,
+      "text": "It would be interesting to see the linked talk \"Useing You're Type's Good\", but it seems to have been deleted.",
+      "raw_html": "It would be interesting to see the linked talk &quot;Useing You&#x27;re Type&#x27;s Good&quot;, but it seems to have been deleted."
+    },
+    {
+      "id": 49994299,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49994299",
+      "author": "hgs3",
+      "posted_at": 1791387265,
+      "text": "The 3rd U.S. Circuit Court of Appeals recently ruled [1] that using AI to train on a competitor's copyrighted material to build a competing product is _not_ fair use. This is a recent ruling (September 30, 2026). GitHub policy has surely not caught up yet and who knows when it will.\n> Do you think I should look for a lawyer to deal with it outside the digital world?\nAbsolutely. This is a copyright infringement case and there is now an appellate precedent to cite. Gather as much evidence as you can and speak with an IP attorney.\n[1] https://www.reuters.com/legal/litigation/unsealed-opinion-sh...",
+      "raw_html": "The 3rd U.S. Circuit Court of Appeals recently ruled [1] that using AI to train on a competitor&#x27;s copyrighted material to build a competing product is _not_ fair use. This is a recent ruling (September 30, 2026). GitHub policy has surely not caught up yet and who knows when it will.<p>&gt; Do you think I should look for a lawyer to deal with it outside the digital world?<p>Absolutely. This is a copyright infringement case and there is now an appellate precedent to cite. Gather as much evidence as you can and speak with an IP attorney.<p>[1] <a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;unsealed-opinion-shows-why-thomson-reuters-won-landmark-ai-fair-use-ruling-2026-09-30&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;unsealed-opinion-sh...</a>"
+    },
+    {
+      "id": 49987962,
+      "story_id": 49986862,
+      "story_title": "ESP32-C3 Adblock",
+      "source_url": "https://news.ycombinator.com/item?id=49987962",
+      "author": "1vuio0pswjnm7",
+      "posted_at": 1791345450,
+      "text": "Whitelist/allowlist is easier, e.g., it's smaller\nDepends on the user but not everyone is visiting new websites everyday\nEven for those that are, the number of domain-IP mappings needed will be relatively small\nDefinitely under 140,000\nMost DNS data I use is \"static\", it rarely changes.  As such most times I don't have to make DNS queries.  I store the domain-IP mappings in proxy memory; this is faster than DNS\nNo \"blocklist\" needed",
+      "raw_html": "Whitelist&#x2F;allowlist is easier, e.g., it&#x27;s smaller<p>Depends on the user but not everyone is visiting new websites everyday<p>Even for those that are, the number of domain-IP mappings needed will be relatively small<p>Definitely under 140,000<p>Most DNS data I use is &quot;static&quot;, it rarely changes.  As such most times I don&#x27;t have to make DNS queries.  I store the domain-IP mappings in proxy memory; this is faster than DNS<p>No &quot;blocklist&quot; needed"
+    },
+    {
+      "id": 49989442,
+      "story_id": 49978333,
+      "story_title": "What is Codemode",
+      "source_url": "https://news.ycombinator.com/item?id=49989442",
+      "author": "freakynit",
+      "posted_at": 1791357725,
+      "text": "Can someone please tell me how to disable it permanently in pi? I have already disabled it in settings.json, but, it just doesn't get disabled:\n{\n\"source\": \"npm:pi-mcp-adapter\",\n\"extensions\": [\n\"-index.ts\",\n\"-builtin:codemode\"\n]\n}\nand\n\"autoEnableCodemode\": false,",
+      "raw_html": "Can someone please tell me how to disable it permanently in pi? I have already disabled it in settings.json, but, it just doesn&#x27;t get disabled:<p><pre><code>    {\n      &quot;source&quot;: &quot;npm:pi-mcp-adapter&quot;,\n      &quot;extensions&quot;: [\n        &quot;-index.ts&quot;,\n        &quot;-builtin:codemode&quot;\n      ]\n    }\n</code></pre>\nand<p><pre><code>    &quot;autoEnableCodemode&quot;: false,</code></pre>"
+    },
+    {
+      "id": 49998290,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49998290",
+      "author": "CBLT",
+      "posted_at": 1791404549,
+      "text": "I tried really hard to make this work for me a couple of weeks ago but it was the brittlest harness out of any that I've used.  I'd come back when it's more mature.",
+      "raw_html": "I tried really hard to make this work for me a couple of weeks ago but it was the brittlest harness out of any that I&#x27;ve used.  I&#x27;d come back when it&#x27;s more mature."
+    },
+    {
+      "id": 49999040,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49999040",
+      "author": "dieselgate",
+      "posted_at": 1791408597,
+      "text": "Didn’t see it mentioned in the article but isn’t leading with if-statement called a “guard clause”.\nI like that pattern but it’s just general best practice I thought.",
+      "raw_html": "Didn’t see it mentioned in the article but isn’t leading with if-statement called a “guard clause”.\nI like that pattern but it’s just general best practice I thought."
+    },
+    {
+      "id": 49999436,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49999436",
+      "author": "mcrowder65",
+      "posted_at": 1791410866,
+      "text": "This reminds me of at a previous job people would leave their laptops unlocked. Security threatened people with yubikeys. So I used that opportunity to create https://butts.netlify.app so that any time someone left their laptop unlocked I’d go there and they’d be met with the word butts.",
+      "raw_html": "This reminds me of at a previous job people would leave their laptops unlocked. Security threatened people with yubikeys. So I used that opportunity to create <a href=\"https:&#x2F;&#x2F;butts.netlify.app\" rel=\"nofollow\">https:&#x2F;&#x2F;butts.netlify.app</a> so that any time someone left their laptop unlocked I’d go there and they’d be met with the word butts."
+    },
+    {
+      "id": 49991617,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49991617",
+      "author": "cyberrock",
+      "posted_at": 1791374843,
+      "text": "The tortoises have somehow outrun the hare because Safari still hasn't turned on progressive loading in libjxl (which had this feature since before Safari added the feature), while FF (non Android) and Chrome shipped with it enabled. The 3 year long chess clock is now flipped.",
+      "raw_html": "The tortoises have somehow outrun the hare because Safari still hasn&#x27;t turned on progressive loading in libjxl (which had this feature since before Safari added the feature), while FF (non Android) and Chrome shipped with it enabled. The 3 year long chess clock is now flipped."
+    },
+    {
+      "id": 49995275,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49995275",
+      "author": "bredren",
+      "posted_at": 1791391339,
+      "text": "Neat. Some of my earliest online contributions were to local dial-up BBSs.  I spent entire days making animated ascii sequences in the theme of the board.",
+      "raw_html": "Neat. Some of my earliest online contributions were to local dial-up BBSs.  I spent entire days making animated ascii sequences in the theme of the board."
+    },
+    {
+      "id": 49997839,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49997839",
+      "author": "Joker_vD",
+      "posted_at": 1791402195,
+      "text": "> After repeated copying and correction, Maudslay made a master screw five feet long and two inches across, with fifty threads to the inch and a foot-long nut that engaged six hundred of them at once.\nThat's the stuff I like to read about the historical endeavors. A fifty-threads nut doesn't average the distance between the grooves quite accurately enough? Then let's make a nut with six-hundred threads on it, and so what if it's foot long.",
+      "raw_html": "&gt; After repeated copying and correction, Maudslay made a master screw five feet long and two inches across, with fifty threads to the inch and a foot-long nut that engaged six hundred of them at once.<p>That&#x27;s the stuff I like to read about the historical endeavors. A fifty-threads nut doesn&#x27;t average the distance between the grooves quite accurately enough? Then let&#x27;s make a nut with six-hundred threads on it, and so what if it&#x27;s foot long."
+    },
+    {
+      "id": 49992444,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49992444",
+      "author": "gwbas1c",
+      "posted_at": 1791379254,
+      "text": "The special characters / punctuation are not aligned. The !#$% characters either float too high or need to be a little bigger.\n(Yes, I copied the image from the page into Paint and drew a line)",
+      "raw_html": "The special characters &#x2F; punctuation are not aligned. The !#$% characters either float too high or need to be a little bigger.<p>(Yes, I copied the image from the page into Paint and drew a line)"
+    },
+    {
+      "id": 49992552,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49992552",
+      "author": "aqme28",
+      "posted_at": 1791379666,
+      "text": "How long until someone makes a tiktok-style game platform?\nPlay a little game, then when you're done it generates a new one based on what you've enjoyed. Repeat ad infinitum.",
+      "raw_html": "How long until someone makes a tiktok-style game platform?<p>Play a little game, then when you&#x27;re done it generates a new one based on what you&#x27;ve enjoyed. Repeat ad infinitum."
+    },
+    {
+      "id": 49994391,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49994391",
+      "author": "weinzierl",
+      "posted_at": 1791387627,
+      "text": "\"The meandering intro\"\nNot only the intro. Many bloggers try to write as if they'd writing a story, building suspense and all. For technical writing, don't bury the lede.",
+      "raw_html": "<i>&quot;The meandering intro&quot;</i><p>Not only the intro. Many bloggers try to write as if they&#x27;d writing a story, building suspense and all. For technical writing, don&#x27;t bury the lede."
+    },
+    {
+      "id": 49994123,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49994123",
+      "author": "RobGR",
+      "posted_at": 1791386616,
+      "text": "If I go directly to the URL it wants me to agree to some stuff before I even know what the service is.  I had to come to these comments to figure that out (without agreeing to anything first).",
+      "raw_html": "If I go directly to the URL it wants me to agree to some stuff before I even know what the service is.  I had to come to these comments to figure that out (without agreeing to anything first)."
+    },
+    {
+      "id": 49997459,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49997459",
+      "author": "schleck8",
+      "posted_at": 1791400447,
+      "text": "They are so real for giving uv a 4.7/5, it changed how I view python. fantastic design philosophy\nhttps://agent.reviews/packages/uv#review-c63f7e0f-5c72-41d2-...",
+      "raw_html": "They are so real for giving uv a 4.7&#x2F;5, it changed how I view python. fantastic design philosophy<p><a href=\"https:&#x2F;&#x2F;agent.reviews&#x2F;packages&#x2F;uv#review-c63f7e0f-5c72-41d2-a051-ffcc85388fbb\" rel=\"nofollow\">https:&#x2F;&#x2F;agent.reviews&#x2F;packages&#x2F;uv#review-c63f7e0f-5c72-41d2-...</a>"
+    },
+    {
+      "id": 49995334,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49995334",
+      "author": "sigma5",
+      "posted_at": 1791391586,
+      "text": "I remember trying to emulate this game on my i7 laptop a decade ago. It was running like 15 FPS.So for me this look like magic.",
+      "raw_html": "I remember trying to emulate this game on my i7 laptop a decade ago. It was running like 15 FPS.So for me this look like magic."
+    },
+    {
+      "id": 49996725,
+      "story_id": 49994481,
+      "story_title": "Open source 160 sound visualization experiments",
+      "source_url": "https://news.ycombinator.com/item?id=49996725",
+      "author": "hellojomp",
+      "posted_at": 1791397187,
+      "text": "It hurts me that 160 sound visualizations later I am less interested in sound than I would've been with one, just one, compelling viz.",
+      "raw_html": "It hurts me that 160 sound visualizations later I am less interested in sound than I would&#x27;ve been with one, just one, compelling viz."
+    },
+    {
+      "id": 49996336,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49996336",
+      "author": "bilater",
+      "posted_at": 1791395667,
+      "text": "Actually, I think the lesson from this article is that a lot of these little hacks we’re doing around context compaction, AGENTS.md, system guides, and other harnessy ways of saving tokens are going to go away fairly quickly, just as all the tricks of the telegraph era went away once communication got cheap enough that it was easier to just speak in plain language.",
+      "raw_html": "Actually, I think the lesson from this article is that a lot of these little hacks we’re doing around context compaction, AGENTS.md, system guides, and other harnessy ways of saving tokens are going to go away fairly quickly, just as all the tricks of the telegraph era went away once communication got cheap enough that it was easier to just speak in plain language."
+    },
+    {
+      "id": 49995360,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49995360",
+      "author": "itsdavesanders",
+      "posted_at": 1791391678,
+      "text": "Myself and a couple friends bought this device a few weeks ago and with the firmware being released, its an amazing device.\nI love the idea of cheaper Chinese music hardware with the ability for open source firmware and apps to be loaded into them. I hope the success of this sees a sampler from M-Wave - I'd love a Chinese 404 or MPC...",
+      "raw_html": "Myself and a couple friends bought this device a few weeks ago and with the firmware being released, its an amazing device.<p>I love the idea of cheaper Chinese music hardware with the ability for open source firmware and apps to be loaded into them. I hope the success of this sees a sampler from M-Wave - I&#x27;d love a Chinese 404 or MPC..."
+    },
+    {
+      "id": 49996001,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49996001",
+      "author": "cobertos",
+      "posted_at": 1791394224,
+      "text": "Did you find any issues with performance in such a large dataset (like \"all artists\") with such dynamic rendering (specifically for the timeline view)?\nDoes this use a library for plotting everything on the timeline or is it coded from scratch?\nEDIT: I see now the code is at https://github.com/justdataplease/art-history-museum",
+      "raw_html": "Did you find any issues with performance in such a large dataset (like &quot;all artists&quot;) with such dynamic rendering (specifically for the timeline view)?<p>Does this use a library for plotting everything on the timeline or is it coded from scratch?<p>EDIT: I see now the code is at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;justdataplease&#x2F;art-history-museum\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;justdataplease&#x2F;art-history-museum</a>"
+    },
+    {
+      "id": 49994594,
+      "story_id": 49991986,
+      "story_title": "Show HN: Procinsh – A 3D Linux process inspector",
+      "source_url": "https://news.ycombinator.com/item?id=49994594",
+      "author": "cobbzilla",
+      "posted_at": 1791388451,
+      "text": "Obligatory reference to psDoom [1]. There’s something quite fun about killing the monster labeled “init” and poof! Your whole system is now dead.\n[1] https://psdoom.sourceforge.net/",
+      "raw_html": "Obligatory reference to psDoom [1]. There’s something quite fun about killing the monster labeled “init” and poof! Your whole system is now dead.<p>[1] <a href=\"https:&#x2F;&#x2F;psdoom.sourceforge.net&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;psdoom.sourceforge.net&#x2F;</a>"
+    },
+    {
+      "id": 49995322,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49995322",
+      "author": "jnsie",
+      "posted_at": 1791391533,
+      "text": "Really dumb question - but how does the phone know the distance from your phone lens to your telescope lens? I assume this varies greatly from mount to mount and will change how accurate the app is?",
+      "raw_html": "Really dumb question - but how does the phone know the distance from your phone lens to your telescope lens? I assume this varies greatly from mount to mount and will change how accurate the app is?"
+    },
+    {
+      "id": 49990445,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990445",
+      "author": "metchio",
+      "posted_at": 1791366496,
+      "text": "I don't understand the point of this article. It is written poorly. It doesn't state a purpose or line of thought, you can infer it from how he counters the dislike reasons, but then was the point of the article just to list a handful of reasons you don't believe to be true? Because he's leaving so much stuff behind",
+      "raw_html": "I don&#x27;t understand the point of this article. It is written poorly. It doesn&#x27;t state a purpose or line of thought, you can infer it from how he counters the dislike reasons, but then was the point of the article just to list a handful of reasons you don&#x27;t believe to be true? Because he&#x27;s leaving so much stuff behind"
+    },
+    {
+      "id": 49990052,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49990052",
+      "author": "schnebbau",
+      "posted_at": 1791363322,
+      "text": "I think we're going to see a lot more of this going forward.\nI think we're also going to see the strategy to be to remove the processing and magic sauce from the client and move it to the server where it can't be decompiled and rebuilt with AI.",
+      "raw_html": "I think we&#x27;re going to see a lot more of this going forward.<p>I think we&#x27;re also going to see the strategy to be to remove the processing and magic sauce from the client and move it to the server where it can&#x27;t be decompiled and rebuilt with AI."
+    },
+    {
+      "id": 49989399,
+      "story_id": 49986862,
+      "story_title": "ESP32-C3 Adblock",
+      "source_url": "https://news.ycombinator.com/item?id=49989399",
+      "author": "timvdalen",
+      "posted_at": 1791357296,
+      "text": "> The trick everyone misses:\nPlease just write the first sentence of your README yourself",
+      "raw_html": "&gt; The trick everyone misses:<p>Please just write the first sentence of your README yourself"
+    },
+    {
+      "id": 49989208,
+      "story_id": 49978333,
+      "story_title": "What is Codemode",
+      "source_url": "https://news.ycombinator.com/item?id=49989208",
+      "author": "lemontheme",
+      "posted_at": 1791355638,
+      "text": "I’m still figuring out codemode. I was using it in a prototype, but ended up stripping it out again, after realizing my small local LLM was using more tokens than usual. It was combining tool calls elegantly in code exactly how I hoped it would. The problem was that when any of those embedded tool calls failed (e.g. on parameter validation) the parent code execution tool call also failed. In response, the LLM kept rewriting large parts of the original code block.\nBtw, Monty by the pydantic team is a joy to work with if you need a way to securely run unverified code. It’s a simplified Python dialect. You can also use it from JS, iirc.",
+      "raw_html": "I’m still figuring out codemode. I was using it in a prototype, but ended up stripping it out again, after realizing my small local LLM was using more tokens than usual. It was combining tool calls elegantly in code exactly how I hoped it would. The problem was that when any of those embedded tool calls failed (e.g. on parameter validation) the parent code execution tool call also failed. In response, the LLM kept rewriting large parts of the original code block.<p>Btw, Monty by the pydantic team is a joy to work with if you need a way to securely run unverified code. It’s a simplified Python dialect. You can also use it from JS, iirc."
+    },
+    {
+      "id": 49997121,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49997121",
+      "author": "maxdo",
+      "posted_at": 1791398783,
+      "text": "they hope they can annoy and email every person in the org asking for money , same way as they did it with docker.\nlooks like a weird abstractions. why do i need this if i have modal.com, e2b, cloudflare that use original docker + some toolings around + way to run + isolations on network level.",
+      "raw_html": "they hope they can annoy and email every person in the org asking for money , same way as they did it with docker.<p>looks like a weird abstractions. why do i need this if i have modal.com, e2b, cloudflare that use original docker + some toolings around + way to run + isolations on network level."
+    },
+    {
+      "id": 49998706,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49998706",
+      "author": "aappleby",
+      "posted_at": 1791406644,
+      "text": "I have always phrased this as \"Never do one of something\".",
+      "raw_html": "I have always phrased this as &quot;Never do one of something&quot;."
+    },
+    {
+      "id": 49997258,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49997258",
+      "author": "KingMachiavelli",
+      "posted_at": 1791399425,
+      "text": "Completely different architecture, but would be amazing if another device could control what message (or photo, embedded video) is displayed.\nThere's a huge industry around digital signage and I've always felt it could be replaced with a simple Chromium kiosk + auto-refreshed webpage content. There's really no need for expensive HDMI connections or custom video streams when we already have browsers.",
+      "raw_html": "Completely different architecture, but would be amazing if another device could control what message (or photo, embedded video) is displayed.<p>There&#x27;s a huge industry around digital signage and I&#x27;ve always felt it could be replaced with a simple Chromium kiosk + auto-refreshed webpage content. There&#x27;s really no need for expensive HDMI connections or custom video streams when we already have browsers."
+    },
+    {
+      "id": 49991751,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49991751",
+      "author": "tepmoc",
+      "posted_at": 1791375652,
+      "text": "One downside is that you cannot tell if format lossy or lossless by looking at its extension.",
+      "raw_html": "One downside is that you cannot tell if format lossy or lossless by looking at its extension."
+    },
+    {
+      "id": 49996984,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49996984",
+      "author": "smusamashah",
+      "posted_at": 1791398164,
+      "text": "This reminds of another awesome actually ASCII animation library https://play.ertdfgcvb.xyz/",
+      "raw_html": "This reminds of another awesome actually ASCII animation library <a href=\"https:&#x2F;&#x2F;play.ertdfgcvb.xyz&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;play.ertdfgcvb.xyz&#x2F;</a>"
+    },
+    {
+      "id": 49999644,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49999644",
+      "author": "anitil",
+      "posted_at": 1791412188,
+      "text": "What really surprises me about these precision machines is how recent all of these inventions are, only a couple hundred years",
+      "raw_html": "What really surprises me about these precision machines is how recent all of these inventions are, only a couple hundred years"
+    },
+    {
+      "id": 49996194,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49996194",
+      "author": "sombragris",
+      "posted_at": 1791395000,
+      "text": "Looks nice. The C-64 had an excellent keyboard typeface\nI think peak keycaps font were the ones used in the Epson QX-10, Epson HX-20, Tandy 100, and the common C-64.",
+      "raw_html": "Looks nice. The C-64 had an excellent keyboard typeface<p>I think peak keycaps font were the ones used in the Epson QX-10, Epson HX-20, Tandy 100, and the common C-64."
+    },
+    {
+      "id": 49993264,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49993264",
+      "author": "hmokiguess",
+      "posted_at": 1791382874,
+      "text": "I'm okay with Google offering models, but I'm not okay with Google offering more PaaS offerings.\nLet developers use your models and tools and build stuff with it. Why own everything.\nGoogle has too much already and in my opinion they have no business owning a gaming platform.",
+      "raw_html": "I&#x27;m okay with Google offering models, but I&#x27;m not okay with Google offering more PaaS offerings.<p>Let developers use your models and tools and build stuff with it. Why own everything.<p>Google has too much already and in my opinion they have no business owning a gaming platform."
+    },
+    {
+      "id": 49997740,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49997740",
+      "author": "zrail",
+      "posted_at": 1791401730,
+      "text": "\"Do this not that\" lists are always contextual and situational. Some of this makes sense in the context of a professional or business site, but make sure your goals align before taking the advice.\nIf you're writing on your personal blog then take all of this with the size of salt crystal you feel it deserves. Personally, that's about the size of an Acme safe hanging over a cliff waiting for an unsuspecting listicle writer^h^hcoyote.",
+      "raw_html": "&quot;Do this not that&quot; lists are always contextual and situational. Some of this makes sense in the context of a professional or business site, but make sure your goals align before taking the advice.<p>If you&#x27;re writing on your personal blog then take all of this with the size of salt crystal you feel it deserves. Personally, that&#x27;s about the size of an Acme safe hanging over a cliff waiting for an unsuspecting listicle writer^h^hcoyote."
+    },
+    {
+      "id": 49995484,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49995484",
+      "author": "NeumannGod",
+      "posted_at": 1791392140,
+      "text": "Is there an open standard or something for people generating images to encode them or is the standard private and only shared with frontier model builders? That's a shame if latter. But pretty cool standardizing technology.",
+      "raw_html": "Is there an open standard or something for people generating images to encode them or is the standard private and only shared with frontier model builders? That&#x27;s a shame if latter. But pretty cool standardizing technology."
+    },
+    {
+      "id": 49997805,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49997805",
+      "author": "zamadatix",
+      "posted_at": 1791402023,
+      "text": "Quick link to all tools sorted by rating: https://agent.reviews/tools",
+      "raw_html": "Quick link to all tools sorted by rating: <a href=\"https:&#x2F;&#x2F;agent.reviews&#x2F;tools\" rel=\"nofollow\">https:&#x2F;&#x2F;agent.reviews&#x2F;tools</a>"
+    },
+    {
+      "id": 49994544,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49994544",
+      "author": "lucasverra",
+      "posted_at": 1791388232,
+      "text": "maybe i will finally able to play MGSolid saga on a browser on my mac :)",
+      "raw_html": "maybe i will finally able to play MGSolid saga on a browser on my mac :)"
+    },
+    {
+      "id": 49992286,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49992286",
+      "author": "yomismoaqui",
+      "posted_at": 1791378652,
+      "text": "You can see how the OpenAI agents that hacked Huggingface used something like this when communicating between them:\nhttps://youtu.be/87DyyMV0kCY?si=CSBzdYgkwy0kLhV6&t=749",
+      "raw_html": "You can see how the OpenAI agents that hacked Huggingface used something like this when communicating between them:<p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;87DyyMV0kCY?si=CSBzdYgkwy0kLhV6&amp;t=749\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;87DyyMV0kCY?si=CSBzdYgkwy0kLhV6&amp;t=749</a>"
+    },
+    {
+      "id": 49995550,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49995550",
+      "author": "rkachowski",
+      "posted_at": 1791392368,
+      "text": "I just got one of these, the ecosystem is so exciting right now. I just loaded the sloop firmware on it (super painless webusb) and it's crazy. From another DX7 machine to a simple little groove box with samples and sequences and a really quite lovely UX. So fun",
+      "raw_html": "I just got one of these, the ecosystem is so exciting right now. I just loaded the sloop firmware on it (super painless webusb) and it&#x27;s crazy. From another DX7 machine to a simple little groove box with samples and sequences and a really quite lovely UX. So fun"
+    },
+    {
+      "id": 49995819,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49995819",
+      "author": "criddell",
+      "posted_at": 1791393443,
+      "text": "At some museums you can hire an art history expert as a guide. In addition to learning the basics (era, artist, etc...) you also find out what's important about any particular piece. They tell you what came before or after the painting or sculpture. You find out who was working with whom. Does the piece have an interesting backstory? Questionable provenance? What was the cultural or political environment at the time?\nThis does have a little blurb as you enter different galleries, but it's pretty broad. It would be neat to have more details per work.\nI really wish I had taken an art history course when I was in school...",
+      "raw_html": "At some museums you can hire an art history expert as a guide. In addition to learning the basics (era, artist, etc...) you also find out what&#x27;s important about any particular piece. They tell you what came before or after the painting or sculpture. You find out who was working with whom. Does the piece have an interesting backstory? Questionable provenance? What was the cultural or political environment at the time?<p>This does have a little blurb as you enter different galleries, but it&#x27;s pretty broad. It would be neat to have more details per work.<p>I really wish I had taken an art history course when I was in school..."
+    },
+    {
+      "id": 49994365,
+      "story_id": 49991986,
+      "story_title": "Show HN: Procinsh – A 3D Linux process inspector",
+      "source_url": "https://news.ycombinator.com/item?id=49994365",
+      "author": "v3ss0n",
+      "posted_at": 1791387503,
+      "text": "Look at that FPS!! Now we need another inspector to monitor Procinsh.",
+      "raw_html": "Look at that FPS!! Now we need another inspector to monitor Procinsh."
+    },
+    {
+      "id": 49997673,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49997673",
+      "author": "pointpth",
+      "posted_at": 1791401393,
+      "text": "just getting into astrophotography - seeing a few apps for that purpose have been fun.\n@HeavenFox - also in NYC -  drop me a line over at allisterk.com if you have a chance!",
+      "raw_html": "just getting into astrophotography - seeing a few apps for that purpose have been fun.<p>@HeavenFox - also in NYC -  drop me a line over at allisterk.com if you have a chance!"
+    },
+    {
+      "id": 49990434,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990434",
+      "author": "airza",
+      "posted_at": 1791366414,
+      "text": "It seems like a very lazy attempt to rebut the reasons. In particular:\n\"In this situation it isn’t the technology that takes the job, it’s the mode of production. And given that programming is intellectual work, the means of production is literally our heads, we ought to be able to seize those.\"\nThe word 'ought' is doing so much heavy lifting here...",
+      "raw_html": "It seems like a very lazy attempt to rebut the reasons. In particular:<p>&quot;In this situation it isn’t the technology that takes the job, it’s the mode of production. And given that programming is intellectual work, the means of production is literally our heads, we ought to be able to seize those.&quot;<p>The word &#x27;ought&#x27; is doing so much heavy lifting here..."
+    },
+    {
+      "id": 49993345,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49993345",
+      "author": "jodrellblank",
+      "posted_at": 1791383230,
+      "text": "You’ve made a million dollars a year for five years with it? Why are you stressing about lawyers and support tickets instead of being retired?",
+      "raw_html": "You’ve made a million dollars a year for five years with it? Why are you stressing about lawyers and support tickets instead of being retired?"
+    },
+    {
+      "id": 49998553,
+      "story_id": 49986862,
+      "story_title": "ESP32-C3 Adblock",
+      "source_url": "https://news.ycombinator.com/item?id=49998553",
+      "author": "Muhammad523",
+      "posted_at": 1791405831,
+      "text": "I was exited to read about this until I saw \"Claude\" listed as a contributor.",
+      "raw_html": "I was exited to read about this until I saw &quot;Claude&quot; listed as a contributor."
+    },
+    {
+      "id": 49994954,
+      "story_id": 49978333,
+      "story_title": "What is Codemode",
+      "source_url": "https://news.ycombinator.com/item?id=49994954",
+      "author": "WinstonSmith84",
+      "posted_at": 1791390038,
+      "text": "I've been using Codemode with the new Dot so that Dot can coordinate my agents with:\n1. Launching workflows, so it avoids some large configuration\n2. Reviewing work, with reviewers restricted to read-only tools or specific tools. Or some tools for reviewers to check hashes, correctness, etc.\n3. I'm using the widely used pi-extensible-workflows. So say you want to stop a workflow, you gonna call workflow_stop. Or check the status with workflow_status. Without Codemode, Pi exposes an API, that the agent can use. So yes, you can call workflow_status. Or call workflow_stop. With Codemode, the agent can do something more complex like a for loop over all the list of workflow ids and get a status and stop them all (again, it's just an example).\nSo basically, Codemode allows to build a sort of framework for more correctness like using a typed language vs. JavaScript without a linter. It gives boundaries essentially. And also Codemode allows an agent to do things more easily like using internal Pi extensions.",
+      "raw_html": "I&#x27;ve been using Codemode with the new Dot so that Dot can coordinate my agents with:<p>1. Launching workflows, so it avoids some large configuration<p>2. Reviewing work, with reviewers restricted to read-only tools or specific tools. Or some tools for reviewers to check hashes, correctness, etc.<p>3. I&#x27;m using the widely used pi-extensible-workflows. So say you want to stop a workflow, you gonna call workflow_stop. Or check the status with workflow_status. Without Codemode, Pi exposes an API, that the agent can use. So yes, you can call workflow_status. Or call workflow_stop. With Codemode, the agent can do something more complex like a for loop over all the list of workflow ids and get a status and stop them all (again, it&#x27;s just an example).<p>So basically, Codemode allows to build a sort of framework for more correctness like using a typed language vs. JavaScript without a linter. It gives boundaries essentially. And also Codemode allows an agent to do things more easily like using internal Pi extensions."
+    },
+    {
+      "id": 49997599,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49997599",
+      "author": "beckford",
+      "posted_at": 1791401096,
+      "text": "Docker Agent could be beneficial for research studies. For example, while writing a ML paper about agents I need to rerun experiments so that:\n- others can repeat my results\n- validate that variability from LLMs is not causing overconfidence in the results\nBut currently uv is good enough to create isolated, repeatable environments. And it isn't limited to Linux like standard Docker. So when I want to test small samples on my local PC's GPU (Windows or mac) before running on beefier hardware, I can do that easily.",
+      "raw_html": "Docker Agent <i>could</i> be beneficial for research studies. For example, while writing a ML paper about agents I need to rerun experiments so that:\n- others can repeat my results\n- validate that variability from LLMs is not causing overconfidence in the results<p>But currently uv is good enough to create isolated, repeatable environments. And it isn&#x27;t limited to Linux like standard Docker. So when I want to test small samples on my local PC&#x27;s GPU (Windows or mac) before running on beefier hardware, I can do that easily."
+    },
+    {
+      "id": 49998856,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49998856",
+      "author": "OutOfHere",
+      "posted_at": 1791407538,
+      "text": "I like it, but to do fizzbuzz in this way, you'd have to separate what's inside the loop into a reused function.",
+      "raw_html": "I like it, but to do fizzbuzz in this way, you&#x27;d have to separate what&#x27;s inside the loop into a reused function."
+    },
+    {
+      "id": 49999471,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49999471",
+      "author": "ShinyLeftPad",
+      "posted_at": 1791411095,
+      "text": "Cool project and nicely done but \"the URL is the app\" is just meaningless and it sounds exactly like what an llm would drop in every other paragraph.",
+      "raw_html": "Cool project and nicely done but &quot;the URL is the app&quot; is just meaningless and it sounds exactly like what an llm would drop in every other paragraph."
+    },
+    {
+      "id": 49991514,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49991514",
+      "author": "YesThatTom2",
+      "posted_at": 1791374288,
+      "text": "Drat!  I hoped this was going to cover the internal battle where Google executives trying to stop JPEG XL and how engineers finally convinced them to change their minds.\nMy guess: the engineers didn’t win the argument.  The executives just gave up once all the other browsers had added support.",
+      "raw_html": "Drat!  I hoped this was going to cover the internal battle where Google executives trying to stop JPEG XL and how engineers finally convinced them to change their minds.<p>My guess: the engineers didn’t win the argument.  The executives just gave up once all the other browsers had added support."
+    },
+    {
+      "id": 49995615,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49995615",
+      "author": "thih9",
+      "posted_at": 1791392617,
+      "text": "“Scenes” look like some roundabout attempt at dithering - not what I expected.\nThe rest is also very maximalist and ornamental. I like them as animations but wouldn’t like them as part of UI or TUI.",
+      "raw_html": "“Scenes” look like some roundabout attempt at dithering - not what I expected.<p>The rest is also very maximalist and ornamental. I like them as animations but wouldn’t like them as part of UI or TUI."
+    },
+    {
+      "id": 49999689,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49999689",
+      "author": "here_to_learn",
+      "posted_at": 1791412490,
+      "text": "I love these kinds of articles, of how we bootstrapped technology.\nI would welcome suggestions for books that describe the advance of technology from early times.\nIm a distractible reader so I prefer books that are a bit more personal and story telling rather than dry.\nThanks!",
+      "raw_html": "I love these kinds of articles, of how we bootstrapped technology.<p>I would welcome suggestions for books that describe the advance of technology from early times.<p>Im a distractible reader so I prefer books that are a bit more personal and story telling rather than dry.<p>Thanks!"
+    },
+    {
+      "id": 49990634,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49990634",
+      "author": "zooweemama",
+      "posted_at": 1791367824,
+      "text": "We need one for the ZX Spectrum too!",
+      "raw_html": "We need one for the ZX Spectrum too!"
+    },
+    {
+      "id": 49993538,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49993538",
+      "author": "TomGarden",
+      "posted_at": 1791384094,
+      "text": "For anyone getting a 403, it's US only right now and fails rather ungracefully. I just tried out a few games, framerates where strange/choppy, even in a match 3 game, and the games I tried were quite bad overall. I'm sure this type of thing will get good very soon though",
+      "raw_html": "For anyone getting a 403, it&#x27;s US only right now and fails rather ungracefully. I just tried out a few games, framerates where strange&#x2F;choppy, even in a match 3 game, and the games I tried were quite bad overall. I&#x27;m sure this type of thing will get good very soon though"
+    },
+    {
+      "id": 49996262,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49996262",
+      "author": "kkapelon",
+      "posted_at": 1791395337,
+      "text": "While I understand where you are coming from, I think some of those are subjective.\nI personally prefer articles that link to other(better) sources for definining concepts instead of trying to explain everything.\nSo several times I read articles like a stack, starging with A, then in the middle going to B and after finishing B going back to A. It doesn't bother me at all. It actually says to me that the author understands they cannot be experts on everything and recognize other articles.\nI also enjoy articles with reveal their twist late if they are not super long.\nOn my personal blog I am actually writing both styles (just explain right away, or build up to something that will become clear later in the article)",
+      "raw_html": "While I understand where you are coming from, I think some of those are subjective.<p>I personally prefer articles that link to other(better) sources for definining concepts instead of trying to explain everything.<p>So several times I read articles like a stack, starging with A, then in the middle going to B and after finishing B going back to A. It doesn&#x27;t bother me at all. It actually says to me that the author understands they cannot be experts on everything and recognize other articles.<p>I also enjoy articles with reveal their twist late if they are not super long.<p>On my personal blog I am actually writing both styles (just explain right away, or build up to something that will become clear later in the article)"
+    },
+    {
+      "id": 49993983,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49993983",
+      "author": "sarkarghya",
+      "posted_at": 1791386085,
+      "text": "Here is openai:\nhttps://help.openai.com/en/articles/8912793-provenance-signa...\nThere is rate limit though",
+      "raw_html": "Here is openai:<p><a href=\"https:&#x2F;&#x2F;help.openai.com&#x2F;en&#x2F;articles&#x2F;8912793-provenance-signals-in-openai-generated-content?utm_source=chatgpt.com\" rel=\"nofollow\">https:&#x2F;&#x2F;help.openai.com&#x2F;en&#x2F;articles&#x2F;8912793-provenance-signa...</a><p>There is rate limit though"
+    },
+    {
+      "id": 49997827,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49997827",
+      "author": "conception",
+      "posted_at": 1791402110,
+      "text": "I noticed lots of talk about privacy but this seems to be a prompt injection factory no?",
+      "raw_html": "I noticed lots of talk about privacy but this seems to be a prompt injection factory no?"
+    },
+    {
+      "id": 49995516,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49995516",
+      "author": "Onavo",
+      "posted_at": 1791392258,
+      "text": "I saw one yesterday for GTA 6 it was taken down. Somebody can probably dig up the X link.",
+      "raw_html": "I saw one yesterday for GTA 6 it was taken down. Somebody can probably dig up the X link."
+    },
+    {
+      "id": 49993505,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49993505",
+      "author": "erelong",
+      "posted_at": 1791383942,
+      "text": "Yeah I've thought of speaking like a caveman before to AIs but also maybe we could communicate more simply with people; ironically the article could be rewritten in telegraphese or caveman-speak\nWould be nice to see language engineered to communicate more simply (like the idea of -- not necessarily implementation -- simple Wikipedia)\nAlso articles like this sprawl a bit and idk how to even make them easier to read (maybe AI has ideas to make reading and writing simpler)",
+      "raw_html": "Yeah I&#x27;ve thought of speaking like a caveman before to AIs but also maybe we could communicate more simply with people; ironically the article could be rewritten in telegraphese or caveman-speak<p>Would be nice to see language engineered to communicate more simply (like the idea of -- not necessarily implementation -- simple Wikipedia)<p>Also articles like this sprawl a bit and idk how to even make them easier to read (maybe AI has ideas to make reading and writing simpler)"
+    },
+    {
+      "id": 49999371,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49999371",
+      "author": "nwalkr",
+      "posted_at": 1791410462,
+      "text": "yeah, this escalated quickly.\ni hope to see fm-1.5 with sd card soon to make it sampler. or is it time for hardware mod?..",
+      "raw_html": "yeah, this escalated quickly.<p>i hope to see fm-1.5 with sd card soon to make it sampler. or is it time for hardware mod?.."
+    },
+    {
+      "id": 49994570,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49994570",
+      "author": "frmfrm",
+      "posted_at": 1791388368,
+      "text": "Very cool! What stood out is there seems to be a canvas pattern added to the images, which the original don't have. I get it adds a nice touch of lighting but I'd prefer to switch that off to see the image without modifications. Great work!",
+      "raw_html": "Very cool! What stood out is there seems to be a canvas pattern added to the images, which the original don&#x27;t have. I get it adds a nice touch of lighting but I&#x27;d prefer to switch that off to see the image without modifications. Great work!"
+    },
+    {
+      "id": 49991506,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49991506",
+      "author": "soltanov",
+      "posted_at": 1791374259,
+      "text": "Good call ditching ML. Traditional CV still wins on power, latency, and determinism for star centroiding.",
+      "raw_html": "Good call ditching ML. Traditional CV still wins on power, latency, and determinism for star centroiding."
+    },
+    {
+      "id": 49990897,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990897",
+      "author": "EarthBlues",
+      "posted_at": 1791369837,
+      "text": "I like AI coding.  I was talking about this with a writer friend: what I get paid for is my judgement.  Which goals are worth pursuing and which aren't?  We always knew tech is all tradeoffs all the way down, so how are they to be evaluated?  My writer friend faces similar challenges.  AI doesn't have an order of values within which to weigh judgements, except for whichever one is implicitly ir explicitly imposed upon it. I also don't think that LLM context works the same way my reflective process works, as far as I can tell. It's much better at the activity of coding than I am and that's great, I'm happy to let it do that.  I've never found it capable of independently making the kinds of judgements that are the meat of my writer friend's and my professions.",
+      "raw_html": "I like AI coding.  I was talking about this with a writer friend: what I get paid for is my judgement.  Which goals are worth pursuing and which aren&#x27;t?  We always knew tech is all tradeoffs all the way down, so how are they to be evaluated?  My writer friend faces similar challenges.  AI doesn&#x27;t have an order of values within which to weigh judgements, except for whichever one is implicitly ir explicitly imposed upon it. I also don&#x27;t think that LLM context works the same way my reflective process works, as far as I can tell. It&#x27;s much better at the activity of coding than I am and that&#x27;s great, I&#x27;m happy to let it do that.  I&#x27;ve never found it capable of independently making the kinds of judgements that are the meat of my writer friend&#x27;s and my professions."
+    },
+    {
+      "id": 49999062,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49999062",
+      "author": "turtlebits",
+      "posted_at": 1791408696,
+      "text": "Piracy is rampant, platform providers aren't going to be able to keep up, especially in this AI age.\nIME, the best route is to disincentivize it, make it harder to copy (obfuscation , etc) or just change your product/lower friction.\nIf people don't want ads, offer a low-cost ad free option.  Having auto-play video ads is extremely distracting.",
+      "raw_html": "Piracy is rampant, platform providers aren&#x27;t going to be able to keep up, especially in this AI age.<p>IME, the best route is to disincentivize it, make it harder to copy (obfuscation , etc) or just change your product&#x2F;lower friction.<p>If people don&#x27;t want ads, offer a low-cost ad free option.  Having auto-play video ads is extremely distracting."
+    },
+    {
+      "id": 49989138,
+      "story_id": 49986862,
+      "story_title": "ESP32-C3 Adblock",
+      "source_url": "https://news.ycombinator.com/item?id=49989138",
+      "author": "anilakar",
+      "posted_at": 1791355043,
+      "text": "There's no point in using PlatformIO for ESP32 MCUs. The native ESP-IDF extension works much better.\nI would only recommend using it instead of the standard Arduino Processing IDE.",
+      "raw_html": "There&#x27;s no point in using PlatformIO for ESP32 MCUs. The native ESP-IDF extension works much better.<p>I would only recommend using it instead of the standard Arduino Processing IDE."
+    },
+    {
+      "id": 49989660,
+      "story_id": 49978333,
+      "story_title": "What is Codemode",
+      "source_url": "https://news.ycombinator.com/item?id=49989660",
+      "author": "mi_lk",
+      "posted_at": 1791359804,
+      "text": "Why is this a personal blog, not a Pi post?\nhttps://earendil.com/posts/you-said-no-mcp/ remains difficult to read without understanding what codemode is, with some quote like \"Now we talked so much about Codemode, it might be worth explaining what that even is.\"",
+      "raw_html": "Why is this a personal blog, not a Pi post?<p><a href=\"https:&#x2F;&#x2F;earendil.com&#x2F;posts&#x2F;you-said-no-mcp&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;earendil.com&#x2F;posts&#x2F;you-said-no-mcp&#x2F;</a> remains difficult to read without understanding what codemode is, with some quote like &quot;Now we talked so much about Codemode, it might be worth explaining what that even is.&quot;"
+    },
+    {
+      "id": 49997052,
+      "story_id": 49996259,
+      "story_title": "Docker Agent",
+      "source_url": "https://news.ycombinator.com/item?id=49997052",
+      "author": "tamimio",
+      "posted_at": 1791398480,
+      "text": ">What it is, what it isn’t\nYep, open ai sol model wrote that.",
+      "raw_html": "&gt;What it is, what it isn’t<p>Yep, open ai sol model wrote that."
+    },
+    {
+      "id": 49998841,
+      "story_id": 49997073,
+      "story_title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "source_url": "https://news.ycombinator.com/item?id=49998841",
+      "author": "alterom",
+      "posted_at": 1791407430,
+      "text": "TL;DR in one sentence:\n\"the loop runs without a branch, and is a candidate for vectorization\".\nThat's it, that's the article. This matters a lot in huge-scale / scientific computing / HPF, where if you can express something as an operation on vectors on matrices, you win big (those ops parallelize well, can be run on GPUs, clusters, what have you).",
+      "raw_html": "TL;DR in one sentence:<p>&quot;the loop runs without a branch, and is a candidate for vectorization&quot;.<p>That&#x27;s it, that&#x27;s the article. This matters a lot in huge-scale &#x2F; scientific computing &#x2F; HPF, where if you can express something as an operation on vectors on matrices, you win <i>big</i> (those ops parallelize well, can be run on GPUs, clusters, what have you)."
+    },
+    {
+      "id": 49996255,
+      "story_id": 49994443,
+      "story_title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "source_url": "https://news.ycombinator.com/item?id=49996255",
+      "author": "darkstar999",
+      "posted_at": 1791395276,
+      "text": "\"Nothing else: no lists, tables, links, quotes, images or rules.\"\nClaudish needs to be cleaned up.",
+      "raw_html": "&quot;Nothing else: no lists, tables, links, quotes, images or rules.&quot;<p>Claudish needs to be cleaned up."
+    },
+    {
+      "id": 49996166,
+      "story_id": 49991227,
+      "story_title": "Shipping JPEG XL in Chrome",
+      "source_url": "https://news.ycombinator.com/item?id=49996166",
+      "author": "flockonus",
+      "posted_at": 1791394868,
+      "text": "Interesting win for a cool format, i remember there was a rather arbitrary closing of the issue in Chromium forum despite big support for its addition, more strange yet is that Chrome team was pushing it's technical advancement forward.\nSadly, still far from adoptable today's web:\nhttps://caniuse.com/jpegxl = 17%\nhttps://caniuse.com/?search=webp = 97%",
+      "raw_html": "Interesting win for a cool format, i remember there was a rather arbitrary closing of the issue in Chromium forum despite big support for its addition, more strange yet is that Chrome team was pushing it&#x27;s technical advancement forward.<p>Sadly, still far from adoptable today&#x27;s web:\n<a href=\"https:&#x2F;&#x2F;caniuse.com&#x2F;jpegxl\" rel=\"nofollow\">https:&#x2F;&#x2F;caniuse.com&#x2F;jpegxl</a> = 17%\n<a href=\"https:&#x2F;&#x2F;caniuse.com&#x2F;?search=webp\" rel=\"nofollow\">https:&#x2F;&#x2F;caniuse.com&#x2F;?search=webp</a> = 97%"
+    },
+    {
+      "id": 49995051,
+      "story_id": 49993857,
+      "story_title": "Animated ASCII Art for Web Pages",
+      "source_url": "https://news.ycombinator.com/item?id=49995051",
+      "author": "kirth_gersen",
+      "posted_at": 1791390452,
+      "text": "beautiful. i don't see the pieces as animated, however. perhaps I am missing something?",
+      "raw_html": "beautiful. i don&#x27;t see the pieces as animated, however. perhaps I am missing something?"
+    },
+    {
+      "id": 49999351,
+      "story_id": 49980626,
+      "story_title": "How machines learned precision",
+      "source_url": "https://news.ycombinator.com/item?id=49999351",
+      "author": "WillAdams",
+      "posted_at": 1791410332,
+      "text": "This sort of thing makes me wonder what the successor is to the Gingery Books now that they're going away:\nhttps://gingerybookstore.com/\nChris Borges has done some pretty cool little machines using 3D printed forms filled with concrete:\nhttps://www.printables.com/@ChrisBorge\nand of course there are more CNC router designs than one can shake a stick at (ob. discl., I work for a company which makes one)",
+      "raw_html": "This sort of thing makes me wonder what the successor is to the Gingery Books now that they&#x27;re going away:<p><a href=\"https:&#x2F;&#x2F;gingerybookstore.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;gingerybookstore.com&#x2F;</a><p>Chris Borges has done some pretty cool little machines using 3D printed forms filled with concrete:<p><a href=\"https:&#x2F;&#x2F;www.printables.com&#x2F;@ChrisBorge\" rel=\"nofollow\">https:&#x2F;&#x2F;www.printables.com&#x2F;@ChrisBorge</a><p>and of course there are more CNC router designs than one can shake a stick at (ob. discl., I work for a company which makes one)"
+    },
+    {
+      "id": 49991459,
+      "story_id": 49990224,
+      "story_title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "source_url": "https://news.ycombinator.com/item?id=49991459",
+      "author": "orbital-decay",
+      "posted_at": 1791373927,
+      "text": "But what font did the C64 keyboard originally use?",
+      "raw_html": "But what font did the C64 keyboard originally use?"
+    },
+    {
+      "id": 49999120,
+      "story_id": 49991823,
+      "story_title": "Google Playground: Create and play custom games",
+      "source_url": "https://news.ycombinator.com/item?id=49999120",
+      "author": "palata",
+      "posted_at": 1791409015,
+      "text": "I thought it was just not working on Firefox, but it doesn't seem to work for me on Google Chrome.\n\"Create custom games in minutes > Press Start\" just opens a new tab with... the same page?",
+      "raw_html": "I thought it was just not working on Firefox, but it doesn&#x27;t seem to work for me on Google Chrome.<p>&quot;Create custom games in minutes &gt; Press Start&quot; just opens a new tab with... the same page?"
+    },
+    {
+      "id": 49996395,
+      "story_id": 49992257,
+      "story_title": "Anti-patterns in software blogging",
+      "source_url": "https://news.ycombinator.com/item?id=49996395",
+      "author": "FlyingSnake",
+      "posted_at": 1791395898,
+      "text": "Many folks are great writers, but bad editors and the meandering intro is what kills most blog posts for me. Too bad because we really need more personal stories.\nI start with the conclusion in the first paragraph[1], and the user can decide if it’s worth their time or not. Unless you’re Gabriel Garcia Marquez, no one’s going to read your rambling.\n[1] https://samkhawase.com/blog/email-is-crazy/",
+      "raw_html": "Many folks are great writers, but bad editors and the meandering intro is what kills most blog posts for me. Too bad because we really need more personal stories.<p>I start with the conclusion in the first paragraph[1], and the user can decide if it’s worth their time or not. Unless you’re Gabriel Garcia Marquez, no one’s going to read your rambling.<p>[1] <a href=\"https:&#x2F;&#x2F;samkhawase.com&#x2F;blog&#x2F;email-is-crazy&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;samkhawase.com&#x2F;blog&#x2F;email-is-crazy&#x2F;</a>"
+    },
+    {
+      "id": 49999300,
+      "story_id": 49993188,
+      "story_title": "SynthID Detector",
+      "source_url": "https://news.ycombinator.com/item?id=49999300",
+      "author": "charcircuit",
+      "posted_at": 1791410065,
+      "text": "No artist wants their artwork be defined by the noise synthid ads.",
+      "raw_html": "No artist wants their artwork be defined by the noise synthid ads."
+    },
+    {
+      "id": 49998197,
+      "story_id": 49995539,
+      "story_title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source_url": "https://news.ycombinator.com/item?id=49998197",
+      "author": "bensonperry",
+      "posted_at": 1791404124,
+      "text": "super interesting, i feel like this is an extension of the \"complain\" skills some folks (including myself) use",
+      "raw_html": "super interesting, i feel like this is an extension of the &quot;complain&quot; skills some folks (including myself) use"
+    },
+    {
+      "id": 49993618,
+      "story_id": 49991243,
+      "story_title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "source_url": "https://news.ycombinator.com/item?id=49993618",
+      "author": "doublerabbit",
+      "posted_at": 1791384444,
+      "text": "Insane that we can now decompile PSP games to WebGL. Emulation has come far from 2006 where ePSXe the PS1 emulator would only run on a beefy Pentium.",
+      "raw_html": "Insane that we can now decompile PSP games to WebGL. Emulation has come far from 2006 where ePSXe the PS1 emulator would only run on a beefy Pentium."
+    },
+    {
+      "id": 49997884,
+      "story_id": 49991580,
+      "story_title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "source_url": "https://news.ycombinator.com/item?id=49997884",
+      "author": "1vuio0pswjnm7",
+      "posted_at": 1791402388,
+      "text": "Maybe agents can communicate via Morse code through port knocking, stick tables or something similar",
+      "raw_html": "Maybe agents can communicate via Morse code through port knocking, stick tables or something similar"
+    },
+    {
+      "id": 49997747,
+      "story_id": 49994065,
+      "story_title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
+      "source_url": "https://news.ycombinator.com/item?id=49997747",
+      "author": "Archit3ch",
+      "posted_at": 1791401752,
+      "text": "I don't get the hype. A processor 10'000x less powerful than a 2021 M1 iPad, sound quality of late 90s to early 2000s VA. It's cheap and sounds the part.\nYou CAN get an STM32 to sound beautiful and fun (shout out MI Braids), but in 2026 that's available in VCV Rack for free.",
+      "raw_html": "I don&#x27;t get the hype. A processor 10&#x27;000x less powerful than a 2021 M1 iPad, sound quality of late 90s to early 2000s VA. It&#x27;s cheap and sounds the part.<p>You CAN get an STM32 to sound beautiful and fun (shout out MI Braids), but in 2026 that&#x27;s available in VCV Rack for free."
+    },
+    {
+      "id": 49993986,
+      "story_id": 49992057,
+      "story_title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+      "source_url": "https://news.ycombinator.com/item?id=49993986",
+      "author": "whycombinetor",
+      "posted_at": 1791386099,
+      "text": "Very cool, but I can't seem to jump up onto the benches, even with crouch jumping.",
+      "raw_html": "Very cool, but I can&#x27;t seem to jump up onto the benches, even with crouch jumping."
+    },
+    {
+      "id": 49991388,
+      "story_id": 49954015,
+      "story_title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source_url": "https://news.ycombinator.com/item?id=49991388",
+      "author": "fanatic2pope",
+      "posted_at": 1791373475,
+      "text": "This looks great, but why is there no \"plus\" version for Android?",
+      "raw_html": "This looks great, but why is there no &quot;plus&quot; version for Android?"
+    },
+    {
+      "id": 49990748,
+      "story_id": 49990204,
+      "story_title": "Reasons to Dislike AI Coding",
+      "source_url": "https://news.ycombinator.com/item?id=49990748",
+      "author": "_usefulcat",
+      "posted_at": 1791368539,
+      "text": "There are a lot of similar articles to this recently, and there will be many more. There will also be many articles with the opposite view. Both are interesting and offer different viewpoints to what is the biggest software engineers' existential crisis.\nI don't agree with this article but equally I respect their opinion. My primary reason I use AI is that a lot of coding is boring and has often made me wonder what I am doing with my life. At least now I am able to focus more on the parts of software development that interest me, shifting more of my time to the left of the development lifecycle: innovation and design",
+      "raw_html": "There are a lot of similar articles to this recently, and there will be many more. There will also be many articles with the opposite view. Both are interesting and offer different viewpoints to what is the biggest software engineers&#x27; existential crisis.<p>I don&#x27;t agree with this article but equally I respect their opinion. My primary reason I use AI is that a lot of coding is boring and has often made me wonder what I am doing with my life. At least now I am able to focus more on the parts of software development that interest me, shifting more of my time to the left of the development lifecycle: innovation and design"
+    },
+    {
+      "id": 49991556,
+      "story_id": 49982498,
+      "story_title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "source_url": "https://news.ycombinator.com/item?id=49991556",
+      "author": "lewelove",
+      "posted_at": 1791374531,
+      "text": "With all due respect: people should be able to do this. Copyright as a concept applied to code was always a god-awful idea, DMCA especially. And for JS served on the open web it's plainly comedic.\nSomeone can always make a new repo without redistributing your code, sourcing and hot-patching it directly from your domain. GitHub deleting this repo won't ever fix it, you're playing whack-a-mole and doing free PR for these repos here on HN.\nWe seem to forget that this website is called Hacker News.",
+      "raw_html": "With all due respect: people should be able to do this. Copyright as a concept applied to code was always a god-awful idea, DMCA especially. And for JS served on the open web it&#x27;s plainly comedic.<p>Someone can always make a new repo without redistributing your code, sourcing and hot-patching it directly from your domain. GitHub deleting this repo won&#x27;t ever fix it, you&#x27;re playing whack-a-mole and doing free PR for these repos here on HN.<p>We seem to forget that this website is called Hacker News."
+    }
+  ]
+}
