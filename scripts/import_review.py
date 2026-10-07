@@ -96,7 +96,7 @@ def main():
     if (ROOT/'results.json').exists():
         parser.error('Results already exist; do not rewrite the preregistered criteria.')
     buffer = io.StringIO(newline='')
-    writer = csv.DictWriter(buffer, fieldnames=['text', 'label', 'note'])
+    writer = csv.DictWriter(buffer, fieldnames=['text', 'label', 'note'], lineterminator='\n')
     writer.writeheader()
     writer.writerows(rows)
     csv_text = buffer.getvalue()
