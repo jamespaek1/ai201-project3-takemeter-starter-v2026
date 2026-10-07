@@ -1,0 +1,108 @@
+{
+  "scope": "Instructor AI-assisted example \u2014 Codex AI labeled 20 reserved comments, reviewed 180 AI-draft labels, and authored the criteria; no human cold-labeling or human label review claimed",
+  "started_utc": "2026-10-07T23:21:19.731596+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "notebook_sha256": "a6a26476b9f7c17f753e805c497a3396bcdc73f652bc698cf06ebb0c6ef0e775",
+  "csv": "labels.csv",
+  "csv_sha256": "743ccf0f73b4c6656154e253e1d874770df4b38ea1ca22618e60480c79ab8706",
+  "output_dir": ".",
+  "executed_cell_indices": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "command": "scripts/run_notebook.py --csv labels.csv --labels request grounded ungrounded",
+  "status": "completed",
+  "labels_sha256": "743ccf0f73b4c6656154e253e1d874770df4b38ea1ca22618e60480c79ab8706",
+  "criteria_sha256": "c3b021cd688140f3a1875b42e35eec4fcebc6829c6eb96926297154901b23575",
+  "preregistered_commit": "5709375740c1d165f4cf446794e436b63882e623",
+  "review_mode": "instructor_ai_assisted",
+  "reviewer": "Codex AI",
+  "human_review_completed": false,
+  "ai_labeled_reserved_count": 20,
+  "ai_reviewed_draft_count": 180,
+  "human_cold_count": 0,
+  "human_reviewed_count": 0,
+  "saved_model_dir": "models/unit5",
+  "results": {
+    "seed": 42,
+    "n_test": 30,
+    "accuracy": 0.5333333333333333,
+    "f1_macro": 0.2318840579710145,
+    "per_label": {
+      "request": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "grounded": {
+        "precision": 0.5333333333333333,
+        "recall": 1.0,
+        "f1": 0.6956521739130435,
+        "support": 16
+      },
+      "ungrounded": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "request": {
+        "request": 0,
+        "grounded": 7,
+        "ungrounded": 0
+      },
+      "grounded": {
+        "request": 0,
+        "grounded": 16,
+        "ungrounded": 0
+      },
+      "ungrounded": {
+        "request": 0,
+        "grounded": 7,
+        "ungrounded": 0
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.5676445364952087,
+      "mean_when_wrong": 0.5424041748046875,
+      "accuracy_most_confident_third": 0.6,
+      "accuracy_least_confident_third": 0.2,
+      "n_per_third": 10
+    },
+    "device": "mps",
+    "device_name": "Apple Silicon GPU (MPS)",
+    "torch_version": "2.14.1",
+    "max_length": 128
+  },
+  "settings": {
+    "LABELS": [
+      "request",
+      "grounded",
+      "ungrounded"
+    ],
+    "BASE_MODEL": "distilbert-base-uncased",
+    "EPOCHS": 3,
+    "LEARNING_RATE": 2e-05,
+    "BATCH_SIZE": 16,
+    "MAX_LENGTH": 128,
+    "SEED": 42
+  },
+  "n_rows": 200,
+  "split_sizes": {
+    "train": 139,
+    "val": 31,
+    "test": 30
+  },
+  "elapsed_seconds": 17.91,
+  "finished_utc": "2026-10-07T23:21:37.655903+00:00"
+}

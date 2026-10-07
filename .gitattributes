@@ -1,0 +1,2 @@
+# Preserve raw terminal progress output as run evidence, including padded lines.
+evidence/*-run.log whitespace=-blank-at-eol

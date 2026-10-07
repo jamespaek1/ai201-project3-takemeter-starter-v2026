@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "n_rows": 200,
+  "label_counts": {
+    "grounded": 108,
+    "ungrounded": 49,
+    "request": 43
+  },
+  "duplicate_texts": 0,
+  "missing_labels": 0,
+  "review_mode": "instructor_ai_assisted",
+  "review_provenance_complete": true,
+  "human_review_claimed": false,
+  "criteria_and_dataset_match_preregistered_commit": "5709375740c1d165f4cf446794e436b63882e623",
+  "split_sizes": {
+    "train": 139,
+    "val": 31,
+    "test": 30
+  },
+  "split_overlap_count": 0,
+  "saved_test_matches_starter_split": true,
+  "saved_model_reloaded_successfully": true,
+  "reload_device": "mps",
+  "reloaded_accuracy": 0.5333333333333333,
+  "reloaded_macro_f1": 0.2318840579710145,
+  "reloaded_predictions_match_saved_confusion": true,
+  "posts_over_128_model_tokens": 29,
+  "longest_post_tokens": 249,
+  "model_weights_ignored_by_git": true
+}
