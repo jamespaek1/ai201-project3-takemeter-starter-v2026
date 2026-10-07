@@ -1,0 +1,5 @@
+{
+  "request": "A comment whose main purpose is to ask the community for information, troubleshooting, a comparison, or a concrete feature/action, even when it supplies background facts.",
+  "grounded": "A non-request comment that supplies at least one concrete observation, technical mechanism, reported firsthand event, explicit example, quotation, or source supporting its main claim.",
+  "ungrounded": "A non-request comment expressing an opinion, prediction, reaction, or general claim without concrete support for that claim in the comment itself."
+}
