@@ -209,8 +209,8 @@ def main():
                     overrides = {}
                     if index == 4:
                         overrides = {"NAME": args.name, "EMAIL": args.email}
-                    elif index == 6 and args.labels:
-                        overrides = {"LABELS": args.labels}
+                    elif index == 6:
+                        overrides = {"LABELS": ["analysis", "hot_take", "reaction"] if args.practice else args.labels}
                     elif index == 8:
                         overrides = {"CSV": str(csv_path)}
                         os.chdir(output_dir)

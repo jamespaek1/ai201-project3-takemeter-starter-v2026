@@ -628,7 +628,7 @@
     "text": "8BitDo made a modern mechanical keyboard that looks like a C64. I got one and I am loving it.\nhttps://www.8bitdo.com/retro-mechanical-keyboard-c64/",
     "source_url": "https://news.ycombinator.com/item?id=49995742",
     "label": "grounded",
-    "note": "AI pre-labeled; pending_human_review; source=https://news.ycombinator.com/item?id=49995742; rationale=Reports owning the linked C64-style keyboard as the basis for the recommendation.",
+    "note": "AI pre-labeled; pending_human_review; source=https://news.ycombinator.com/item?id=49995742; rationale=Identifies the C64-style keyboard and links its product page; the concrete design claim supplies support, not ownership or liking alone.; hard_case; alternative=ungrounded",
     "cold": false
   },
   {
@@ -1068,7 +1068,7 @@
     "text": "Myself and a couple friends bought this device a few weeks ago and with the firmware being released, its an amazing device.\nI love the idea of cheaper Chinese music hardware with the ability for open source firmware and apps to be loaded into them. I hope the success of this sees a sampler from M-Wave - I'd love a Chinese 404 or MPC...",
     "source_url": "https://news.ycombinator.com/item?id=49995360",
     "label": "grounded",
-    "note": "AI pre-labeled; pending_human_review; source=https://news.ycombinator.com/item?id=49995360; rationale=Reports recent purchases and firmware availability as the basis for enthusiasm.",
+    "note": "AI pre-labeled; pending_human_review; source=https://news.ycombinator.com/item?id=49995360; rationale=Identifies the ability to load open-source firmware and apps as the concrete capability behind the enthusiasm, not just ownership.",
     "cold": false
   },
   {

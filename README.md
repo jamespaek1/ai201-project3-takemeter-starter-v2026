@@ -1,396 +1,127 @@
-# TakeMeter
+# TakeMeter — Hacker News technology discussions
 
-> ### 👋 Start here
->
-> **New to this repo? Read [RUNNING.md](RUNNING.md) first** — setup, the
-> notebook, the baseline, and what to do when something breaks.
->
-> Once `python test.py` passes:
->
-> ```bash
-> head -5 data/practice_labels.csv     # the shape your labels.csv needs
-> ```
->
-> Then open `takemeter.ipynb` **in this folder** — in VS Code, or with
-> `jupyter notebook` if you prefer. Pick the kernel: the `.venv` inside this
-> project. Run section 1, which reports the hardware you'll be training on.
-> Everything else waits until you have data.
->
-> Nothing to upload, nothing to connect, no accounts and no keys. The notebook
-> runs on your machine and writes next to your code.
->
-> **The rest of this file is your submission.** Fill it in as you go.
-
----
-
-<!-- ─────────────────────────────────────────────────────────────────────────
-     HOW TO USE THIS FILE
-
-     Unit 5 asks for the first five sections. Unit 6 adds the five below them.
-
-     Everything is pasted as TEXT. No screenshots, no images.
-
-     ⚠️ The confusion matrix especially. The notebook prints one as a markdown
-     table, ready to copy. A screenshot of a matrix earns nothing. Paste the
-     table.
-     ───────────────────────────────────────────────────────────────────────── -->
-
-<!-- ═══════════════════════ UNIT 5 — THE BUILD ═══════════════════════ -->
+> **Status: prepared for student review; not ready for submission.** The repository contains 200 real comments, an AI-assisted taxonomy, local training tools, and a successful isolated practice run. Twenty unaided labels, individual review of 180 AI drafts, five student-authored criteria, and the assignment training run remain. No course submission has been made.
 
 ## What This Does
 
-<!-- Your community, and what your classifier sorts posts into. Three or four
-     sentences. -->
-
-
-
----
+TakeMeter classifies complete comments from the public Hacker News technology community into `request`, `grounded`, and `ungrounded`. It distinguishes genuine requests from statements that supply concrete support and statements that do not. It measures what a comment provides in its own text, not whether the author is correct, trustworthy, or an expert. Codex prepared the community reading and candidate taxonomy; James’s review is pending.
 
 ## Label Taxonomy
 
-<!-- Each label: a one-sentence definition and two real examples from your
-     reading. Then your decision rule for the hardest boundary.
+### `request`
 
-     The decision rule is worth a point on its own and it's the thing most
-     people leave out. Every taxonomy has a hardest boundary. Name yours. -->
+**Definition:** A comment whose main purpose is to ask the community for information, troubleshooting, a comparison, or a concrete feature/action, even when it supplies background facts.
 
-### `label_one`
+**Real example 1:** [HN 49997782](https://news.ycombinator.com/item?id=49997782)
 
-**Definition:**
+> What is the incentive for me to spend my tokens on submitting reviews?
 
-**Example 1:**
->
+**Real example 2:** [HN 49999634](https://news.ycombinator.com/item?id=49999634)
 
-**Example 2:**
->
+> would be helpful to hear the sound as the viz goes by.
 
-### `label_two`
+### `grounded`
 
-**Definition:**
+**Definition:** A non-request comment that supplies at least one concrete observation, technical mechanism, reported firsthand event, explicit example, quotation, or source supporting its main claim.
 
-**Example 1:**
->
+**Real example 1:** [HN 49992110](https://news.ycombinator.com/item?id=49992110)
 
-**Example 2:**
->
+> I’m fairly convinced that Debug should never be inlined. Display probably neither, the fmt machinery is heavy enough that not inlining is probably not a bottleneck even in serialization-heavy workloads. I’ve had to #[inline(never)] some of my own Debug/Display impls, shrinking the binary by tens of kilobytes (out of a few hundred, so relatively a significant reduction).
+
+**Real example 2:** [HN 49991744](https://news.ycombinator.com/item?id=49991744)
+
+> The old versions of VIC-20 used a font called Microgramma.
+> https://www.reddit.com/r/vintagecomputing/comments/1pjw7q6/t...
+> https://en.wikipedia.org/wiki/Microgramma_(typeface)
+
+### `ungrounded`
+
+**Definition:** A non-request comment expressing an opinion, prediction, reaction, or general claim without concrete support for that claim in the comment itself.
+
+**Real example 1:** [HN 49998049](https://news.ycombinator.com/item?id=49998049)
+
+> I am continually impressed by the ability of LLMs to take trivial ideas and turn them into lengthy and obtuse blog posts with unnecessary analogies.
+
+**Real example 2:** [HN 49999510](https://news.ycombinator.com/item?id=49999510)
+
+> Seeing Armature's pitch, It's very easy to see this is going to be pay-to-rank-higher as the next move once some critical mass of people starts pointing out their agents for this site as a reference. Adwords for tooling!!
 
 ### The hardest boundary
 
-**Which two labels:**
+**`grounded` versus `ungrounded`:** require concrete support that bears on the main claim: a described observation, technical mechanism, firsthand event, explicit example, quotation, or identified source. A number, URL, tool name, confident tone, ownership, or hypothetical analogy alone is insufficient. A reported firsthand observation counts as support without being independently verified.
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
-
-
-
----
+**Precedence:** classify a genuine request by its main purpose, even if it supplies factual background. A rhetorical or self-answered question does not make a comment a `request`. Concrete feature suggestions count as requests. Then distinguish supported from unsupported statements using the rule above. The [eight synthetic boundary tests](evidence/taxonomy_stress_test.md) are separate from the real dataset.
 
 ## The Dataset
 
-<!-- Where you collected from, how you labelled, your counts, and three hard
-     cases. -->
+**Source:** 200 complete public comments collected on 2026-10-07 from 24 technology threads using the [official Hacker News API](https://github.com/HackerNews/API). [Source manifest](data/source_manifest.csv) provides each comment’s author, timestamp, thread, and URL; [raw source snapshot](evidence/source_comments.json) preserves HTML and plain text. The collector considered the first 25 direct comments per thread, retained live unique comments with 8–180 whitespace-delimited words, interleaved threads, and selected 200. HTML formatting was removed; comments were never truncated or generated. Original authors retain their rights; the API documentation’s license is not a blanket content license.
 
-**Where the posts came from:**
+**Workflow:** Codex read 40 comments to propose candidate distinctions, then reserved 20 different comments without suggested labels. Their note is `pending_cold`, not `cold`. The other 180 receive explicitly marked AI draft labels. James must classify the reserved set unaided and read/correct every draft. AI drafts were prepared separately before student review; this is disclosed rather than presented as a completed personal labeling exercise. The worksheet hides drafts until the cold set is completed. All 200 comments remain in one unsplit `labels.csv`; only the notebook creates the 70/15/15 split.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+<!-- COUNTS_START -->
+| Label | AI draft count | Share of 180 drafts | Status |
+|---|---:|---:|---|
+| grounded | 97 | 53.9% | Individual student review pending |
+| ungrounded | 43 | 23.9% | Individual student review pending |
+| request | 40 | 22.2% | Individual student review pending |
+| Unlabeled cold rows | 20 | — | No AI suggestions provided |
+| **All collected comments** | **200** | — | Not a fully labeled submission yet |
 
-**Counts per label:**
+The draft distribution is below the 70% cap. Final counts must be computed after
+all student decisions. With roughly 40–60 examples for a smaller label, only
+about 6–9 may reach a 15% test split, so per-label results can be unstable.
+<!-- COUNTS_END -->
 
-| Label | Count | Share |
-|---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+### Three hard cases (AI draft decisions; student review pending)
 
-**Three hard cases**
+1. [HN 49991267](https://news.ycombinator.com/item?id=49991267) supplies telescope experience and a phone model before asking whether weak night-sky signals work. It could look `grounded`, but `request` wins because compatibility information is its purpose.
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
+2. [HN 49992110](https://news.ycombinator.com/item?id=49992110) opens with an opinion that Debug should never be inlined. It could look `ungrounded`, but the reported binary-size reduction after `#[inline(never)]` supports `grounded`. The text supplies evidence; the dataset does not independently verify the report.
 
-**1.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+3. [HN 49999510](https://news.ycombinator.com/item?id=49999510) predicts a service will become pay-to-rank. A named product and an advertising analogy could seem concrete, but neither supplies evidence for that future outcome, so the draft decision is `ungrounded`.
 
-**2.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
-
-**3.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
-
----
+**Limitations:** shorter top-level comments from a single snapshot are overrepresented. Related threads can occur in multiple random splits even without duplicate text; later performance may partly reflect shared topic vocabulary. Requests and unsupported reactions are not inherently lower quality. Labels remain provisional until student review; neither final balance nor annotation consistency is established.
 
 ## The Training Run
 
-<!-- Your starting model, your settings, and anything you changed and why. -->
+**Assignment run: not started.** No root `results.json` or `test_split.csv` has been created. The five acceptance criteria must be written and committed before training. `criteria.md` intentionally remains the unfilled starter instead of attributing AI-written targets to James.
 
-**Base model:**
+| Setting | Planned value |
+|---|---|
+| Base model | `distilbert-base-uncased` |
+| Device | Apple Silicon GPU (`mps`) |
+| Python / PyTorch | 3.12.14 / 2.14.1 |
+| Epochs | 3 |
+| Learning rate | 2e-5 |
+| Batch size | 16 |
+| Maximum tokens | 128 |
+| Seed | 42 |
+| Split | Starter’s stratified 70/15/15 |
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+No hyperparameter was changed. Full comments stay in the CSV, while tokenization may truncate model inputs at 128 tokens. Actual split sizes and per-label test counts will be recorded after the reviewed dataset is committed. No stretch feature is claimed.
 
-**Anything I changed from the defaults, and why:**
+**Environment verification:** the starter environment test passed 9 checks with 0 failures. The expected Unit 6 baseline-download warning remains. Native execution detects MPS; the shell sandbox reports CPU, so the practice run used native execution. [Environment log](evidence/environment.txt).
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+**Practice only:** sections 1–5 successfully ran on the starter’s separate 60-row fictional running-forum dataset and its original `analysis`/`hot_take`/`reaction` taxonomy. Defaults were unchanged, split sizes were 42/9/9, and all results are isolated under ignored `.cache/practice-run`. The [practice log](evidence/practice-run.log) and [practice summary](evidence/practice-summary.json) are setup evidence, not results for the 200-comment assignment.
 
+### Finish the reviewed assignment run
 
-
----
+1. Open `review.html` in your browser (or the already-open local worksheet) and supply 20 unaided labels, review all 180 drafts, and write five numbered criteria with numeric targets and reasons across at least three areas. Export its JSON.
+2. Run `python scripts/import_review.py /path/to/takemeter-review.json`. The importer validates IDs, full text, labels, review completion, class balance, and criteria.
+3. Review `criteria.md`, update this README with final counts and personal workflow, then commit `criteria.md`, `labels.csv`, and `data/review_completed.json`.
+4. Run `python scripts/run_notebook.py --csv labels.csv --labels request grounded ungrounded`. It executes the notebook’s Unit 5 sections only and refuses unreviewed/uncommitted inputs.
+5. Commit the actual `results.json`, `test_split.csv`, executed notebook, assignment logs, and updated README; push the same fork. The trained model/tokenizer stay in ignored `models/unit5`.
 
 ## How I Used AI
 
-<!-- Two specific moments — what you asked, what came back, what you changed.
+**Disclosure:** James requested that Codex complete Project 5. Codex created the fork, wrote collection/review tooling, read source comments, proposed the taxonomy, prepared draft labels, and ran the isolated practice pipeline. Student authorship, cold labeling, review, hours spent, and assignment results have not been asserted.
 
-     ⚠️ Plus disclosure of any pre-labelling. If you had a model pre-label a
-     batch and then read and corrected every one, say that. It's an allowed
-     workflow and disclosing it costs you nothing. Not disclosing it is the
-     problem. -->
+**Moment 1 — taxonomy boundaries:** Codex compared requests with statements in the first 40 comments and generated eight separate synthetic boundary examples. That test clarified that a number or product name alone is not evidence, and that a genuine request takes precedence over its factual setup. These are AI-assisted decisions awaiting James’s review.
 
-**Moment 1**
+**Moment 2 — implementation and verification:** Codex configured Python 3.12 and MPS, executed the actual starter notebook on practice data, and added validation so training cannot silently proceed with blank labels or uncommitted criteria. A separate Codex agent checked the runner’s failure cases.
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+**Pre-labeling:** the 180 non-cold comments receive Codex draft labels and individual rationales. They are not described as human-checked. The worksheet requires James to review each before export; imported notes distinguish unaided cold labels, reviewed AI labels, and corrections. James’s five criteria are left blank for his own targets and reasons.
 
-**Moment 2**
+**Repository:** https://github.com/jamespaek1/ai201-project3-takemeter-starter-v2026
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
-
-**Pre-labelling disclosure:**
-
-<!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
-
-     Don't fill these in during unit 5.
-     ═══════════════════════════════════════════════════════════════════ -->
-
----
-
-## Baseline vs. Trained
-
-<!-- Both models on the same posts. `python baseline.py --trained results.json`
-     prints this table for you. -->
-
-| Measure | Baseline | Trained | Difference |
-|---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
-
-**What I predicted before I looked:**
-<!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
-     prediction made afterwards isn't one. -->
-
-**What the gap actually means:**
-<!-- If the baseline matched your trained model, your fine-tuning added
-     nothing — and that is a real finding, not a failure. Say it plainly. -->
-
-
-
----
-
-## Run Log — Before
-
-<!-- Five criteria across three seeds. The notebook's section 6 prints the
-     spread table; the Target and Verdict columns are yours. -->
-
-| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
-|---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
-
-### Confusion matrix
-
-<!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
-     An image of a matrix earns nothing. -->
-
-| true \ predicted |  |  |  |
-|---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
-
-**My biggest off-diagonal number, and what it means:**
-<!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
-     direction. "7 real analysis posts were called hot_take and only 3 went the
-     other way" is a direction, not just an error rate. -->
-
-
-
----
-
-## Verdicts and Diagnoses
-
-<!-- MET or MISSED against LAST UNIT's target. The target has to hold across
-     all three seeds, not turn up sometimes. -->
-
-| # | Criterion | Target | Verdict | How I decided |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
-
-**Diagnoses**
-
-<!-- For each miss: the cause, and how you know. The four common causes are:
-     too few examples for a label, a boundary you applied inconsistently, a
-     genuinely hard label pair, and a task the model can't reach from this
-     much data.
-
-     ⚠️ Use your agreement report as evidence. It is the only instrument you
-     have that can tell a LABELLING problem from a MODEL problem, and this
-     section is graded on whether you used it that way. -->
-
-
-
----
-
-## Agreement Report
-
-<!-- Your rate against the staff set, and every disagreement adjudicated.
-
-     Remember you labelled these 30 under the STAFF taxonomy in
-     data/staff_taxonomy.md, not your own — so every argument below is made
-     from those definitions and those decision rules. -->
-
-**Agreement rate:** ___ / 30 = ___%
-
-<!-- Nobody grades this number. A 60% who argues every disagreement from the
-     stated rules beats a 95% who wrote "staff was right" nine times. Several
-     of the 30 were chosen because they're genuinely ambiguous — you should be
-     winning some of these. -->
-
-**Disagreements**
-
-<!-- Three lines each: the post, both labels, and who you think is right and
-     why — grounded in the staff definitions you were both applying.
-
-     Then sort each into one of three piles:
-       (a) the rule covered it and I applied it loosely → a consistency problem
-       (b) the rule genuinely doesn't say               → a gap in the definitions
-       (c) the rule is ambiguous here and my reading is defensible → argue it.
-           This is a legitimate win.
-
-     Pile (a) is the one that matters most for your diagnosis: if you applied a
-     written rule two different ways on 30 posts, that is direct evidence about
-     what you did across your own 200. -->
-
-**1.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
-
-**2.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
-
-**What the pattern in my disagreements tells me:**
-
-
-
----
-
-## The Improvement
-
-**What I changed:**
-
-**Which diagnosis pointed at it:**
-
-### Run Log — After
-
-| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
-|---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
-
-**Did it help, and how do I know:**
-
-<!-- If it didn't, say so. Relabelling that didn't help is a genuinely
-     interesting result and earns full credit. -->
-
-
-
----
-
-## What's Still Broken
-
-<!-- For each criterion still missed: what you'd do, and why you stopped. -->
-
-
-
-**The gap between what I meant my labels to capture and what the model
-learned:**
-<!-- Two sentences. Your confusion matrix is the evidence. -->
-
-
-
-<!-- ═════════════════════════════════════════════════════════════════════
-
-     SUBMISSION CHECKLIST — unit 5
-
-       [ ] criteria.md has five numbered criteria, each naming a NUMBER
-       [ ] Each has a reason underneath tied to your data or taxonomy
-       [ ] labels.csv: at least 150 rows, text/label/note, ONE file not split
-       [ ] No label above 70%
-       [ ] All five unit 5 sections have real content
-       [ ] Label Taxonomy includes the decision rule for your hardest boundary
-       [ ] The Dataset includes three hard cases
-       [ ] results.json and test_split.csv committed (the notebook does this)
-       [ ] At least four new commits
-       [ ] Repository URL submitted — WRITE IT DOWN
-
-     SUBMISSION CHECKLIST — unit 6
-
-       [ ] Baseline vs. Trained table, with your prediction written beforehand
-       [ ] Run Log — Before, five criteria across three seeds
-       [ ] Confusion matrix TYPED AS A MARKDOWN TABLE
-       [ ] A verdict on every criterion
-       [ ] A diagnosis for every miss, using the agreement report as evidence
-       [ ] Agreement Report with every disagreement adjudicated
-       [ ] One improvement, with Run Log — After
-       [ ] What's Still Broken
-       [ ] results_three_seeds_before.json, results_three_seeds_after.json,
-           baseline_results.json and
-           agreement_results.json committed
-       [ ] At least four new commits
-       [ ] The SAME repository URL as last unit
-
-     Do not delete and recreate this repository.
-     ═════════════════════════════════════════════════════════════════════ -->
-
----
-
-📖 **How to run this project: [RUNNING.md](RUNNING.md)**
+Use this same repository for Units 5 and 6. See [RUNNING.md](RUNNING.md) for the starter workflow.

@@ -318,7 +318,9 @@
   {
     "id": 49995742,
     "label": "grounded",
-    "rationale": "Reports owning the linked C64-style keyboard as the basis for the recommendation."
+    "rationale": "Identifies the C64-style keyboard and links its product page; the concrete design claim supplies support, not ownership or liking alone.",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
   },
   {
     "id": 49993449,
@@ -611,7 +613,7 @@
   {
     "id": 49995360,
     "label": "grounded",
-    "rationale": "Reports recent purchases and firmware availability as the basis for enthusiasm."
+    "rationale": "Identifies the ability to load open-source firmware and apps as the concrete capability behind the enthusiasm, not just ownership."
   },
   {
     "id": 49996001,
