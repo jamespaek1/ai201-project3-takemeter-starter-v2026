@@ -1,0 +1,156 @@
+[
+  {
+    "id": 49992860,
+    "label": "grounded",
+    "rationale": "Offers a concrete compiler-emission mechanism and reports mixed performance regressions/improvements in the motivating PR; these support the optimization criticism.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49994201,
+    "label": "grounded",
+    "rationale": "Reports the specific cursor-mode reset and extra click after leaving an image, supporting the annoyance; no explicit request is the main purpose.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows",
+    "hard_case": true,
+    "alternative_label": "request"
+  },
+  {
+    "id": 49993912,
+    "label": "ungrounded",
+    "rationale": "Expresses surprise through a hacker-TV analogy without concrete supporting behavior or evidence.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49991661,
+    "label": "grounded",
+    "rationale": "Compares quoted 10-arcsecond accuracy and runtime with 15-arcsecond-per-second sky motion to explain why tracking is needed.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49990528,
+    "label": "ungrounded",
+    "rationale": "Mainly expresses coding preferences and irritation at repeated articles; rhetorical questions and language names do not substantiate the complaint.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49989198,
+    "label": "ungrounded",
+    "rationale": "Thanks the audience and states hopes and future plans about an unspecified problem; it supplies no concrete evidence for a substantive claim.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49989497,
+    "label": "grounded",
+    "rationale": "Supports the external-antenna recommendation with a reported weak built-in antenna and failed intended uses; this is advice backed by an observation.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49988381,
+    "label": "grounded",
+    "rationale": "Describes a Bash-based prototype, its lack of extra prompt instructions, and a source link supporting the comparison with JavaScript.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49996927,
+    "label": "ungrounded",
+    "rationale": "Compares agent harness proliferation to JavaScript frameworks through a broad analogy and reaction, without an example or evidence.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49999467,
+    "label": "grounded",
+    "rationale": "Supplies a typed function interface and a concrete caller-handling alternative supporting the objection; the closing question reads as rhetorical within the counterargument.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows",
+    "hard_case": true,
+    "alternative_label": "request"
+  },
+  {
+    "id": 49999698,
+    "label": "request",
+    "rationale": "Asks for QR-code support and suggests concrete parameters and another feature idea; seeking additions is the main purpose.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49991443,
+    "label": "grounded",
+    "rationale": "Supplies explicitly titled source links documenting successive JPEG XL browser-support discussions.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49995481,
+    "label": "request",
+    "rationale": "Reports reduced-motion behavior as background for a concrete request to make the demo explain that behavior more clearly.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49999231,
+    "label": "grounded",
+    "rationale": "Supports a named book recommendation by describing its subject and the reported reading experience, rather than only naming or liking it.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49999529,
+    "label": "grounded",
+    "rationale": "Explains why uppercase-only coverage prevents use by contrasting it with the author’s mostly lowercase typing; the concrete limitation supports the conclusion.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49995165,
+    "label": "request",
+    "rationale": "Presents a game idea as background and directly asks whether multiplayer games will be supported.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49995004,
+    "label": "ungrounded",
+    "rationale": "Argues that a general blogging problem is the most damaging without a concrete blog example, measured comparison, or source; the examples are generic hypothetical categories.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49998736,
+    "label": "grounded",
+    "rationale": "Reports an eight-image test with six detected originals and two altered images missed, directly supporting the detector observation.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  },
+  {
+    "id": 49997809,
+    "label": "ungrounded",
+    "rationale": "Uses a literary analogy and an unexplained link before asserting nonhuman authorship; neither establishes that authorship claim.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49996558,
+    "label": "ungrounded",
+    "rationale": "Speculates about a future Sony takedown without support; wondering aloud about timing is not a concrete information request.",
+    "reviewer": "Codex AI",
+    "method": "AI-assisted labeling of formerly reserved rows"
+  }
+]

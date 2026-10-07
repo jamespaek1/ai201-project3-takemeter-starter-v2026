@@ -1,143 +1,79 @@
-# Acceptance criteria — TakeMeter
+# Acceptance criteria — TakeMeter instructor example
 
-Five criteria that say what "working" means for this classifier, written in
-unit 5 **before** anything was trained.
+These five targets were authored with Codex AI assistance at the instructor's
+explicit request and committed before training on the 200 Hacker News comments.
+They are example criteria, not a claim of unaided student authorship. The earlier
+practice run used separate fictional posts and a different taxonomy.
 
-**All five are yours this time.** None are given. You've had two projects of
-practice.
+In Unit 6, model-performance criteria must hold separately for seeds **42, 7,
+and 2024**, using the starter's stratified 70/15/15 splits. Do not average away a
+failed seed or lower a target after seeing results. Dataset balance is checked
+once on the final unsplit CSV. Agreement requires the separate staff reference
+set and is not inferred from model scores or agreement between AI reviewers.
 
-An acceptance criterion names a number. *"The model is accurate"* is an
-opinion. *"Every label has an F1 of at least 0.60 on the held-out set"* is a
-criterion.
+## 1. Overall accuracy: at least 0.70
 
-Under each, write a sentence or two on **why that number**. A reason that says
-something about your data or your taxonomy earns credit — *"I picked 0.60 F1
-for `reaction` because it's my smallest label and I only have about 50
-examples of it"*. A reason that could be attached to any project does not.
+For each seed, at least **70%** of held-out posts must have the correct exact
+label: `request`, `grounded`, or `ungrounded`. Compute correct predictions
+divided by the full test-set size, without excluding ambiguous posts.
 
-> Missing your own targets next unit costs you nothing. Setting a target so
-> easy you can't miss it does.
+**Why this target:** the original drafts are roughly half `grounded`, so a model
+that simply guesses the largest class can appear useful. A 0.70 target asks for
+an improvement over that shortcut while allowing mistakes on mixed requests and
+evidence boundaries in this small, informal-text dataset.
 
----
+## 2. Per-label F1: at least 0.60 for every label
 
-## Pick numbers you can defend
+For each seed, the F1 score for **each of the three labels must be at least
+0.60**, with `zero_division=0`. A missing prediction for one class counts as a
+failure; do not drop that class or substitute macro F1 for its score.
 
-Not numbers that sound impressive. Three labels means a coin-flip guesser gets
-about 33%, so a target of 0.40 is barely a target. Your number should sit
-somewhere you'd honestly call useful.
+**Why this target:** the smaller request and unsupported-statement classes have
+about 40–60 examples apiece, so only about 6–9 may land in a test split. Their
+scores will be noisy, but the classifier must still recognize them instead of
+earning overall accuracy mainly from the supported statements. A 0.60 floor
+requires usable precision and recall without demanding near-perfect learning
+from that little data.
 
-**Cover at least three of these five areas.** They're here as prompts, not as a
-form to fill in — a criterion that fits none of them is fine if it names a
-number.
+## 3. Dataset balance: every label between 20% and 60%
 
-| Area | A question it could answer |
-|---|---|
-| Overall accuracy | How often does it need to be right to be worth using? |
-| Per-label performance | Is one label allowed to be much worse than the others? |
-| Balance | How lopsided can your label counts get before it's a problem? |
-| Consistency | If someone else labelled the same posts, how often should you agree? |
-| Confidence | Should a confident prediction be right more often than an unsure one? |
+In the committed, unsplit `labels.csv`, each label must occupy **at least 20%
+and no more than 60%** of all rows. For 200 examples this is 40–120 rows per
+label. Count exact labels; missing labels are an error, not a fourth class.
 
-Two things worth knowing before you pick numbers, because both will affect
-whether you hit them:
+**Why this target:** Hacker News has many explanatory statements, but questions
+and reactions are essential to this task. The course's 70% ceiling alone could
+leave a minority class with too few examples. The 20% floor preserves enough
+examples to train and measure all three categories; the 60% cap restrains a
+largest-class shortcut. It does not claim this curated sample represents the
+community's natural distribution.
 
-- **Your smallest label will have the jumpiest score.** If a label has 50
-  examples, about 8 land in the test split. An F1 computed on 8 examples moves
-  a lot between seeds. A target for that label should be looser than one for
-  your biggest label, and saying so is a good reason.
-- **Unit 6 tests across three seeds, and the target has to hold across all
-  three.** A target of 0.65 against results of 0.71, 0.62, 0.68 is a **miss**.
-  Pick with that in mind — it is stricter than it first sounds.
+## 4. Annotation consistency: at least 24/30 staff-set agreement
 
----
+In Unit 6, apply the supplied **staff taxonomy** to all 30 supplied staff posts,
+before opening the staff labels. Exact agreement with that reference must be
+**at least 24 of 30 (0.80)** before adjudication. Report every disagreement and
+the labeling method; do not count post-adjudication edits toward this number.
 
-## 1.
+**Why this target:** separating a genuine request from a rhetorical question,
+and concrete support from a bare opinion, depends on applying written rules
+consistently. The staff exercise offers an external reference for that skill.
+An 80% target allows six ambiguous cases while requiring more than broad
+agreement. Because the staff taxonomy differs from this project's taxonomy,
+the result is a check of rule application, not proof that these 200 labels are
+human-validated. An AI-assisted run must be reported as such.
 
-<!-- Your criterion. It must name a number. -->
+## 5. Confidence usefulness: a 15-percentage-point accuracy gap
 
+For each seed, rank held-out predictions by their maximum softmax probability,
+using the notebook's existing confidence-third calculation. The accuracy of
+the **most-confident third minus the least-confident third must be at least
+0.15**. Keep equal group sizes (`floor(n_test/3)`), report that size, and use
+the same grouping implementation for every seed. With 30 test posts, each
+group has 10. This measures ranking usefulness, not calibrated probabilities.
 
-
-**Why this target:**
-
-
-
----
-
-## 2.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
-
----
-
-## 3.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
-
----
-
-## 4.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
-
----
-
-## 5.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
-
----
-
-<!-- ─────────────────────────────────────────────────────────────────────────
-     UNIT 6 — read this before you change anything above.
-
-     If a criterion turns out to be BROKEN rather than merely unmet, you can
-     revise it, and that earns credit. But never delete or edit the original
-     line. Add the revision underneath, like this:
-
-         ## 2. Every label performs acceptably
-
-         The model performs well on all labels.
-
-         **Why this target:** ...
-
-         > **Revised in unit 6:** Every label has an F1 of at least 0.60 on
-         > the held-out set.
-         >
-         > **Why revised:** "performs well" gave me nothing to check. I
-         > couldn't produce a verdict from it at all.
-
-     That's a revision because the criterion couldn't be MEASURED.
-
-     Lowering a target because you missed it is not a revision, and it costs
-     you the point:
-
-         ✗ "Overall accuracy of at least 0.65" → "at least 0.55", because
-            0.65 turned out to be optimistic for 200 examples.
-
-     A number you missed stays where it is, gets diagnosed, and gets a fix
-     attempted. That's where the points are.
-     ───────────────────────────────────────────────────────────────────────── -->
+**Why this target:** the hardest cases blend criticism, facts, and questions.
+Confidence is useful for review triage only if it helps identify which posts
+need attention. Requiring a 15-point advantage asks for a meaningful signal
+while acknowledging the coarse ten-example groups; a confident model that
+gets both groups equally right or wrong does not meet this criterion.

@@ -1,0 +1,20 @@
+{
+  "completed": true,
+  "review_mode": "instructor_ai_assisted",
+  "reviewer": "Codex AI",
+  "authorization": "The user stated they are the instructor and explicitly requested AI help to label the reserved 20, review the other 180, and write five acceptance criteria.",
+  "completed_at": "2026-10-07T23:20:51.979286+00:00",
+  "labels_sha256": "743ccf0f73b4c6656154e253e1d874770df4b38ea1ca22618e60480c79ab8706",
+  "criteria_sha256": "c3b021cd688140f3a1875b42e35eec4fcebc6829c6eb96926297154901b23575",
+  "ai_labeled_reserved_count": 20,
+  "ai_reviewed_draft_count": 180,
+  "human_cold_count": 0,
+  "human_reviewed_count": 0,
+  "label_counts": {
+    "grounded": 108,
+    "ungrounded": 49,
+    "request": 43
+  },
+  "draft_label_changes": 1,
+  "hours_spent": null
+}

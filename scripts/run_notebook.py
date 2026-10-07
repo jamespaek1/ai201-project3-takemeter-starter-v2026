@@ -2,9 +2,10 @@
 
 Practice: .venv/bin/python scripts/run_notebook.py --practice
 
-For a future assignment run, first finish the personally authored criteria
-and required cold-labeling exercise. Then supply --csv labels.csv --labels
-followed by the actual label names. No criteria or labels are generated here.
+For a dataset run, first complete and document the labeling review and
+preregistered criteria. The review record distinguishes a student's personal
+exercise from an instructor's AI-assisted example. Then supply --csv labels.csv
+--labels followed by the actual label names. No criteria or labels are generated here.
 Practice results stay under .cache/practice-run; they are never the project's
 root results.json or test_split.csv.
 """
@@ -67,15 +68,54 @@ def validate_assignment_ready(csv_path, root=ROOT):
     record_path = root / "data/review_completed.json"
     if not record_path.is_file():
         raise ValueError(
-            "Finish the personal criteria, cold-labeling exercise, and draft-label review, "
-            "then import the review to create data/review_completed.json before training."
+            "Complete the labeling review and criteria, then create an accurate "
+            "data/review_completed.json before training."
         )
     try:
         record = json.loads(record_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         raise ValueError(f"Cannot read the completed review record: {exc}") from exc
     if not isinstance(record, dict) or record.get("completed") is not True:
-        raise ValueError("The human review record is not marked completed: true.")
+        raise ValueError("The review record is not marked completed: true.")
+
+    mode = record.get("review_mode", "student_human_review")
+    if mode == "instructor_ai_assisted":
+        expected_counts = {
+            "ai_labeled_reserved_count": 20,
+            "ai_reviewed_draft_count": 180,
+            "human_cold_count": 0,
+            "human_reviewed_count": 0,
+        }
+        if record.get("reviewer") != "Codex AI":
+            raise ValueError("Instructor AI-assisted review must identify its reviewer as Codex AI.")
+        if record.get("human_review_completed") not in (None, False):
+            raise ValueError("Instructor AI-assisted review cannot claim completed human review.")
+        # Legacy student-only fields must not contradict the explicit AI scope.
+        for key in ("cold_count", "student_reviewed_ai_count"):
+            if key in record and record[key] != 0:
+                raise ValueError(f"Instructor AI-assisted review cannot claim {key}.")
+        review_metadata = {
+            "review_mode": mode,
+            "reviewer": record["reviewer"],
+            "human_review_completed": False,
+        }
+    elif mode == "student_human_review":
+        # Preserve the worksheet importer's original, explicitly attested format.
+        expected_counts = {"cold_count": 20, "student_reviewed_ai_count": 180}
+        review_metadata = {
+            "review_mode": mode,
+            "reviewer": record.get("reviewer", "Student (completed review worksheet)"),
+            "human_review_completed": True,
+            "human_cold_count": 20,
+            "human_reviewed_count": 180,
+        }
+    else:
+        raise ValueError(f"Unsupported review_mode: {mode!r}.")
+    for key, expected in expected_counts.items():
+        if type(record.get(key)) is not int or record[key] != expected:
+            raise ValueError(f"{mode} requires {key}: {expected}.")
+        review_metadata[key] = record[key]
+
     hashes = {}
     for filename, key in (("labels.csv", "labels_sha256"), ("criteria.md", "criteria_sha256")):
         path = root / filename
@@ -83,7 +123,7 @@ def validate_assignment_ready(csv_path, root=ROOT):
             raise ValueError(f"Missing reviewed assignment file: {filename}")
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         if record.get(key) != digest:
-            raise ValueError(f"{filename} no longer matches the completed human review. Review and import it again.")
+            raise ValueError(f"{filename} no longer matches the completed review. Review and record it again.")
         hashes[key] = digest
     try:
         subprocess.run(
@@ -101,7 +141,19 @@ def validate_assignment_ready(csv_path, root=ROOT):
         ).stdout.strip()
     except subprocess.CalledProcessError as exc:
         raise ValueError("Commit criteria.md and labels.csv in this repository before training.") from exc
-    return {**hashes, "preregistered_commit": commit, "human_review_completed": True}
+    return {**hashes, "preregistered_commit": commit, **review_metadata}
+
+
+def run_scope(practice, review_metadata):
+    if practice:
+        return "PRACTICE ONLY — supplied 60-row practice data; not project submission evidence"
+    if review_metadata["review_mode"] == "instructor_ai_assisted":
+        return (
+            "Instructor AI-assisted example — Codex AI labeled 20 reserved comments, "
+            "reviewed 180 AI-draft labels, and authored the criteria; "
+            "no human cold-labeling or human label review claimed"
+        )
+    return "Student assignment run — personal worksheet review completed"
 
 
 def validate_label_values(csv_path, labels):
@@ -135,7 +187,7 @@ def main():
     if args.practice and args.labels:
         parser.error("Practice uses the starter taxonomy unchanged; omit --labels.")
     if not args.practice and not args.labels:
-        parser.error("A personal dataset run requires explicit --labels.")
+        parser.error("A reviewed dataset run requires explicit --labels.")
 
     csv_path = (ROOT / "data/practice_labels.csv") if args.practice else args.csv.resolve()
     output_dir = args.output_dir.resolve() if args.output_dir else (
@@ -182,7 +234,7 @@ def main():
             cell["execution_count"] = None
             cell["outputs"] = []
     metadata = {
-        "scope": "PRACTICE ONLY — supplied 60-row practice data; not project submission evidence" if args.practice else "Personal assignment run",
+        "scope": run_scope(args.practice, review_metadata),
         "started_utc": datetime.now(timezone.utc).isoformat(),
         "python": sys.version,
         "platform": platform.platform(),

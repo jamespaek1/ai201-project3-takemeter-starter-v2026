@@ -1,0 +1,752 @@
+[
+  {
+    "id": 49999229,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Describes a forum-style agent workflow and reports using it on several large projects, supplying mechanisms and firsthand support for its coherency claim.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49998049,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Criticizes LLM-written blog posts in general without quoting or identifying a concrete post, example, or mechanism.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999818,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Directly requests mobile fullscreen and landscape controls; the initial praise does not change the main purpose.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49993079,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supports the versatility claim with concrete replacement cases and capabilities including high bit depth, multiple channels, and layers.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995373,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Seeks unresolved clarification about whether the displayed characters are ASCII or Unicode; observed differently sized dots provide context for the question.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49999306,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports a detailed family history of foundry work and firsthand lathe use, naming machines, processes, and products.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991050,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Identifies the Gorton article and supplies its source as a concrete related-reading example; the links are described, not unexplained.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999381,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supports the game-engine criticism with observations of the trailer's simplistic endless-game demos and names the game types involved.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995310,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Offers broad prescriptions about educational writing and an unspecified MCP-search complaint, without a particular passage or concrete observed example supporting the criticism.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49993455,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supports the authentication complaint with a linked OpenAI comparison and the specific earlier Google Image Search workflow.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999510,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Predicts future paid ranking from a pitch without a reported decision, event, or concrete supporting mechanism for that prediction.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49994937,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Quotes the MIPS-to-C++-to-Wasm pipeline and explains how that translation fits an emulation stack.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999634,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Requests that audio play with the visualization; this is a feature request even without question syntax.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49992460,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Quotes the benchmark's task and grading definitions to support the criticism about compressibility and exact-answer penalties.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995030,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Names and links several firmware projects as concrete examples supporting the claim that the ecosystem has expanded.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995954,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Explains why isolated actor databases create a cross-state query problem and suggests transactional events as a technical remedy.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49992110,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports a specific change to Debug/Display inlining and an observed binary-size reduction of tens of kilobytes.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49996243,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Main purpose is a concrete change request to cache images on the site's own server; the direct Wikipedia requests are its background justification.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991997,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Describes the author's process inspector, the data collected, and the procfs/eBPF/ptrace mechanisms, with a demonstration source.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991267,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Asks whether plate solving will work with the author's iPhone SE 2022 and weak night-sky signal; experience is background for the request.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49990675,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supports the article criticism by identifying the opening self-link and the repeated conclusion; the final why-question is rhetorical.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49990074,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Requests a ticket/contact reference and the recent DMCA filing so the commenter can follow up; linked older filings supply context.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49987489,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Explains the false-positive problem through a concrete domain-hash example and identifies an unblock mechanism; the example illustrates a mechanism rather than an unrelated analogy.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49992276,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Defines codemode through its actual proposed mechanism: a JavaScript sandbox that composes tool calls and manipulates returned data.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999110,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Seeks clarification of the different intended workflows for five specifically identified products.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49998629,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Reports a broad habit without identifying the code pattern, a particular change, or an observed result; the unspecified 'this' does not supply a concrete event on its own.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49997519,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Identifies Firefox's scrollWidth behavior and links the author's fix for the same reproduced layout issue.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991410,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Links a Chromium issue to support the stated browser-support history behind the opinion about JPEG XL adoption.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995453,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Provides an aesthetic interpretation and a hypothetical Tesla/Citroen analogy without a concrete observation establishing the claimed borrowed credibility.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999776,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Asks the article to define precision and accuracy near the beginning; the friend's reaction explains the requested edit.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991744,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Identifies the VIC-20 typeface as Microgramma and supplies sources tied to that concrete historical claim.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49992591,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports actually playing Steampunk Match and reaching second place on its leaderboard, supporting the browser-game quality reaction.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49996473,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Mainly vents about perceived LLM-written blogs; the anti-pattern question is a frustrated aside without a concrete answer request or supporting example.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "request"
+  },
+  {
+    "id": 49993881,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Names and links a SynthID write-up and explains the model-extraction and classifier material supporting the recommendation.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49997782,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Directly asks what incentive exists for spending tokens on review submissions.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49998016,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supports the PSP graphics claim with release dates, an attributed IGN quotation, and reported firsthand play experience.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49998083,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Explains the claimed mismatch between fast time-domain motion and human interpretation, supplying a mechanism for preferring frequency-domain displays.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49993369,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Provides a source and several quoted telegraph codewords as concrete examples; the closing how-often question is incidental to the main illustrative discussion.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49998002,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Recounts the author's Android synthesizer project, its DX7 goal, and later engine reuse in Dexed and M-VAVE.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995842,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Asks how capabilities and use cases compare with named durable-execution alternatives, explicitly clarifying the comparison sought.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49996638,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Expresses a subjective dull/minimalistic reaction and names a childhood reference without describing a specific observable comparison supporting that judgment.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49992043,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Quotes a reported reasoning leak as the concrete basis for a compression hypothesis; grounded denotes supplied support, not proof that the hypothesis is correct.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49994997,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supplies the synthesizer's price range and a specifically described subreddit as context and support for the firmware-ecosystem claim.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49996250,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Requests a Rivet comparison and clarification of whether self-hosting outside GCP is possible.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49993832,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Seeks an answer about whether a table-driven Debug approach was considered; facet and the author's speculation are background rather than a resolved answer.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49993289,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports a prior gallery implementation and enumerates matching lights, benches, walls, cards, and tour features as support for a training-data suspicion; the suspicion itself is not verified.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995901,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supplies a concrete historical process-management example in which killing Doom monsters sent kill signals to corresponding processes.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991732,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supports a comparison with a concrete no-extra-hardware distinction and an explicitly named PiFinder source.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49990597,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Uses the claimed historical transition from handwritten assembly to compilers as a concrete supporting example, rather than a purely imagined analogy; historical truth is not assessed.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49984924,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Gives advice backed by a concrete access-control versus functionality distinction and explains why bypassing access controls may matter.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49988699,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports the author's own Pi-hole blocklist size as concrete context for considering an allow-list approach; the final speculation does not make this mainly a request.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49989794,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Explains a specific alternative mechanism, exposing tool calls as virtual bash commands, to support the criticism of extra apparatus.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999046,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Requests a Docker-specialized agent/model combination; the failed setup attempts explain the desired feature rather than replace the request.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49998443,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Identifies automatic compiler optimization behavior and links runtime documentation to support the complaint about absent benchmarks and references.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49996012,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Explicitly requests voice control and states the intended iPad-in-car use case.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991860,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supports ecosystem-compatibility claims with specific reported behavior in iOS Photos, macOS Quick Look/Preview, and Linux.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995217,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports building a similar activity visualization and links the identified project; the later server-terminal idea is secondary.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999760,
+    "original_label": "ungrounded",
+    "label": "grounded",
+    "rationale": "Supports the overview's animation assessment with an explicit smoothness comparison to the linked Ciechanowski animations; the named book adds a specific related recommendation.",
+    "changed": true,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49995742,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Identifies the C64-style physical design and links the product page supporting that description; ownership and liking alone would not establish this label.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49993449,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports a concrete HTTP 403 response from the identified playground URL.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999267,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Gives general writing advice and asserted attention timings without an observed case, source, or demonstrated effect.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49994064,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Describes earlier OpenAI and Google watermark-detection workflows as the concrete basis for criticizing their usability.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49998124,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Speculates about an agentic Stack Overflow and uses a rhetorical harness-failure question without supplying an actual failure instance.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995462,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Provides only a generic recommendation and unexplained link, with no description of what at the destination supports it.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49996855,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Seeks permission/licensing terms to reuse the visualizations; the missing repository license motivates the question.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49992522,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supplies a concrete quoted telegram exchange as an illustrative example; no assertion of verified historical authenticity is made by this classification.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49998878,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports starting and links a specifically described firmware collection; later speculation about guardrails does not remove that concrete main contribution.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49996305,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Supports the performance criticism with explicit write-latency figures and an identified alternative source; factual accuracy is outside this label.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49992439,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Explains that PGO uses actual runtime profiles to guide inlining decisions, supplying a mechanism for its recommendation.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49998834,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Offers congratulations, a recent unimplemented personal idea, and general praise without a concrete supporting property or observed result.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49994117,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Describes an imagined humorous future scene, not a reported firsthand inspection event; its details do not turn hypothetical evidence into observed support.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995241,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Directly asks whether the app includes polar alignment, explaining the author's star-tracker use case.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49990501,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Expresses fatigue with AI arguments and ends with a rhetorical question, without a concrete example supporting the general complaint.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49985916,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Expresses sympathy and asserts that a lawyer guarantees action without a particular case, source, or mechanism establishing that guarantee.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49989805,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Explains the probabilistic storage and false-positive tradeoff behind the Bloom-filter recommendation.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991317,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Names the section containing a delayed definition and quotes it, providing concrete textual support for the headline criticism.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49997009,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Identifies the linked page as the missing security/sandbox documentation, explaining what the source contributes.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999280,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Predicts branch-predictor gains without a measurement or explanation of the relevant branches and their changed behavior.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49999387,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Offers praise and a world-changing prediction without a supporting example, event, or mechanism.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49991527,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Identifies Telegram's treatment of WebP as stickers as a concrete compatibility example supporting the broader concern.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49996504,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Describes browsing specific split-flap and fern examples, links them, and distinguishes the vibrating spinner page as support for the aesthetic reaction.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49980627,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports the author's research path from Watt's cylinder-bore problem and identifies the article's interactive figures and predecessor.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49992823,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Predicts the result of a hypothetical expanded character set without testing, examples, or an observed font comparison.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49993470,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports hosting an AI game platform and encountering HTTP 403 on the new service; the stated obstacle is an actual described observation.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995834,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Reports having a thought after an unspecified HN link but does not identify a passage or observable blog feature; the recipe-link analogy alone does not support the general judgment.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "grounded"
+  },
+  {
+    "id": 49993715,
+    "original_label": "request",
+    "label": "request",
+    "rationale": "Asks for the reason sign-in is required; frustrated wording does not by itself make a direct unanswered request rhetorical.",
+    "changed": false,
+    "reviewer": "Codex AI",
+    "hard_case": true,
+    "alternative_label": "ungrounded"
+  },
+  {
+    "id": 49998015,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports two popups interrupting reading and their absence on the next visit, concrete observations supporting the criticism.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49993928,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Explains the reverse-engineering/direct-porting mechanism behind the preservation claim; this is supplied technical support, not external verification.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49995877,
+    "original_label": "grounded",
+    "label": "grounded",
+    "rationale": "Reports a particular mobile scrolling situation in which caption placement becomes ambiguous, supporting a concrete usability complaint.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  },
+  {
+    "id": 49992668,
+    "original_label": "ungrounded",
+    "label": "ungrounded",
+    "rationale": "Dismisses the technology with an imagined Kevin-from-The-Office benchmark scenario rather than an actual observed result.",
+    "changed": false,
+    "reviewer": "Codex AI"
+  }
+]
