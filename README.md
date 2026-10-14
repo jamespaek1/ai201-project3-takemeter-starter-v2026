@@ -163,3 +163,27 @@ The runner validates review metadata, file hashes, labels, and committed criteri
 The initial [180 AI drafts](data/ai_draft_labels.json) remain available for comparison with the final [200-entry instructor review](data/instructor_review.json). The [completion record](data/review_completed.json) explicitly records 20 AI-labeled reserved rows, 180 AI-reviewed drafts, and zero human cold or human-reviewed rows. Unit 6 remains a separate evaluation task, not an unreported step completed by AI here.
 
 **Repository:** [jamespaek1/ai201-project3-takemeter-starter-v2026](https://github.com/jamespaek1/ai201-project3-takemeter-starter-v2026).
+
+
+# Unit 6 — TakeMeter testing (instructor AI-assisted example)
+
+## Baseline vs. Trained
+
+**Prediction recorded before the Unit 6 baseline run:** given the already-known
+Unit 5 result that predicts `grounded` for every test post, the trained model may
+beat the zero-shot model on `grounded` recall (currently 1.00), but the baseline
+is expected to do better on `request` and `ungrounded` F1. This prediction is made
+before seeing baseline results; it does not pretend the Unit 5 trained result
+was unseen.
+
+The baseline will use the unchanged `label_definitions.txt` and all 30 original
+`test_split.csv` posts. A separate bare-label run will measure the effect of
+supplying definitions; it will not replace the primary baseline.
+
+**Declared before execution:** include the confidence-check stretch by comparing
+most- and least-confident thirds for each of three seeds before and after the
+single improvement. This is also the evidence for original criterion 5. No
+second improvement or taxonomy change is planned. Labels, taxonomy and the five
+original criteria remain fixed; choose the one training change only after the
+before-run diagnosis. Continue the explicit AI-assisted instructor provenance
+from Unit 5, including the separate staff annotation exercise.
