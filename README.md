@@ -2,11 +2,13 @@
 
 > **Completed Unit 5 instructor example, with AI assistance.** At the instructor’s explicit request, Codex labeled the 20 formerly reserved comments, individually reviewed all 180 draft labels, wrote five acceptance criteria before training, and completed the Unit 5 training run. The model performed poorly, as documented below. This is not an unaided student exercise, and nothing has been submitted through the course portal.
 
+> **Unit 6 status (2026-10-14):** both zero-shot baselines and all six before/after training runs are complete, with run logs, diagnoses and the confidence check below. The required staff agreement score and adjudication are **pending the authentic `data/staff_labels.csv`**; the linked staff repository is inaccessible to the connected account. This is not yet a complete Unit 6 submission.
+
 ## What This Does
 
 TakeMeter classifies complete comments from public Hacker News technology discussions into `request`, `grounded`, and `ungrounded`. It distinguishes genuine requests from statements that supply concrete support and statements that do not. It measures what a comment provides in its own text, not whether the author is correct, trustworthy, or an expert.
 
-This repository contains the completed 200-comment dataset, five preregistered acceptance criteria, an executed notebook, actual training results, and annotation provenance. The seed-42 model predicted only `grounded`, so completion of the build does **not** mean it is a useful classifier or that all acceptance criteria passed. Use the same repository for the separate Unit 6 evaluation.
+This repository contains the completed 200-comment dataset, five preregistered acceptance criteria, an executed notebook, actual training results, and annotation provenance. The seed-42 model predicted only `grounded`, so completion of the build does **not** mean it is a useful classifier or that all acceptance criteria passed. The Unit 6 continuation below evaluates the same dataset and retains the original evidence.
 
 ## Label Taxonomy
 
@@ -138,7 +140,7 @@ The confusion matrix below uses actual labels as rows and predictions as columns
 | 4. Staff-set agreement ≥24/30 before adjudication | Staff consistency exercise not run | **Not evaluated; Unit 6** |
 | 5. Confidence-third accuracy gap ≥0.15 for each seed | Seed 42: 0.40 | **Met for seed 42 only** |
 
-The three-seed evaluation for **42, 7, and 2024**, the Unit 6 baseline comparison, and the staff consistency exercise have not been completed. Single-seed results do not establish that the full multi-seed criteria pass. Targets were not lowered after seeing the model’s failure. A likely issue to investigate in Unit 6 is the model’s failure to learn minority labels from this small dataset; the present run alone does not establish the cause.
+**Historical Unit 5 status:** at the time of this run, the three-seed evaluation for **42, 7, and 2024**, the Unit 6 baseline comparison, and the staff consistency exercise had not been completed. The current Unit 6 status is recorded below. Single-seed results do not establish that the full multi-seed criteria pass. Targets were not lowered after seeing the model’s failure. A likely issue to investigate in Unit 6 is the model’s failure to learn minority labels from this small dataset; the present run alone does not establish the cause.
 
 **Evidence:** [results.json](results.json), [test_split.csv](test_split.csv), [executed notebook](executed-notebook.ipynb), [full run log](evidence/assignment-run.log), and [run summary](evidence/assignment-summary.json). The fine-tuned model and tokenizer are saved locally in ignored `models/unit5`; their weights are not committed to GitHub. [Final validation](evidence/validation.json) reloaded the saved model and reproduced the metrics and confusion matrix, confirmed 200 unique texts and no row overlap between the three splits, and checked the preregistered file hashes.
 
@@ -154,13 +156,17 @@ The runner validates review metadata, file hashes, labels, and committed criteri
 
 ## How I Used AI
 
+**Unit 6 continuation:** Codex wrote the pre-baseline prediction, applied the staff taxonomy to all 30 posts before reference access, ran both local BART baselines, built and checked an evidence-preserving notebook runner, executed six actual DistilBERT runs, and drafted the diagnoses and report. Codex proposed the single epoch change after examining the before-run losses and committed that plan before running the after phase. A separate AI review checked the runner and measurements; this is an additional code/evidence check, not independent human ground truth.
+
+**What AI could not complete:** the official staff key was inaccessible, so no agreement score or adjudications were invented. The 17 guard tests and metric re-computation check execution and arithmetic, not semantic correctness of the 200 AI labels. No human review, personal hours, or portal submission is claimed.
+
 **Disclosure:** the instructor explicitly asked Codex to label the 20 reserved comments, review the other 180, and write five acceptance criteria. Codex completed that work and the training execution. All annotations and criteria in this example are AI-assisted; no unaided student authorship, human cold labeling, human review, personal time spent, or course submission is claimed.
 
 **Moment 1 — applying and reviewing the taxonomy:** Codex read the source comments, proposed the three distinctions, and exercised them with eight separate synthetic boundary tests. During full review, the definition of `request` was clarified to distinguish a genuine sought action from generic advice or rhetorical questions. Review also corrected comment 49999760 from `ungrounded` to `grounded` because its concrete comparison supplied support. The final annotation records retain rationales and plausible alternatives rather than implying the hard cases disappeared.
 
 **Moment 2 — preregistration and honest measurement:** Codex wrote five numeric targets with community-specific reasons, committed them before training, and added runner validation for explicit instructor AI provenance and immutable dataset/criteria hashes. It then ran the actual starter model and recorded the poor majority-class result instead of replacing it with the successful practice run or claiming every criterion passed. The saved notebook and log show what executed; the separate review record identifies who supplied the labels.
 
-The initial [180 AI drafts](data/ai_draft_labels.json) remain available for comparison with the final [200-entry instructor review](data/instructor_review.json). The [completion record](data/review_completed.json) explicitly records 20 AI-labeled reserved rows, 180 AI-reviewed drafts, and zero human cold or human-reviewed rows. Unit 6 remains a separate evaluation task, not an unreported step completed by AI here.
+The initial [180 AI drafts](data/ai_draft_labels.json) remain available for comparison with the final [200-entry instructor review](data/instructor_review.json). The [completion record](data/review_completed.json) explicitly records 20 AI-labeled reserved rows, 180 AI-reviewed drafts, and zero human cold or human-reviewed rows. The Unit 6 work and remaining reference dependency are disclosed in the continuation below.
 
 **Repository:** [jamespaek1/ai201-project3-takemeter-starter-v2026](https://github.com/jamespaek1/ai201-project3-takemeter-starter-v2026).
 
@@ -236,13 +242,13 @@ randomness, so this experiment does not isolate those two sources of variation.
 | Grounded F1 | 0.6957 | 0.6957 | 0.6957 | 0.0000 |
 | Ungrounded F1 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 
-| Original criterion | Seed 42 | Seed 7 | Seed 2024 | Overall verdict |
-|---|---|---|---|---|
-| 1. Accuracy ≥0.70 | 0.5333 — MISSED | 0.5333 — MISSED | 0.5333 — MISSED | MISSED |
-| 2. Every label F1 ≥0.60 | min 0.0000 — MISSED | min 0.0000 — MISSED | min 0.0000 — MISSED | MISSED |
-| 3. Each full-CSV label 20–60% | Shared dataset | Shared dataset | Shared dataset | MET: 21.5%, 54.0%, 24.5% |
-| 4. Staff agreement ≥24/30 | Shared external check | Shared external check | Shared external check | PENDING: authentic staff reference unavailable |
-| 5. High-third minus low-third accuracy ≥0.15 | 0.60 − 0.20 = 0.40 — MET | 0.90 − 0.30 = 0.60 — MET | 0.60 − 0.30 = 0.30 — MET | MET |
+| Original criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Overall verdict |
+|---|---|---|---|---|---|
+| 1. Accuracy | ≥0.70 each seed | 0.5333 — MISSED | 0.5333 — MISSED | 0.5333 — MISSED | MISSED |
+| 2. Every label F1 | ≥0.60 each label, each seed | min 0.0000 — MISSED | min 0.0000 — MISSED | min 0.0000 — MISSED | MISSED |
+| 3. Full-CSV balance | Each label 20–60% | Shared dataset | Shared dataset | Shared dataset | MET: 21.5%, 54.0%, 24.5% |
+| 4. Staff agreement | ≥24/30 before adjudication | Shared external check | Shared external check | Shared external check | PENDING: authentic staff reference unavailable |
+| 5. Confidence ranking | High-third minus low-third accuracy ≥0.15 each seed | 0.60 − 0.20 = 0.40 — MET | 0.90 − 0.30 = 0.60 — MET | 0.60 − 0.30 = 0.30 — MET | MET |
 
 Criterion 5 uses ten examples in each third. Criteria 3 and 4 are shared checks,
 not three independent measurements. MET for a seed-dependent criterion requires
@@ -346,3 +352,169 @@ not a promise that more epochs will help. The planned stopping rule is one
 10-epoch run per seed, followed by honest reporting; no further tuning on these
 test sets. Because the assignment uses test results to diagnose and choose this
 change, a future performance claim needs a fresh untouched evaluation set.
+
+
+### Run Log — After
+
+The declared ten-epoch experiment completed for all three seeds on MPS. It used
+exactly the same train, validation and test rows in the same order for each
+corresponding seed. No row labels, definitions, criteria or other training
+parameters were edited. Scores below use the final epoch, as in the starter;
+there was no best-epoch selection or second improvement.
+
+| Original criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Overall verdict |
+|---|---|---|---|---|---|
+| 1. Accuracy | ≥0.70 each seed | 0.6333 — MISSED | 0.5667 — MISSED | 0.5667 — MISSED | MISSED |
+| 2. Every label F1 | ≥0.60 each label, each seed | min 0.2500 — MISSED | min 0.0000 — MISSED | min 0.0000 — MISSED | MISSED |
+| 3. Full-CSV balance | Each label 20–60% | Shared dataset | Shared dataset | Shared dataset | MET: 21.5%, 54.0%, 24.5% |
+| 4. Staff agreement | ≥24/30 before adjudication | Shared external check | Shared external check | Shared external check | PENDING: authentic staff reference unavailable |
+| 5. Confidence ranking | High-third minus low-third accuracy ≥0.15 each seed | 0.80 − 0.60 = 0.20 — MET | 1.00 − 0.40 = 0.60 — MET | 0.60 − 0.40 = 0.20 — MET | MET |
+
+Both full run logs appear above. This direct comparison puts the model scores
+side by side; the three seeds' held-out sets overlap, so these are not 90
+independent test observations.
+
+| Measure | Seed 42 before → after | Seed 7 before → after | Seed 2024 before → after |
+|---|---:|---:|---:|
+| Accuracy | 0.5333 → 0.6333 | 0.5333 → 0.5667 | 0.5333 → 0.5667 |
+| Macro F1 | 0.2319 → 0.4795 | 0.2319 → 0.3258 | 0.2319 → 0.3204 |
+| Request F1 | 0.0000 → 0.4444 | 0.0000 → 0.2500 | 0.0000 → 0.0000 |
+| Grounded F1 | 0.6957 → 0.7442 | 0.6957 → 0.7273 | 0.6957 → 0.7111 |
+| Ungrounded F1 | 0.0000 → 0.2500 | 0.0000 → 0.0000 | 0.0000 → 0.2500 |
+
+**Did it help?** Yes, modestly: correct predictions increased from 16 to **19,
+17 and 17 of 30**, and macro F1 improved in every seed. The change partly broke
+the majority shortcut, but no seed met the accuracy target or every-label F1
+target. Grounded recall remains 1.00, while minority recall is at most 2/7.
+The after seed-42 result also exceeds the zero-shot definition baseline on the
+same original held-out posts (accuracy 0.6333 vs 0.5333; macro F1 0.4795 vs
+0.2370). The other seeds use different test posts and are not paired baseline
+comparisons.
+
+After accuracy spans **0.5667–0.6333**, a 0.0667 range; macro F1 spans
+**0.3204–0.4795**, a 0.1592 range. Request F1 ranges from 0 to 0.4444, so a
+modest accuracy spread hides unstable minority-label learning. The notebook's
+generic uncertainty message does not replace the preregistered rule: criterion
+1 is unambiguously MISSED because every observed accuracy is below 0.70.
+
+### After confusion matrices
+
+Rows are actual labels; columns are predictions. All three matrices are shown
+to avoid presenting only the strongest seed.
+
+**Seed 42**
+
+| Actual / predicted | request | grounded | ungrounded |
+|---|---:|---:|---:|
+| request | 2 | 5 | 0 |
+| grounded | 0 | 16 | 0 |
+| ungrounded | 0 | 6 | 1 |
+
+**Seed 7**
+
+| Actual / predicted | request | grounded | ungrounded |
+|---|---:|---:|---:|
+| request | 1 | 5 | 1 |
+| grounded | 0 | 16 | 0 |
+| ungrounded | 0 | 7 | 0 |
+
+**Seed 2024**
+
+| Actual / predicted | request | grounded | ungrounded |
+|---|---:|---:|---:|
+| request | 0 | 7 | 0 |
+| grounded | 0 | 16 | 0 |
+| ungrounded | 0 | 6 | 1 |
+
+For seed 42, the largest off-diagonal is now **ungrounded → grounded: 6**,
+versus **grounded → ungrounded: 0**. Seed 7 has seven ungrounded → grounded
+errors, and seed 2024 has seven request → grounded errors. The main remaining
+problem is still the model treating unsupported statements or genuine requests
+as supported statements. The direction alone cannot establish label noise;
+that automatic suggestion in the starter is a hypothesis, and the missing
+staff comparison cannot confirm it.
+
+### Declared stretch — confidence check
+
+Every before and after confidence gap exceeds 0.15, using the unchanged notebook
+ranking and ten examples per third. After mean confidence for correct versus
+incorrect predictions is **0.6670 vs 0.6025**, **0.7146 vs 0.5808**, and
+**0.6567 vs 0.5703** for seeds 42, 7 and 2024 respectively. Higher confidence
+therefore gives some ranking information on these samples. It is still a weak
+basis for automation: the high-confidence group is only 60% accurate for
+seed 2024, and moving a single example changes a third's accuracy by 0.10.
+
+Two concrete counterexamples from the saved after predictions show why scores
+must not be treated as verified correctness:
+
+- **Seed 42, row-180:** the generic piracy/product-advice comment is labeled
+  ungrounded but predicted grounded with score **0.7656**. “IME” and technical
+  vocabulary do not themselves supply a reported concrete event supporting the
+  whole claim under this taxonomy.
+- **Seed 7, row-060:** “How do you compare to Azure Durable Functions, Temporal,
+  AWS Lambda Durable Functions?” is part of a genuine comparison request, yet
+  the model predicts grounded with score **0.7689**. Named tools and background
+  context do not override request precedence.
+
+These are illustrative high-confidence errors, not an additional relabeling
+pass or a calibration test. Gold labels remain the original AI annotations;
+uncertainty about those annotations remains an independent limitation.
+
+## What's Still Broken
+
+| Remaining criterion | Evidence after the change | Next step, and why this run stopped |
+|---|---|---|
+| 1. Accuracy ≥0.70 — MISSED | 19/30, 17/30, 17/30; 11–13 errors remain per seed, mostly toward grounded | Collect a larger, independently reviewed evaluation set separated by HN thread, then test whether gains generalize. Stop here to honor the one-change plan and avoid tuning repeatedly against the same held-out comments. |
+| 2. Every label F1 ≥0.60 — MISSED | Request F1 0.4444/0.2500/0.0000; ungrounded F1 0.2500/0.0000/0.2500 | Obtain an independent annotation audit of mixed requests and unsupported technical advice, then consider targeted examples under the unchanged rules. More epochs alone did not resolve these boundaries. Further annotation/data or training changes would be a separate experiment. |
+| 4. Staff agreement ≥24/30 — PENDING | All 30 blind labels exist; reference key inaccessible | Obtain the authentic staff CSV from the TF/instructor resource, run agreement.py, and adjudicate every disagreement. This dependency, rather than time or an assumed score, prevents completing the agreement report. |
+
+Criteria 3 and 5 remain MET; that does not cancel the accuracy and minority-F1
+failures. The final original-criterion tally is **2 MET, 2 MISSED, 1 PENDING**.
+
+**Diagnosis after testing the change:** the gains support undertraining as one
+contributor to the original collapse, but small training samples and difficult
+boundaries remain plausible contributors to the residual errors. Longer
+training also shows diminishing returns: seed 42 validation loss bottoms near
+epoch 4 (0.9707) and ends at 1.0036; seed 7 bottoms near epoch 3 (0.9368) and ends
+at 0.9645, while training loss decreases. This is consistent with emerging
+overfitting for those two seeds; seed 2024 validation loss continues falling,
+so the pattern is not uniform. Simply adding still more epochs is not an
+evidence-based completion step. The missing staff agreement and lack of an
+independent human audit prevent attributing the remaining errors confidently
+to annotations versus the model. Maximum length remains 128 (29 original
+comments exceed it), and shared discussion topics across random splits remain
+limitations; neither was changed in this experiment.
+
+**Intended versus learned, in two sentences:** The labels were intended to
+capture a comment's main purpose and whether its own text supplies support,
+with genuine requests taking precedence over background facts. The after
+matrices show that the model still mostly learned to choose grounded—27, 28
+and 29 predictions out of 30—with only weak and seed-dependent recognition of
+requests and unsupported statements.
+
+### Evidence, verification and completion status
+
+- [Before results](results_three_seeds_before.json) and [after results](results_three_seeds_after.json) retain the starter's result format.
+- [Before executed notebook](evidence/unit6/before-executed.ipynb) and [after executed notebook](evidence/unit6/after-executed.ipynb) show the executed cells and outputs; the original Unit 5 notebook/output files remain unchanged.
+- [Before summary](evidence/unit6/before-summary.json) and [after summary](evidence/unit6/after-summary.json) record device, package versions, settings, hashes and machine runtime. Machine runtimes are not personal hours spent.
+- [Before log](evidence/unit6/before-run.log), [after log](evidence/unit6/after-run.log), per-seed prediction JSONs and split inventories in [evidence/unit6](evidence/unit6) preserve the detailed evidence. The legacy field `csv_line` means the logical CSV record number including the header, **not** the physical file line for multiline comments.
+- [Independent metric validation](evidence/unit6/validation.json) recomputes accuracy, all per-label metrics, confusion matrices and confidence thirds from the saved predictions. It checks exact baseline held-out rows, split separation within every trial, identical corresponding before/after splits, one changed setting, unchanged Unit 5 file hashes and 30 exact staff exercise texts. Status: `passed_with_pending_agreement`; there are no validation errors.
+- [Runner tests](evidence/unit6/runner-tests.log): 17 passed. [Course environment check](evidence/unit6/environment.log): nine passed, zero failed. Its BART-download warning checks only the default home cache; both actual baselines succeeded using this repository's `.cache/huggingface` through `HF_HOME`.
+
+The local saved after model in ignored `models/unit6_after` is the final seed
+2024 model, not a selected best seed. Model weights and the virtual environment
+are deliberately not committed. The [run script](scripts/run_unit6.py) refuses
+to overwrite completed evidence; reproduction should use a separate checkout,
+the preserved settings and the committed improvement plan. To cross-check
+existing results without training, run:
+
+```sh
+.venv/bin/python scripts/validate_unit6.py
+```
+
+The history contains more than four new Unit 6 commits, including the baseline
+forecast, blind staff labels, baseline results, and the before diagnosis/plan
+before the after results. **The remaining required deliverable is the genuine
+staff comparison and its adjudications. No course-portal submission has been
+made, and this repository must not be described as fully complete until that
+reference-dependent work is finished.**

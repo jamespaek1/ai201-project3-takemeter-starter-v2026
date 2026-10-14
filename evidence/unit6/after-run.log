@@ -1,0 +1,327 @@
+{
+  "scope": "Unit 6 instructor AI-assisted example; labels/criteria retain the disclosed Unit 5 AI annotation provenance, with no human review claimed.",
+  "phase": "after",
+  "status": "running",
+  "seeds": [
+    42,
+    7,
+    2024
+  ],
+  "started_utc": "2026-10-14T22:30:21.111137+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "package_versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "datasets": "3.6.0",
+    "accelerate": "1.15.0",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1"
+  },
+  "settings": {
+    "LABELS": [
+      "request",
+      "grounded",
+      "ungrounded"
+    ],
+    "BASE_MODEL": "distilbert-base-uncased",
+    "EPOCHS": 10,
+    "LEARNING_RATE": 2e-05,
+    "BATCH_SIZE": 16,
+    "MAX_LENGTH": 128,
+    "SEED": 42
+  },
+  "protected_unit5_hashes": {
+    "labels.csv": "743ccf0f73b4c6656154e253e1d874770df4b38ea1ca22618e60480c79ab8706",
+    "criteria.md": "c3b021cd688140f3a1875b42e35eec4fcebc6829c6eb96926297154901b23575",
+    "results.json": "d7978f3a8123c292956d8b3c6aae20b6a58439c26d89c562543ab81268030926",
+    "test_split.csv": "eaaea95c47b0a0175165e337ab41a42785005fc53ce4e2b955aaaee5a99ca148",
+    "takemeter.ipynb": "a6a26476b9f7c17f753e805c497a3396bcdc73f652bc698cf06ebb0c6ef0e775",
+    "executed-notebook.ipynb": "666a298ac9829ea2c887105eba0f3a512a5d52b327afdbe9b3fca005635b2962",
+    "data/review_completed.json": "d030a43f5527cf20176667292ff6fb82d348cfcbc0f3ca8754fc8076498f8570",
+    "evidence/assignment-summary.json": "502cceff706af1434c425b2d5b3aca45a1b73f0909f66ab2706962df519530ae"
+  },
+  "runner_sha256": "6320511db80a2c2f0ef7fe66103ba687d0c1a4d3fb1a0bfa841cd458ee74780a",
+  "source_notebook_sha256": "a6a26476b9f7c17f753e805c497a3396bcdc73f652bc698cf06ebb0c6ef0e775",
+  "executed_cell_indices": [],
+  "definitions_only_cell_indices": [
+    12,
+    14,
+    16
+  ],
+  "command": [
+    "scripts/run_unit6.py",
+    "--phase",
+    "after",
+    "--epochs",
+    "10"
+  ],
+  "labels_sha256": "743ccf0f73b4c6656154e253e1d874770df4b38ea1ca22618e60480c79ab8706",
+  "criteria_sha256": "c3b021cd688140f3a1875b42e35eec4fcebc6829c6eb96926297154901b23575",
+  "preregistered_commit": "0bfd1c4c53479639d06d5eebc61e8aef16b0a695",
+  "review_mode": "instructor_ai_assisted",
+  "reviewer": "Codex AI",
+  "human_review_completed": false,
+  "ai_labeled_reserved_count": 20,
+  "ai_reviewed_draft_count": 180,
+  "human_cold_count": 0,
+  "human_reviewed_count": 0,
+  "improvement_plan_sha256": "3bffeb5818e7f071933f38089299ec2ab62a51c79360ca0f8d8dbbcd867c7735"
+}
+
+--- Executing Unit 6 notebook cell 2 ---
+device: mps  (Apple Silicon GPU (MPS))
+torch:  2.14.1
+
+⚠️  WRITE THIS DOWN. Your results depend on it.
+
+Two people running this notebook on the same data with the same seed can
+get different numbers, because different hardware does the arithmetic in
+a slightly different order. That is not a bug and it is not one of you
+being wrong — it is a real property of the thing you are building, and
+unit 6 asks you to report it alongside your three seeds.
+
+--- Executing Unit 6 notebook cell 4 ---
+Working in: /Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026
+Results will be labelled: James Paek <121907336+jamespaek1@users.noreply.github.com>
+  README.md
+  RUNNING.md
+  agreement.py
+  baseline.py
+  baseline_bare_names_results.json
+  baseline_results.json
+  criteria.md
+  data
+  evidence
+  executed-notebook.ipynb
+  label_definitions.txt
+  labels.csv
+  labels_template.csv
+  models
+  my_staff_labels.csv
+  requirements-lock.txt
+  requirements.txt
+  results.json
+  results_three_seeds_before.json
+  review.html
+  scripts
+  takemeter.ipynb
+  takemeter_out
+  test.py
+  test_split.csv
+
+--- Executing Unit 6 notebook cell 6 ---
+3 labels: request, grounded, ungrounded
+seed 42, 10 epochs, lr 2e-05, batch 16
+
+--- Executing Unit 6 notebook cell 8 ---
+Loaded labels.csv: 200 rows
+Columns: text, label, note
+
+--- Executing Unit 6 notebook cell 10 ---
+
+Data looks fine.
+
+label
+grounded      108
+ungrounded     49
+request        43
+
+--- Executing Unit 6 notebook cell 12 ---
+
+--- Executing Unit 6 notebook cell 14 ---
+
+--- Executing Unit 6 notebook cell 16 ---
+
+--- Executing Unit 6 notebook cell 19 ---
+
+============================================================
+Seed 42  (1 of 3)
+============================================================
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map: 100%|##########| 139/139 [00:00<00:00, 7302.39 examples/s]
+Map:   0%|          | 0/31 [00:00<?, ? examples/s]Map: 100%|##########| 31/31 [00:00<00:00, 9479.69 examples/s]
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'eval_loss': 1.006579041481018, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3624, 'eval_samples_per_second': 85.529, 'eval_steps_per_second': 5.518, 'epoch': 1.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 1.0476, 'grad_norm': 2.096933364868164, 'learning_rate': 1.8e-05, 'epoch': 1.1111111111111112}
+{'eval_loss': 0.9781820774078369, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3272, 'eval_samples_per_second': 94.747, 'eval_steps_per_second': 6.113, 'epoch': 2.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.9795, 'grad_norm': 2.039854049682617, 'learning_rate': 1.577777777777778e-05, 'epoch': 2.2222222222222223}
+{'eval_loss': 0.9732311367988586, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3136, 'eval_samples_per_second': 98.856, 'eval_steps_per_second': 6.378, 'epoch': 3.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.8898, 'grad_norm': 1.9696407318115234, 'learning_rate': 1.3555555555555557e-05, 'epoch': 3.3333333333333335}
+{'eval_loss': 0.9706661701202393, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3314, 'eval_samples_per_second': 93.537, 'eval_steps_per_second': 6.035, 'epoch': 4.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.8339, 'grad_norm': 1.930919885635376, 'learning_rate': 1.1333333333333334e-05, 'epoch': 4.444444444444445}
+{'eval_loss': 0.9756426811218262, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3131, 'eval_samples_per_second': 99.004, 'eval_steps_per_second': 6.387, 'epoch': 5.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.7827, 'grad_norm': 2.5562264919281006, 'learning_rate': 9.111111111111112e-06, 'epoch': 5.555555555555555}
+{'eval_loss': 0.9876678586006165, 'eval_accuracy': 0.5806451612903226, 'eval_f1_macro': 0.31304347826086953, 'eval_runtime': 0.3317, 'eval_samples_per_second': 93.458, 'eval_steps_per_second': 6.03, 'epoch': 6.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.6778, 'grad_norm': 2.5515618324279785, 'learning_rate': 6.88888888888889e-06, 'epoch': 6.666666666666667}
+{'eval_loss': 0.9946182370185852, 'eval_accuracy': 0.6129032258064516, 'eval_f1_macro': 0.3730639730639731, 'eval_runtime': 0.3323, 'eval_samples_per_second': 93.278, 'eval_steps_per_second': 6.018, 'epoch': 7.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.6981, 'grad_norm': 2.946000099182129, 'learning_rate': 4.666666666666667e-06, 'epoch': 7.777777777777778}
+{'eval_loss': 1.0019872188568115, 'eval_accuracy': 0.6129032258064516, 'eval_f1_macro': 0.3730639730639731, 'eval_runtime': 0.3354, 'eval_samples_per_second': 92.419, 'eval_steps_per_second': 5.963, 'epoch': 8.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5894, 'grad_norm': 2.3994226455688477, 'learning_rate': 2.4444444444444447e-06, 'epoch': 8.88888888888889}
+{'eval_loss': 1.0024030208587646, 'eval_accuracy': 0.6129032258064516, 'eval_f1_macro': 0.3730639730639731, 'eval_runtime': 0.3248, 'eval_samples_per_second': 95.436, 'eval_steps_per_second': 6.157, 'epoch': 9.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5881, 'grad_norm': 4.738203525543213, 'learning_rate': 2.2222222222222224e-07, 'epoch': 10.0}
+{'eval_loss': 1.0035887956619263, 'eval_accuracy': 0.6129032258064516, 'eval_f1_macro': 0.3686868686868687, 'eval_runtime': 0.1991, 'eval_samples_per_second': 155.686, 'eval_steps_per_second': 10.044, 'epoch': 10.0}
+{'train_runtime': 42.6591, 'train_samples_per_second': 32.584, 'train_steps_per_second': 2.11, 'train_loss': 0.7874365753597683, 'epoch': 10.0}
+Map:   0%|          | 0/30 [00:00<?, ? examples/s]Map: 100%|##########| 30/30 [00:00<00:00, 3703.14 examples/s]
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+  accuracy 0.633   macro F1 0.480
+
+============================================================
+Seed 7  (2 of 3)
+============================================================
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map: 100%|##########| 139/139 [00:00<00:00, 9769.40 examples/s]
+Map:   0%|          | 0/31 [00:00<?, ? examples/s]Map: 100%|##########| 31/31 [00:00<00:00, 9157.87 examples/s]
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'eval_loss': 0.9784080982208252, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3142, 'eval_samples_per_second': 98.661, 'eval_steps_per_second': 6.365, 'epoch': 1.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 1.027, 'grad_norm': 2.0816023349761963, 'learning_rate': 1.8e-05, 'epoch': 1.1111111111111112}
+{'eval_loss': 0.9525708556175232, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3396, 'eval_samples_per_second': 91.281, 'eval_steps_per_second': 5.889, 'epoch': 2.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.9426, 'grad_norm': 2.944016456604004, 'learning_rate': 1.577777777777778e-05, 'epoch': 2.2222222222222223}
+{'eval_loss': 0.9368234276771545, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3307, 'eval_samples_per_second': 93.747, 'eval_steps_per_second': 6.048, 'epoch': 3.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.8581, 'grad_norm': 2.276235818862915, 'learning_rate': 1.3555555555555557e-05, 'epoch': 3.3333333333333335}
+{'eval_loss': 0.94195955991745, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.24113475177304966, 'eval_runtime': 0.3372, 'eval_samples_per_second': 91.944, 'eval_steps_per_second': 5.932, 'epoch': 4.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.7919, 'grad_norm': 2.2243387699127197, 'learning_rate': 1.1333333333333334e-05, 'epoch': 4.444444444444445}
+{'eval_loss': 0.9386093616485596, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.29764309764309765, 'eval_runtime': 0.3222, 'eval_samples_per_second': 96.217, 'eval_steps_per_second': 6.208, 'epoch': 5.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.687, 'grad_norm': 3.1005661487579346, 'learning_rate': 9.111111111111112e-06, 'epoch': 5.555555555555555}
+{'eval_loss': 0.9454720616340637, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.29764309764309765, 'eval_runtime': 0.3152, 'eval_samples_per_second': 98.348, 'eval_steps_per_second': 6.345, 'epoch': 6.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.6965, 'grad_norm': 2.5133614540100098, 'learning_rate': 6.88888888888889e-06, 'epoch': 6.666666666666667}
+{'eval_loss': 0.9553281664848328, 'eval_accuracy': 0.5161290322580645, 'eval_f1_macro': 0.28811369509043927, 'eval_runtime': 0.334, 'eval_samples_per_second': 92.824, 'eval_steps_per_second': 5.989, 'epoch': 7.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5916, 'grad_norm': 2.7117254734039307, 'learning_rate': 4.666666666666667e-06, 'epoch': 7.777777777777778}
+{'eval_loss': 0.9652703404426575, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.3406593406593406, 'eval_runtime': 0.3252, 'eval_samples_per_second': 95.337, 'eval_steps_per_second': 6.151, 'epoch': 8.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.585, 'grad_norm': 2.751680612564087, 'learning_rate': 2.4444444444444447e-06, 'epoch': 8.88888888888889}
+{'eval_loss': 0.9631983041763306, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.33888888888888885, 'eval_runtime': 0.3164, 'eval_samples_per_second': 97.966, 'eval_steps_per_second': 6.32, 'epoch': 9.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5072, 'grad_norm': 2.785378932952881, 'learning_rate': 2.2222222222222224e-07, 'epoch': 10.0}
+{'eval_loss': 0.96449875831604, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.33888888888888885, 'eval_runtime': 0.1864, 'eval_samples_per_second': 166.275, 'eval_steps_per_second': 10.727, 'epoch': 10.0}
+{'train_runtime': 42.0037, 'train_samples_per_second': 33.092, 'train_steps_per_second': 2.143, 'train_loss': 0.742988920211792, 'epoch': 10.0}
+Map:   0%|          | 0/30 [00:00<?, ? examples/s]Map: 100%|##########| 30/30 [00:00<00:00, 6148.80 examples/s]
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+  accuracy 0.567   macro F1 0.326
+
+============================================================
+Seed 2024  (3 of 3)
+============================================================
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map: 100%|##########| 139/139 [00:00<00:00, 9208.35 examples/s]
+Map:   0%|          | 0/31 [00:00<?, ? examples/s]Map: 100%|##########| 31/31 [00:00<00:00, 8892.92 examples/s]
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'eval_loss': 0.9770233631134033, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3653, 'eval_samples_per_second': 84.857, 'eval_steps_per_second': 5.475, 'epoch': 1.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 1.0529, 'grad_norm': 1.6853444576263428, 'learning_rate': 1.8e-05, 'epoch': 1.1111111111111112}
+{'eval_loss': 0.9270889163017273, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3407, 'eval_samples_per_second': 90.981, 'eval_steps_per_second': 5.87, 'epoch': 2.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.9748, 'grad_norm': 1.8364534378051758, 'learning_rate': 1.577777777777778e-05, 'epoch': 2.2222222222222223}
+{'eval_loss': 0.894275963306427, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.343, 'eval_samples_per_second': 90.367, 'eval_steps_per_second': 5.83, 'epoch': 3.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.8867, 'grad_norm': 2.5961785316467285, 'learning_rate': 1.3555555555555557e-05, 'epoch': 3.3333333333333335}
+{'eval_loss': 0.8594735860824585, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.23611111111111113, 'eval_runtime': 0.3394, 'eval_samples_per_second': 91.326, 'eval_steps_per_second': 5.892, 'epoch': 4.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.826, 'grad_norm': 3.2175471782684326, 'learning_rate': 1.1333333333333334e-05, 'epoch': 4.444444444444445}
+{'eval_loss': 0.8499792814254761, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.24113475177304966, 'eval_runtime': 0.3358, 'eval_samples_per_second': 92.315, 'eval_steps_per_second': 5.956, 'epoch': 5.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.7708, 'grad_norm': 2.6493752002716064, 'learning_rate': 9.111111111111112e-06, 'epoch': 5.555555555555555}
+{'eval_loss': 0.8430365920066833, 'eval_accuracy': 0.5483870967741935, 'eval_f1_macro': 0.24637681159420288, 'eval_runtime': 0.3408, 'eval_samples_per_second': 90.954, 'eval_steps_per_second': 5.868, 'epoch': 6.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.7284, 'grad_norm': 1.8999851942062378, 'learning_rate': 6.88888888888889e-06, 'epoch': 6.666666666666667}
+{'eval_loss': 0.8374876379966736, 'eval_accuracy': 0.5806451612903226, 'eval_f1_macro': 0.3124579124579125, 'eval_runtime': 0.3513, 'eval_samples_per_second': 88.256, 'eval_steps_per_second': 5.694, 'epoch': 7.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.6733, 'grad_norm': 2.6000144481658936, 'learning_rate': 4.666666666666667e-06, 'epoch': 7.777777777777778}
+{'eval_loss': 0.8291247487068176, 'eval_accuracy': 0.5806451612903226, 'eval_f1_macro': 0.3124579124579125, 'eval_runtime': 0.3642, 'eval_samples_per_second': 85.112, 'eval_steps_per_second': 5.491, 'epoch': 8.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.6146, 'grad_norm': 4.862314701080322, 'learning_rate': 2.4444444444444447e-06, 'epoch': 8.88888888888889}
+{'eval_loss': 0.821888267993927, 'eval_accuracy': 0.6129032258064516, 'eval_f1_macro': 0.3661299940369707, 'eval_runtime': 0.3282, 'eval_samples_per_second': 94.462, 'eval_steps_per_second': 6.094, 'epoch': 9.0}
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.6452, 'grad_norm': 1.8924161195755005, 'learning_rate': 2.2222222222222224e-07, 'epoch': 10.0}
+{'eval_loss': 0.821739912033081, 'eval_accuracy': 0.6129032258064516, 'eval_f1_macro': 0.3661299940369707, 'eval_runtime': 0.1882, 'eval_samples_per_second': 164.682, 'eval_steps_per_second': 10.625, 'epoch': 10.0}
+{'train_runtime': 44.0105, 'train_samples_per_second': 31.583, 'train_steps_per_second': 2.045, 'train_loss': 0.7969734774695503, 'epoch': 10.0}
+Map:   0%|          | 0/30 [00:00<?, ? examples/s]Map: 100%|##########| 30/30 [00:00<00:00, 6860.16 examples/s]
+/Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+  accuracy 0.567   macro F1 0.320
+
+
+============================================================
+All three done.
+============================================================
+Wrote results_three_seeds_after.json.
+Wrote results_three_seeds_after.json. Commit it.
+
+--- Executing Unit 6 notebook cell 21 ---
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.633 | 0.567 | 0.567 | 0.067 |
+| Macro F1 | 0.480 | 0.326 | 0.320 | 0.159 |
+| F1 — `request` | 0.444 | 0.250 | 0.000 | 0.444 |
+| F1 — `grounded` | 0.744 | 0.727 | 0.711 | 0.033 |
+| F1 — `ungrounded` | 0.250 | 0.000 | 0.250 | 0.250 |
+
+Accuracy moved 0.067 across seeds. Enough that a criterion landing within that band can't really be called either way.
+
+--- Executing Unit 6 notebook cell 23 ---
+| true \ predicted | request | grounded | ungrounded |
+|---|---|---|---|
+| **request** | 2 | 5 | 0 |
+| **grounded** | 0 | 16 | 0 |
+| **ungrounded** | 0 | 6 | 1 |
+
+Biggest confusion: 6 real `ungrounded` posts called `grounded`.
+The other direction: 0 real `grounded` posts called `ungrounded`.
+
+That's lopsided — the model leans toward `grounded` on this pair.
+A direction like that usually points at your labelling rather than the
+model. Your agreement report is the thing that can tell you which.
+
+Unit 6 after: completed; Unit 5 evidence unchanged: True

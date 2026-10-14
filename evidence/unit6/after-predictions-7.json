@@ -1,0 +1,491 @@
+{
+  "seed": 7,
+  "labels": [
+    "request",
+    "grounded",
+    "ungrounded"
+  ],
+  "rows": [
+    {
+      "row_id": "row-015",
+      "csv_line": 16,
+      "text_sha256": "9c39455fb8c8398e5729876bde593dfcc82ada9530df21ae4ce2bd44c014dd54",
+      "gold": "grounded",
+      "text": "These are absolutely beautiful! However, I think I often feel that when looking at fonts somebody has shared online, which makes me wonder how much I love the font, vs how much I just like the design aesthetic of people that craft fonts.\nAlso I understand why only the uppercase version is given, but it does pretty much preclude me from using the font, since 95% of the letters I type are lowercase",
+      "source_url": "https://news.ycombinator.com/item?id=49999529",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.39971691370010376,
+      "probabilities": {
+        "request": 0.3758867681026459,
+        "grounded": 0.39971691370010376,
+        "ungrounded": 0.22439633309841156
+      }
+    },
+    {
+      "row_id": "row-103",
+      "csv_line": 104,
+      "text_sha256": "520da74a1766c3724cf53c50abf647a839bc43454fc355e6dd7e668d83915bb6",
+      "gold": "ungrounded",
+      "text": "If creatively expanded to more characters, this would make a pretty nice coding font.",
+      "source_url": "https://news.ycombinator.com/item?id=49992823",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5685039758682251,
+      "probabilities": {
+        "request": 0.27734020352363586,
+        "grounded": 0.5685039758682251,
+        "ungrounded": 0.154155895113945
+      }
+    },
+    {
+      "row_id": "row-156",
+      "csv_line": 157,
+      "text_sha256": "7682d708f1acfbd66c25057851e0ae1b183e7f0302f1bfac8f31e1f1a09ade0f",
+      "gold": "request",
+      "text": "At some museums you can hire an art history expert as a guide. In addition to learning the basics (era, artist, etc...) you also find out what's important about any particular piece. They tell you what came before or after the painting or sculpture. You find out who was working with whom. Does the piece have an interesting backstory? Questionable provenance? What was the cultural or political environment at the time?\nThis does have a little blurb as you enter different galleries, but it's pretty broad. It would be neat to have more details per work.\nI really wish I had taken an art history course when I was in school...",
+      "source_url": "https://news.ycombinator.com/item?id=49995819",
+      "prediction": "request",
+      "correct": true,
+      "confidence": 0.409780353307724,
+      "probabilities": {
+        "request": 0.409780353307724,
+        "grounded": 0.2531280219554901,
+        "ungrounded": 0.3370915949344635
+      }
+    },
+    {
+      "row_id": "row-031",
+      "csv_line": 32,
+      "text_sha256": "667937c17641114c33db21d439eeeb3747d7ec937ad14b05e60b41bec5687a01",
+      "gold": "ungrounded",
+      "text": "Seeing Armature's pitch, It's very easy to see this is going to be pay-to-rank-higher as the next move once some critical mass of people starts pointing out their agents for this site as a reference. Adwords for tooling!!",
+      "source_url": "https://news.ycombinator.com/item?id=49999510",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.3955385386943817,
+      "probabilities": {
+        "request": 0.2369043529033661,
+        "grounded": 0.3955385386943817,
+        "ungrounded": 0.3675570785999298
+      }
+    },
+    {
+      "row_id": "row-145",
+      "csv_line": 146,
+      "text_sha256": "90b48c1936b75f3072a12895616d9a5bb4cabf5201e7a63db998bfe97ad6143b",
+      "gold": "grounded",
+      "text": "One downside is that you cannot tell if format lossy or lossless by looking at its extension.",
+      "source_url": "https://news.ycombinator.com/item?id=49991751",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8047841191291809,
+      "probabilities": {
+        "request": 0.10615327209234238,
+        "grounded": 0.8047841191291809,
+        "ungrounded": 0.08906258642673492
+      }
+    },
+    {
+      "row_id": "row-060",
+      "csv_line": 61,
+      "text_sha256": "aad9e984f493d7033bcbe5ccdb8e6a8726b3b1c74dfe7ab5c1a69e5ab3bd241b",
+      "gold": "request",
+      "text": "How do you compare to Azure Durable Functions, Temporal, AWS Lambda Durable Functions?\nCan't Durable Entities meet the same use cases?\nEDIT: Of course I am not talking about the difference in OSS vs not. Rather I'm interested in the difference in use cases and capabilities. Some of the aforementioned have ways to run things locally as well, though they are designed as distributed cloud-based PaaS services.",
+      "source_url": "https://news.ycombinator.com/item?id=49995842",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.7688813805580139,
+      "probabilities": {
+        "request": 0.13564638793468475,
+        "grounded": 0.7688813805580139,
+        "ungrounded": 0.09547224640846252
+      }
+    },
+    {
+      "row_id": "row-028",
+      "csv_line": 29,
+      "text_sha256": "5a80f414302741d98f395806fdd78b60a3e9c49ca856598073a435505d174abf",
+      "gold": "grounded",
+      "text": "I may just like games too much, but I can't take this seriously in its current form. This feels like one of the old and basic 'build your own game' toolboxes for non-developers, but with AI - not an 'AI game engine'. It shows that even the demos they made for the trailer are all simplistic endless games that remind me of average Flash games with a different coat of paint. When your entire 'game idea' can be expressed in two sentences, it's going to get old fast. There's only so many endless runners, trivia and single screen 'move from point to point' games one can tolerate. I can't see this specific product having any impact on the gaming industry, despite many people here already talking about the industry at large.",
+      "source_url": "https://news.ycombinator.com/item?id=49999381",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.7754870057106018,
+      "probabilities": {
+        "request": 0.14622710645198822,
+        "grounded": 0.7754870057106018,
+        "ungrounded": 0.07828591763973236
+      }
+    },
+    {
+      "row_id": "row-053",
+      "csv_line": 54,
+      "text_sha256": "c58fc217debcde33059cabdeaffa0f89edc2e6c09708014748698cd8dc29c23a",
+      "gold": "ungrounded",
+      "text": "Some weeks i feel like the majority of software blogs I see are LLM written now. They are usually terrible.\nMaybe someone can tell the LLM's about these anti-patterns, like, seriously, would it help?\nI'd prefer of course if people just actually themselves wrote the text that they expect me to read my human self.",
+      "source_url": "https://news.ycombinator.com/item?id=49996473",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.571175217628479,
+      "probabilities": {
+        "request": 0.20802389085292816,
+        "grounded": 0.571175217628479,
+        "ungrounded": 0.22080089151859283
+      }
+    },
+    {
+      "row_id": "row-124",
+      "csv_line": 125,
+      "text_sha256": "fb0ff5e562e9e473744d72bf456d4e9f32da8bdc643d9c749af34686fb3e5bf0",
+      "gold": "grounded",
+      "text": "Neat. Some of my earliest online contributions were to local dial-up BBSs.  I spent entire days making animated ascii sequences in the theme of the board.",
+      "source_url": "https://news.ycombinator.com/item?id=49995275",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.591407835483551,
+      "probabilities": {
+        "request": 0.21191155910491943,
+        "grounded": 0.591407835483551,
+        "ungrounded": 0.19668056070804596
+      }
+    },
+    {
+      "row_id": "row-198",
+      "csv_line": 199,
+      "text_sha256": "db49e3ab44742483b80f8781c396ef18ed28e44189086f27cefa1d4fc2042c55",
+      "gold": "request",
+      "text": "This looks great, but why is there no \"plus\" version for Android?",
+      "source_url": "https://news.ycombinator.com/item?id=49991388",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.4036979675292969,
+      "probabilities": {
+        "request": 0.35293829441070557,
+        "grounded": 0.4036979675292969,
+        "ungrounded": 0.24336369335651398
+      }
+    },
+    {
+      "row_id": "row-118",
+      "csv_line": 119,
+      "text_sha256": "9bf0296bb469cb0e3ea7baab75f0f01a7d349b39fb843c2876e1ef7aadb29cfd",
+      "gold": "grounded",
+      "text": "Whitelist/allowlist is easier, e.g., it's smaller\nDepends on the user but not everyone is visiting new websites everyday\nEven for those that are, the number of domain-IP mappings needed will be relatively small\nDefinitely under 140,000\nMost DNS data I use is \"static\", it rarely changes.  As such most times I don't have to make DNS queries.  I store the domain-IP mappings in proxy memory; this is faster than DNS\nNo \"blocklist\" needed",
+      "source_url": "https://news.ycombinator.com/item?id=49987962",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.876609742641449,
+      "probabilities": {
+        "request": 0.08141187578439713,
+        "grounded": 0.876609742641449,
+        "ungrounded": 0.04197842255234718
+      }
+    },
+    {
+      "row_id": "row-127",
+      "csv_line": 128,
+      "text_sha256": "c6bd0583fef3b30fa3397fc3c69e6d7d2386585827250fa72a1798286122bc7c",
+      "gold": "ungrounded",
+      "text": "How long until someone makes a tiktok-style game platform?\nPlay a little game, then when you're done it generates a new one based on what you've enjoyed. Repeat ad infinitum.",
+      "source_url": "https://news.ycombinator.com/item?id=49992552",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.4957634508609772,
+      "probabilities": {
+        "request": 0.22980543971061707,
+        "grounded": 0.4957634508609772,
+        "ungrounded": 0.27443110942840576
+      }
+    },
+    {
+      "row_id": "row-117",
+      "csv_line": 118,
+      "text_sha256": "81f4bf8551144b630aefe1250807c6d1a2fade3a994187da475f796c8cce98a3",
+      "gold": "grounded",
+      "text": "The 3rd U.S. Circuit Court of Appeals recently ruled [1] that using AI to train on a competitor's copyrighted material to build a competing product is _not_ fair use. This is a recent ruling (September 30, 2026). GitHub policy has surely not caught up yet and who knows when it will.\n> Do you think I should look for a lawyer to deal with it outside the digital world?\nAbsolutely. This is a copyright infringement case and there is now an appellate precedent to cite. Gather as much evidence as you can and speak with an IP attorney.\n[1] https://www.reuters.com/legal/litigation/unsealed-opinion-sh...",
+      "source_url": "https://news.ycombinator.com/item?id=49994299",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8207715749740601,
+      "probabilities": {
+        "request": 0.12064126133918762,
+        "grounded": 0.8207715749740601,
+        "ungrounded": 0.0585872046649456
+      }
+    },
+    {
+      "row_id": "row-100",
+      "csv_line": 101,
+      "text_sha256": "83c5f9609bf130a155b8090689872bf24c562042fcd5685257d0cce42c1f1462",
+      "gold": "grounded",
+      "text": "Every time a new image format comes out, I think about the compatibility crisis between apps.\nE.g. Telegram still doesn't have sane support for .webp, it treats them as stickers.  MacOS can take a long time to update with support for new formats.  Image viewer apps even longer, many never updating to support new formats.",
+      "source_url": "https://news.ycombinator.com/item?id=49991527",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8470229506492615,
+      "probabilities": {
+        "request": 0.09308355301618576,
+        "grounded": 0.8470229506492615,
+        "ungrounded": 0.059893425554037094
+      }
+    },
+    {
+      "row_id": "row-161",
+      "csv_line": 162,
+      "text_sha256": "9fc29e0e407fe372e8658331bdded7eb27a09d00d49ec71ec6a2ce4a3ca7dffb",
+      "gold": "grounded",
+      "text": "I was exited to read about this until I saw \"Claude\" listed as a contributor.",
+      "source_url": "https://news.ycombinator.com/item?id=49998553",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.34654244780540466,
+      "probabilities": {
+        "request": 0.3118698000907898,
+        "grounded": 0.34654244780540466,
+        "ungrounded": 0.34158772230148315
+      }
+    },
+    {
+      "row_id": "row-153",
+      "csv_line": 154,
+      "text_sha256": "c6416a9b074418618fc667508643a165bdcec489de51d054af5a923ac25b1486",
+      "gold": "ungrounded",
+      "text": "maybe i will finally able to play MGSolid saga on a browser on my mac :)",
+      "source_url": "https://news.ycombinator.com/item?id=49994544",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.6653514504432678,
+      "probabilities": {
+        "request": 0.19924266636371613,
+        "grounded": 0.6653514504432678,
+        "ungrounded": 0.13540586829185486
+      }
+    },
+    {
+      "row_id": "row-073",
+      "csv_line": 74,
+      "text_sha256": "04b1f669f97696e73ff37ce534d1af28ffe123e6a451b098320f4b7064ab0369",
+      "gold": "request",
+      "text": "Last year (2025), I lost count of how many times I tried using an LLM to set up Docker. It was still the era of prompting, then copy-pasting the response and seeing if it worked... and it almost never did. It\u2019s great to see this new Docker agent. For me, it would be even more appealing to see an agent and a model specialized in Docker working together, capable of proposing advanced configurations and getting them working on the first try.",
+      "source_url": "https://news.ycombinator.com/item?id=49999046",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.7261055111885071,
+      "probabilities": {
+        "request": 0.14616255462169647,
+        "grounded": 0.7261055111885071,
+        "ungrounded": 0.12773193418979645
+      }
+    },
+    {
+      "row_id": "row-023",
+      "csv_line": 24,
+      "text_sha256": "f13c0a21a757c4e581d023102c54f2ac8f68108c19697ea4486bc3fd5004deee",
+      "gold": "request",
+      "text": "Neat! For mobile, it would be nice to have an on-screen button to toggle full screen and turn the page landscape.",
+      "source_url": "https://news.ycombinator.com/item?id=49999818",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5730656385421753,
+      "probabilities": {
+        "request": 0.2492775321006775,
+        "grounded": 0.5730656385421753,
+        "ungrounded": 0.1776568591594696
+      }
+    },
+    {
+      "row_id": "row-191",
+      "csv_line": 192,
+      "text_sha256": "a54a760416f6a41f2198fcfd8eb7e126902ca56d68b1fc29890d6446951c04b1",
+      "gold": "grounded",
+      "text": "Many folks are great writers, but bad editors and the meandering intro is what kills most blog posts for me. Too bad because we really need more personal stories.\nI start with the conclusion in the first paragraph[1], and the user can decide if it\u2019s worth their time or not. Unless you\u2019re Gabriel Garcia Marquez, no one\u2019s going to read your rambling.\n[1] https://samkhawase.com/blog/email-is-crazy/",
+      "source_url": "https://news.ycombinator.com/item?id=49996395",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.4483570456504822,
+      "probabilities": {
+        "request": 0.3024863600730896,
+        "grounded": 0.4483570456504822,
+        "ungrounded": 0.24915656447410583
+      }
+    },
+    {
+      "row_id": "row-017",
+      "csv_line": 18,
+      "text_sha256": "f91021b83beb5982b4ed2db210bcda661c63dd009f13c23e4d675bb0d7fa70bb",
+      "gold": "ungrounded",
+      "text": "\"The meandering intro\" might be the most common mistake, by far, but the most damaging mistake, by far, is the failure to connect the topic with something the readers are familiar with (anti-pattern #2). Some things simply require a certain level of expertise/prerequisites to begin to understand, but I've repeatedly seen in software blogging, READMEs, etc. a failure to answer \"what is this, compared to what I'm familiar with, and if I'm not familiar with anything relevant, why should I want to be?\"\nThis applies to almost everything in the software space. New tool? New design pattern? New library? Language idiom? Language? Or, for more modern takes, new model? New harness? New harness option? New use pattern? Give a brief summary of what a project looks like without it, to convey the problem that its existence alone is solving. Then go into the details of how it might compare to other solutions.\nMaybe it's just a specific way of how my brain works that finds this sort of information intuitive, and the lack of it particularly annoying.",
+      "source_url": "https://news.ycombinator.com/item?id=49995004",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.7141332030296326,
+      "probabilities": {
+        "request": 0.16855697333812714,
+        "grounded": 0.7141332030296326,
+        "ungrounded": 0.11730987578630447
+      }
+    },
+    {
+      "row_id": "row-079",
+      "csv_line": 80,
+      "text_sha256": "67ca932a30b2b0a233929d82282473851c08451277650f7f0df484224c1cde9d",
+      "gold": "grounded",
+      "text": "8BitDo made a modern mechanical keyboard that looks like a C64. I got one and I am loving it.\nhttps://www.8bitdo.com/retro-mechanical-keyboard-c64/",
+      "source_url": "https://news.ycombinator.com/item?id=49995742",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.839560329914093,
+      "probabilities": {
+        "request": 0.10840428620576859,
+        "grounded": 0.839560329914093,
+        "ungrounded": 0.05203533545136452
+      }
+    },
+    {
+      "row_id": "row-164",
+      "csv_line": 165,
+      "text_sha256": "a45076a04beeca423a20cb9467bd416c7105a3faff67105571e9ff52e36ee88d",
+      "gold": "grounded",
+      "text": "I like it, but to do fizzbuzz in this way, you'd have to separate what's inside the loop into a reused function.",
+      "source_url": "https://news.ycombinator.com/item?id=49998856",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.7257070541381836,
+      "probabilities": {
+        "request": 0.1491650491952896,
+        "grounded": 0.7257070541381836,
+        "ungrounded": 0.125127911567688
+      }
+    },
+    {
+      "row_id": "row-072",
+      "csv_line": 73,
+      "text_sha256": "b3133be3a7befea7c00b5b2d5585234241c026c7ff4c469cfe5cf727113c4bae",
+      "gold": "grounded",
+      "text": "Sadly this seems like introducing a very complex apparatus for little gain. I don't need MCP or many tool calls that the agent can program around - in fact the promise of pi was that you basically just need bash and no other tools. The minimally-invasive approach would have been to just \"inject\" tool calls as virtual bash commands. No code mode required, no hands vs. brains dichotomy. LLM can use language of its own choosing to interact with tools.",
+      "source_url": "https://news.ycombinator.com/item?id=49989794",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8473310470581055,
+      "probabilities": {
+        "request": 0.08959650248289108,
+        "grounded": 0.8473310470581055,
+        "ungrounded": 0.06307237595319748
+      }
+    },
+    {
+      "row_id": "row-187",
+      "csv_line": 188,
+      "text_sha256": "ed3b898506bf644aa71c17ff74e21c250a64b6e3ae562a54c40b6ddb69f5020a",
+      "gold": "request",
+      "text": "beautiful. i don't see the pieces as animated, however. perhaps I am missing something?",
+      "source_url": "https://news.ycombinator.com/item?id=49995051",
+      "prediction": "ungrounded",
+      "correct": false,
+      "confidence": 0.4739970266819,
+      "probabilities": {
+        "request": 0.3240731656551361,
+        "grounded": 0.20192976295948029,
+        "ungrounded": 0.4739970266819
+      }
+    },
+    {
+      "row_id": "row-162",
+      "csv_line": 163,
+      "text_sha256": "20b7812c91b3a1a069cd9c311a900ab7e06417bf81bea8a0680c11b48813335b",
+      "gold": "grounded",
+      "text": "I've been using Codemode with the new Dot so that Dot can coordinate my agents with:\n1. Launching workflows, so it avoids some large configuration\n2. Reviewing work, with reviewers restricted to read-only tools or specific tools. Or some tools for reviewers to check hashes, correctness, etc.\n3. I'm using the widely used pi-extensible-workflows. So say you want to stop a workflow, you gonna call workflow_stop. Or check the status with workflow_status. Without Codemode, Pi exposes an API, that the agent can use. So yes, you can call workflow_status. Or call workflow_stop. With Codemode, the agent can do something more complex like a for loop over all the list of workflow ids and get a status and stop them all (again, it's just an example).\nSo basically, Codemode allows to build a sort of framework for more correctness like using a typed language vs. JavaScript without a linter. It gives boundaries essentially. And also Codemode allows an agent to do things more easily like using internal Pi extensions.",
+      "source_url": "https://news.ycombinator.com/item?id=49994954",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8818503022193909,
+      "probabilities": {
+        "request": 0.07252966612577438,
+        "grounded": 0.8818503022193909,
+        "ungrounded": 0.045620065182447433
+      }
+    },
+    {
+      "row_id": "row-047",
+      "csv_line": 48,
+      "text_sha256": "31167869238d3664718051a82803a1576c98d42fa8c5a54161afc5b0aa78812c",
+      "gold": "grounded",
+      "text": "https://bigwords.page/#smol!%20!%20!%20!%20!%20!%20!%20!%20!...!\nYou seem to have the same bug I had when I first implemented https://screaming.saej.in/\nIn Firefox, scrollWidth includes spaces that extend into the margin, so it's possible for text to fit perfectly on the screen, but scrollWidth > clientWidth. Fix here https://saej.in/posts/screaming/",
+      "source_url": "https://news.ycombinator.com/item?id=49997519",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8724528551101685,
+      "probabilities": {
+        "request": 0.087740957736969,
+        "grounded": 0.8724528551101685,
+        "ungrounded": 0.039806120097637177
+      }
+    },
+    {
+      "row_id": "row-098",
+      "csv_line": 99,
+      "text_sha256": "2307a9a0ea3d9954e679280a43857ae172b686cc45389825adb3ad8741d4d01c",
+      "gold": "ungrounded",
+      "text": "Just the branch predictor gains are probably worth it.",
+      "source_url": "https://news.ycombinator.com/item?id=49999280",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.554610550403595,
+      "probabilities": {
+        "request": 0.17898817360401154,
+        "grounded": 0.554610550403595,
+        "ungrounded": 0.2664012908935547
+      }
+    },
+    {
+      "row_id": "row-069",
+      "csv_line": 70,
+      "text_sha256": "3737f80b767034cf0b8099654e81842d7eeea890aa48421e81095dfc01e908ed",
+      "gold": "grounded",
+      "text": "My say about this\n1. I think most of us know the same thing is occurred when first compile came into the market (Most of them hated it saying 'High Quality ASM code would be only generated by humans' . Moving forward asm hasn't dead but we are only using it only at critically.\nI think we will do same with LLMs we use what useful and Move forward.\n2. Life's isn't just always staying in front of a box and writing some code. If AI does the job of creating useful code with quality i would be more than happy since i could get start to work on more abstract things like Arts and Humanity. which for our growth is essential as you can see the current society is currently disdain.\nFinally to conclude don't try to interrupt the flow just accept it and move forward.\nLife is SHORT",
+      "source_url": "https://news.ycombinator.com/item?id=49990597",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8144209980964661,
+      "probabilities": {
+        "request": 0.09796889871358871,
+        "grounded": 0.8144209980964661,
+        "ungrounded": 0.0876101702451706
+      }
+    },
+    {
+      "row_id": "row-043",
+      "csv_line": 44,
+      "text_sha256": "718df616bd64b2cc9b6adbd4934dd772a49f501698dd6b55524e78cdad74631f",
+      "gold": "grounded",
+      "text": "Weird how the readme talks about hash collisions, but not in the way I would expect. Two blocked domains with the same hash isn't a problem, they both need to be blocked.\nWhere hash collisions matter is false positives, e.g. if hash(google.com) = hash(adserver.com). There does appear to be a web dashboard and /unblock api so should be straightforward to resolve.",
+      "source_url": "https://news.ycombinator.com/item?id=49987489",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8465775847434998,
+      "probabilities": {
+        "request": 0.09506548196077347,
+        "grounded": 0.8465775847434998,
+        "ungrounded": 0.05835694819688797
+      }
+    },
+    {
+      "row_id": "row-188",
+      "csv_line": 189,
+      "text_sha256": "2f8e1f81467ceef378b488e121b23552a3e05b53c5f703addf4833d1b32bf3d8",
+      "gold": "request",
+      "text": "This sort of thing makes me wonder what the successor is to the Gingery Books now that they're going away:\nhttps://gingerybookstore.com/\nChris Borges has done some pretty cool little machines using 3D printed forms filled with concrete:\nhttps://www.printables.com/@ChrisBorge\nand of course there are more CNC router designs than one can shake a stick at (ob. discl., I work for a company which makes one)",
+      "source_url": "https://news.ycombinator.com/item?id=49999351",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.6394351720809937,
+      "probabilities": {
+        "request": 0.24604591727256775,
+        "grounded": 0.6394351720809937,
+        "ungrounded": 0.11451888084411621
+      }
+    }
+  ],
+  "method": "Observed the starter evaluate() call's existing Trainer.predict output; no extra predictions."
+}

@@ -1,0 +1,22 @@
+test_counts_are_required_exact_integers (test_runner_readiness.ReviewReadinessTests.test_counts_are_required_exact_integers) ... ok
+test_hash_mismatch_is_rejected_for_both_files (test_runner_readiness.ReviewReadinessTests.test_hash_mismatch_is_rejected_for_both_files) ... ok
+test_incomplete_review_is_rejected (test_runner_readiness.ReviewReadinessTests.test_incomplete_review_is_rejected) ... ok
+test_instructor_record_cannot_also_claim_human_review (test_runner_readiness.ReviewReadinessTests.test_instructor_record_cannot_also_claim_human_review) ... ok
+test_instructor_review_retains_ai_disclosure_and_preregistration (test_runner_readiness.ReviewReadinessTests.test_instructor_review_retains_ai_disclosure_and_preregistration) ... ok
+test_instructor_reviewer_is_disclosed (test_runner_readiness.ReviewReadinessTests.test_instructor_reviewer_is_disclosed) ... ok
+test_matching_review_does_not_bypass_commit_gate (test_runner_readiness.ReviewReadinessTests.test_matching_review_does_not_bypass_commit_gate) ... ok
+test_original_student_worksheet_record_stays_supported (test_runner_readiness.ReviewReadinessTests.test_original_student_worksheet_record_stays_supported) ... ok
+test_practice_scope_needs_no_review (test_runner_readiness.ReviewReadinessTests.test_practice_scope_needs_no_review) ... ok
+test_unknown_mode_is_rejected (test_runner_readiness.ReviewReadinessTests.test_unknown_mode_is_rejected) ... ok
+test_definition_loader_never_runs_starter_side_effects (test_unit6_runner.Unit6ExecutionSafetyTests.test_definition_loader_never_runs_starter_side_effects) ... ok
+test_exclusive_evidence_writes (test_unit6_runner.Unit6ExecutionSafetyTests.test_exclusive_evidence_writes) ... ok
+test_wrappers_capture_same_prediction_call_and_detect_changed_split (test_unit6_runner.Unit6ExecutionSafetyTests.test_wrappers_capture_same_prediction_call_and_detect_changed_split) ... ok
+test_after_rejects_altered_notebook_or_split_evidence (test_unit6_runner.Unit6ReadinessTests.test_after_rejects_altered_notebook_or_split_evidence) ... ok
+test_after_requires_committed_epoch_plan (test_unit6_runner.Unit6ReadinessTests.test_after_requires_committed_epoch_plan) ... ok
+test_before_is_original_settings_and_disclosed_ai_scope (test_unit6_runner.Unit6ReadinessTests.test_before_is_original_settings_and_disclosed_ai_scope) ... ok
+test_hashes_must_match_unit5_even_if_updated_review_matches (test_unit6_runner.Unit6ReadinessTests.test_hashes_must_match_unit5_even_if_updated_review_matches) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.135s
+
+OK

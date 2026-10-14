@@ -1,0 +1,28 @@
+
+AI201 environment check
+------------------------------------------------------------
+[PASS] Python version
+         3.12.14 on Darwin
+[PASS] Virtual environment
+         /Users/jamespaek/Documents/Codex/2026-09-14/com/work/ai201-project3-takemeter-starter-v2026/.venv
+[PASS] Pinned packages
+         all 6 import cleanly
+[PASS] Free disk space
+         9.2 GB
+[PASS] Memory
+         16.0 GB
+[PASS] PyTorch
+         2.14.1, Apple Silicon GPU (MPS) — training will use it
+[PASS] Training packages
+         datasets and accelerate both import
+[PASS] Transformers
+         imports cleanly
+[WARN] Baseline model
+         Not downloaded yet (~1.6 GB). It downloads on your first run of
+         baseline.py. Do that BEFORE the unit 6 session, not during it.
+[PASS] Project files
+         notebook, scripts and practice data all present
+------------------------------------------------------------
+9 passed, 0 failed, 1 to look at, 0 skipped
+
+You're set. See you in class.

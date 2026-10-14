@@ -1,0 +1,491 @@
+{
+  "seed": 2024,
+  "labels": [
+    "request",
+    "grounded",
+    "ungrounded"
+  ],
+  "rows": [
+    {
+      "row_id": "row-174",
+      "csv_line": 175,
+      "text_sha256": "00ed53544eee76442676bfbca8065933681b5c443f0889753058691bef5916d9",
+      "gold": "grounded",
+      "text": "I saw one yesterday for GTA 6 it was taken down. Somebody can probably dig up the X link.",
+      "source_url": "https://news.ycombinator.com/item?id=49995516",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5319784283638,
+      "probabilities": {
+        "request": 0.22057859599590302,
+        "grounded": 0.5319784283638,
+        "ungrounded": 0.24744294583797455
+      }
+    },
+    {
+      "row_id": "row-143",
+      "csv_line": 144,
+      "text_sha256": "705ea77acd387efd3aef7f7b2c0a51f3959ef7889df69834fb829dee3d380071",
+      "gold": "ungrounded",
+      "text": "I have always phrased this as \"Never do one of something\".",
+      "source_url": "https://news.ycombinator.com/item?id=49998706",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.39359214901924133,
+      "probabilities": {
+        "request": 0.263723224401474,
+        "grounded": 0.39359214901924133,
+        "ungrounded": 0.34268462657928467
+      }
+    },
+    {
+      "row_id": "row-001",
+      "csv_line": 2,
+      "text_sha256": "1d33a2ad5a298f2abc58d276ed1f5e8d48bd0afcf954300c641719529984d39a",
+      "gold": "grounded",
+      "text": "I feel like Debug should be lazily emitted altogether when it\u2019s first used - just a special marker that\u2019s never expanded since 99% of the Debug implementations aren\u2019t used and having the rest marked #[cold] as inline is obviously wrong.  Of course implementing it in practice sounds exceptionally difficult.\nThat being said, even the justifying performance improvement PR was itself a mix of improvements and regressions",
+      "source_url": "https://news.ycombinator.com/item?id=49992860",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8686148524284363,
+      "probabilities": {
+        "request": 0.06806875765323639,
+        "grounded": 0.8686148524284363,
+        "ungrounded": 0.06331637501716614
+      }
+    },
+    {
+      "row_id": "row-104",
+      "csv_line": 105,
+      "text_sha256": "a502711a89b8112b9cbc114fbb4daaec3f972ef2023a7d722f0ada7b5bf47739",
+      "gold": "grounded",
+      "text": "We've hosted an AI game development platform for a while now and found there's a big difference between \"making a game\" and \"making a fun game\". I'd love to see if they are solving the real problem, but the link to try it out is a 403 for me.",
+      "source_url": "https://news.ycombinator.com/item?id=49993470",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.7817649841308594,
+      "probabilities": {
+        "request": 0.11654786020517349,
+        "grounded": 0.7817649841308594,
+        "ungrounded": 0.10168714076280594
+      }
+    },
+    {
+      "row_id": "row-071",
+      "csv_line": 72,
+      "text_sha256": "f70b2c2c218331a1d1be3a017a8964b8ea557cd510becab0d97615382b9083cf",
+      "gold": "grounded",
+      "text": "I'm a bit of a paranoid freak that likes lists, so I've got a PiHole that has a total list of 14-16M blocked domains.\nGreat idea, and good for casual blocking, but I'm almost moving to an \"allow list\" mindset. This solution would probably work better for that, I wonder if the good parts of the internet would fit into an 140k list.",
+      "source_url": "https://news.ycombinator.com/item?id=49988699",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5352910161018372,
+      "probabilities": {
+        "request": 0.2078840583562851,
+        "grounded": 0.5352910161018372,
+        "ungrounded": 0.25682491064071655
+      }
+    },
+    {
+      "row_id": "row-065",
+      "csv_line": 66,
+      "text_sha256": "a7f2937ab9d55ab832f65e93dbbbbed03851433a1814bc7f4c4cf790a9ee7249",
+      "gold": "request",
+      "text": "I wonder if they ever considered a table-driven approach for `#[derive(Debug)]`, as `facet` [1] does. That would have been my first instinct for something this formulaic where binary size and compilation time matter more than execution speed. But my impression is facet hasn't quite realized its promise on those fronts, so maybe the table-driven approach in std was similarly tried and rejected.\n[1] https://crates.io/crates/facet",
+      "source_url": "https://news.ycombinator.com/item?id=49993832",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.87947016954422,
+      "probabilities": {
+        "request": 0.0696379616856575,
+        "grounded": 0.87947016954422,
+        "ungrounded": 0.05089191347360611
+      }
+    },
+    {
+      "row_id": "row-083",
+      "csv_line": 84,
+      "text_sha256": "6a7e8985949b6d61558d36417bba2da85ef6d4dfa82d3a41883e642d6ff4dfcc",
+      "gold": "ungrounded",
+      "text": "This is probably one step towards an agentic Stack Overflow. Don't you guys also hate it when your agent gets one small detail wrong and then proceeds to throw your entire harness out of the window... No? Oh well.",
+      "source_url": "https://news.ycombinator.com/item?id=49998124",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.3846544325351715,
+      "probabilities": {
+        "request": 0.2701301574707031,
+        "grounded": 0.3846544325351715,
+        "ungrounded": 0.34521540999412537
+      }
+    },
+    {
+      "row_id": "row-009",
+      "csv_line": 10,
+      "text_sha256": "c442f8941546e5b7cfad87ec18d4580e4a168dfcd410259a93b41d963243bd74",
+      "gold": "ungrounded",
+      "text": "While I love new open source dev (especially in Go!), agent harnesses are turning into JS frameworks from yesteryear.\nAll the cool kids have one!",
+      "source_url": "https://news.ycombinator.com/item?id=49996927",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5454373955726624,
+      "probabilities": {
+        "request": 0.1998032182455063,
+        "grounded": 0.5454373955726624,
+        "ungrounded": 0.25475937128067017
+      }
+    },
+    {
+      "row_id": "row-110",
+      "csv_line": 111,
+      "text_sha256": "f5491120980063d7e88ebc50d325aebd9e257eee7b83756c5e077b60bd9bf75d",
+      "gold": "ungrounded",
+      "text": "Deeply unserious technology. Can't wait until an article about LLMs performing 20% better on programming benchmarks if asked to impersonate Kevin from The Office.",
+      "source_url": "https://news.ycombinator.com/item?id=49992668",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.4229408800601959,
+      "probabilities": {
+        "request": 0.2271873503923416,
+        "grounded": 0.4229408800601959,
+        "ungrounded": 0.3498716950416565
+      }
+    },
+    {
+      "row_id": "row-066",
+      "csv_line": 67,
+      "text_sha256": "67eb082a99aff00c88ac2d45ad4bc23cd8836ca1172a3e5e2b2559b5ed6a6671",
+      "gold": "grounded",
+      "text": "What is strange is that last year I spent a lot of time creating the exact same 3D gallery experience with Claude. I picked up the style of the lights, the benches, the walls, the cards position. I also added music, lights on top of the images and the exact tour experience.\nA year later, I see a very similar implementation!...I find that very odd.\nBut I do like the experience and site, there are few things I can pick from it myself for the project I've.\nBut it seems to me anything you use Claude for will be used aggressively to train the next model and some else in same prompting space can recreate it.\nNot take the anything from the author's work, mine was in a slightly different context.",
+      "source_url": "https://news.ycombinator.com/item?id=49993289",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.6136042475700378,
+      "probabilities": {
+        "request": 0.2152196764945984,
+        "grounded": 0.6136042475700378,
+        "ungrounded": 0.17117610573768616
+      }
+    },
+    {
+      "row_id": "row-024",
+      "csv_line": 25,
+      "text_sha256": "105b603e575d3fcb0074a744e56366b149e01ad863ad8557874a7f4e49f83f3a",
+      "gold": "grounded",
+      "text": "And soon Firefox will include it in Stable. During October it will go from Safari only to majority coverage. Eventful month!\nWhile AVIF may have a slight edge in some cases like in fairly lossy compression, you won't really go _wrong_ with JPEG XL (unless strongly CPU constrained) and I think the strength of the format is its extreme versatility as a \"be all end all image format\" for some time where comparative performance depending on functionality ranges from respectable to excellent. It can work as a replacement for AVIF, PNG, JPEG, WebP, even certain TIFF required scenarios (high bit depth, multichannel, layers) depending on use cases.",
+      "source_url": "https://news.ycombinator.com/item?id=49993079",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8600050806999207,
+      "probabilities": {
+        "request": 0.082981176674366,
+        "grounded": 0.8600050806999207,
+        "ungrounded": 0.05701371282339096
+      }
+    },
+    {
+      "row_id": "row-176",
+      "csv_line": 177,
+      "text_sha256": "45d1163745b92a7663ec19329166d0f1640f57ae9a0f6cb3c88647baa8090283",
+      "gold": "request",
+      "text": "yeah, this escalated quickly.\ni hope to see fm-1.5 with sd card soon to make it sampler. or is it time for hardware mod?..",
+      "source_url": "https://news.ycombinator.com/item?id=49999371",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5855312943458557,
+      "probabilities": {
+        "request": 0.21156267821788788,
+        "grounded": 0.5855312943458557,
+        "ungrounded": 0.20290610194206238
+      }
+    },
+    {
+      "row_id": "row-160",
+      "csv_line": 161,
+      "text_sha256": "7b355e8f405b08db2f964761871933add81a234b2336d08fb2a68776304d2aca",
+      "gold": "ungrounded",
+      "text": "You\u2019ve made a million dollars a year for five years with it? Why are you stressing about lawyers and support tickets instead of being retired?",
+      "source_url": "https://news.ycombinator.com/item?id=49993345",
+      "prediction": "ungrounded",
+      "correct": true,
+      "confidence": 0.4118606746196747,
+      "probabilities": {
+        "request": 0.26851072907447815,
+        "grounded": 0.3196285665035248,
+        "ungrounded": 0.4118606746196747
+      }
+    },
+    {
+      "row_id": "row-116",
+      "csv_line": 117,
+      "text_sha256": "30f1903eac19274d343238e42ce2f98aa81bc20fcddad2bf1e618f6c2487ffa3",
+      "gold": "grounded",
+      "text": "It would be interesting to see the linked talk \"Useing You're Type's Good\", but it seems to have been deleted.",
+      "source_url": "https://news.ycombinator.com/item?id=49990435",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.6537571549415588,
+      "probabilities": {
+        "request": 0.19041654467582703,
+        "grounded": 0.6537571549415588,
+        "ungrounded": 0.15582622587680817
+      }
+    },
+    {
+      "row_id": "row-051",
+      "csv_line": 52,
+      "text_sha256": "114ac9b7ce1cf8a9eaa612ec7d7fcba49ced6a97df08565b76254581972d77b1",
+      "gold": "grounded",
+      "text": "The old versions of VIC-20 used a font called Microgramma.\nhttps://www.reddit.com/r/vintagecomputing/comments/1pjw7q6/t...\nhttps://en.wikipedia.org/wiki/Microgramma_(typeface)",
+      "source_url": "https://news.ycombinator.com/item?id=49991744",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.7573785781860352,
+      "probabilities": {
+        "request": 0.14485225081443787,
+        "grounded": 0.7573785781860352,
+        "ungrounded": 0.09776913374662399
+      }
+    },
+    {
+      "row_id": "row-015",
+      "csv_line": 16,
+      "text_sha256": "9c39455fb8c8398e5729876bde593dfcc82ada9530df21ae4ce2bd44c014dd54",
+      "gold": "grounded",
+      "text": "These are absolutely beautiful! However, I think I often feel that when looking at fonts somebody has shared online, which makes me wonder how much I love the font, vs how much I just like the design aesthetic of people that craft fonts.\nAlso I understand why only the uppercase version is given, but it does pretty much preclude me from using the font, since 95% of the letters I type are lowercase",
+      "source_url": "https://news.ycombinator.com/item?id=49999529",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.4454316794872284,
+      "probabilities": {
+        "request": 0.2660652995109558,
+        "grounded": 0.4454316794872284,
+        "ungrounded": 0.2885030210018158
+      }
+    },
+    {
+      "row_id": "row-114",
+      "csv_line": 115,
+      "text_sha256": "99379e18b25978bb333709e2c7bb989bde6a72067d64ea00cb94ce2450f7cb8f",
+      "gold": "grounded",
+      "text": "Did a procfs scraper once, handling pids vanishing mid-read took me ages.",
+      "source_url": "https://news.ycombinator.com/item?id=49993770",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5280175805091858,
+      "probabilities": {
+        "request": 0.20241139829158783,
+        "grounded": 0.5280175805091858,
+        "ungrounded": 0.2695710062980652
+      }
+    },
+    {
+      "row_id": "row-011",
+      "csv_line": 12,
+      "text_sha256": "0bd986855d7909c720d1497fe3868af37f25b6c90845d6620f64fa3a49a7aa13",
+      "gold": "request",
+      "text": "1. this is great!\n2. QR code support? %QR=256x256&QR_ECC=min etc.?\n3. prolly other natural / ez \"make it big\" - base64 tho not all browsers will support long enough URL to be worth it",
+      "source_url": "https://news.ycombinator.com/item?id=49999698",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.8458780646324158,
+      "probabilities": {
+        "request": 0.09592984616756439,
+        "grounded": 0.8458780646324158,
+        "ungrounded": 0.0581921748816967
+      }
+    },
+    {
+      "row_id": "row-172",
+      "csv_line": 173,
+      "text_sha256": "3a6873229ffd78907ed8b1ead5fa039eae00b27387348ce1cf6578ec53c54d65",
+      "gold": "grounded",
+      "text": "Here is openai:\nhttps://help.openai.com/en/articles/8912793-provenance-signa...\nThere is rate limit though",
+      "source_url": "https://news.ycombinator.com/item?id=49993983",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.6178925037384033,
+      "probabilities": {
+        "request": 0.22052045166492462,
+        "grounded": 0.6178925037384033,
+        "ungrounded": 0.16158705949783325
+      }
+    },
+    {
+      "row_id": "row-126",
+      "csv_line": 127,
+      "text_sha256": "fff63325248b8a89188ef5ea0848c902fc9e36c0f94d286615ac7c14dcdaff3f",
+      "gold": "grounded",
+      "text": "The special characters / punctuation are not aligned. The !#$% characters either float too high or need to be a little bigger.\n(Yes, I copied the image from the page into Paint and drew a line)",
+      "source_url": "https://news.ycombinator.com/item?id=49992444",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.6144217848777771,
+      "probabilities": {
+        "request": 0.2173636108636856,
+        "grounded": 0.6144217848777771,
+        "ungrounded": 0.16821464896202087
+      }
+    },
+    {
+      "row_id": "row-067",
+      "csv_line": 68,
+      "text_sha256": "e368c1f38fd4ec997aa00f068577371ddba2863c83a83733471c24cb59d13ec5",
+      "gold": "grounded",
+      "text": "Over 20 years ago we had a doom in which your processes were represented by monsters and killing them sent the kill signal. :)",
+      "source_url": "https://news.ycombinator.com/item?id=49995901",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.4925225079059601,
+      "probabilities": {
+        "request": 0.24606455862522125,
+        "grounded": 0.4925225079059601,
+        "ungrounded": 0.2614128589630127
+      }
+    },
+    {
+      "row_id": "row-046",
+      "csv_line": 47,
+      "text_sha256": "61bbf94691730ff986d29e7a7e255828eb60050ca635b02b1287c3797ae9004c",
+      "gold": "ungrounded",
+      "text": "I've done this for years.  Not every time of course but where it makes the code easier to understand and maintain.\nSpeed was almost never the reason.",
+      "source_url": "https://news.ycombinator.com/item?id=49998629",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.7514731884002686,
+      "probabilities": {
+        "request": 0.11493230611085892,
+        "grounded": 0.7514731884002686,
+        "ungrounded": 0.13359449803829193
+      }
+    },
+    {
+      "row_id": "row-182",
+      "csv_line": 183,
+      "text_sha256": "e9e03bc3ea261bf40fac6249a2e237d1fad593d8156d431374f1bcf59cce5de4",
+      "gold": "request",
+      "text": "Why is this a personal blog, not a Pi post?\nhttps://earendil.com/posts/you-said-no-mcp/ remains difficult to read without understanding what codemode is, with some quote like \"Now we talked so much about Codemode, it might be worth explaining what that even is.\"",
+      "source_url": "https://news.ycombinator.com/item?id=49989660",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.8314322829246521,
+      "probabilities": {
+        "request": 0.09360922127962112,
+        "grounded": 0.8314322829246521,
+        "ungrounded": 0.07495850324630737
+      }
+    },
+    {
+      "row_id": "row-056",
+      "csv_line": 57,
+      "text_sha256": "ff08d3565fb8f86dbefd14c03057741fe0473476ebbb37e49e25be4626f53df7",
+      "gold": "grounded",
+      "text": "FWIW, the two God of War games released on PSP were considered some of the most graphically impressive on the platform. Both came out late in the console's lifetime (2008 and 2010).\nAn IGN review also described one of them as \"it looks better than a big chunk of PS2 games\". [0] I've played one of them and yes, it felt like playing a resized PS2 game.\n[0] https://web.archive.org/web/20121020044819/http://www.ign.co...",
+      "source_url": "https://news.ycombinator.com/item?id=49998016",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8339722156524658,
+      "probabilities": {
+        "request": 0.09541842341423035,
+        "grounded": 0.8339722156524658,
+        "ungrounded": 0.0706094354391098
+      }
+    },
+    {
+      "row_id": "row-113",
+      "csv_line": 114,
+      "text_sha256": "015ee702f8df22dcc75d79210ede5fbf401db016fd21cc5bd7c10be1781a72c2",
+      "gold": "request",
+      "text": "This is an awesome project. It could bring the art museum experience to those that can't travel to museums.\nBut it is missing so many artists and art movements. A better choice of source material and way more artists can be found on wikiart.org [0]. Maybe the creator could merge scraping efforts?\n[0] wikiart.org.",
+      "source_url": "https://news.ycombinator.com/item?id=49994048",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5312884449958801,
+      "probabilities": {
+        "request": 0.22311118245124817,
+        "grounded": 0.5312884449958801,
+        "ungrounded": 0.24560034275054932
+      }
+    },
+    {
+      "row_id": "row-093",
+      "csv_line": 94,
+      "text_sha256": "7f5ae84524280d8e3a60f0bb8fb3e8dda4f71345983a47c7433451f972e13908",
+      "gold": "ungrounded",
+      "text": "I am not sure if I am more tired of people building with AI or people complaining about people building with AI. If you really that bothered, there is nothing stoping anybody from keep doing things the good old way... What's the big deal?",
+      "source_url": "https://news.ycombinator.com/item?id=49990501",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.4689885675907135,
+      "probabilities": {
+        "request": 0.23352521657943726,
+        "grounded": 0.4689885675907135,
+        "ungrounded": 0.29748624563217163
+      }
+    },
+    {
+      "row_id": "row-096",
+      "csv_line": 97,
+      "text_sha256": "dd61ece707ab37b6bc2cbcd77f5bd9da8b6c304ff8f76155336e968a7db45f69",
+      "gold": "grounded",
+      "text": "The headline is \"What is codemode\". As someone who did not know what codemode is, I had to read until the section \"Orchestrating The Harness\", where it says \"If you are not familiar with Codemode, it\u2019s basically just a way to issue tool calls from within some language, in our case JavaScript.\"\nI could then somehow get what is meant from the examples, but the contents of the article do not at all match the headline.",
+      "source_url": "https://news.ycombinator.com/item?id=49991317",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.8724502921104431,
+      "probabilities": {
+        "request": 0.07168141007423401,
+        "grounded": 0.8724502921104431,
+        "ungrounded": 0.05586821213364601
+      }
+    },
+    {
+      "row_id": "row-169",
+      "csv_line": 170,
+      "text_sha256": "f8f9ec1fb221eb8053b57060979f490199319887668a7f12339a5c61db4e337f",
+      "gold": "request",
+      "text": "We need one for the ZX Spectrum too!",
+      "source_url": "https://news.ycombinator.com/item?id=49990634",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.37778517603874207,
+      "probabilities": {
+        "request": 0.2677985727787018,
+        "grounded": 0.37778517603874207,
+        "ungrounded": 0.3544163107872009
+      }
+    },
+    {
+      "row_id": "row-168",
+      "csv_line": 169,
+      "text_sha256": "511c80f5ce960e6ba36d5ac285a5f9cb81dc56aac359569bf6e7a603b786c66e",
+      "gold": "request",
+      "text": "I love these kinds of articles, of how we bootstrapped technology.\nI would welcome suggestions for books that describe the advance of technology from early times.\nIm a distractible reader so I prefer books that are a bit more personal and story telling rather than dry.\nThanks!",
+      "source_url": "https://news.ycombinator.com/item?id=49999689",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.39523106813430786,
+      "probabilities": {
+        "request": 0.252427339553833,
+        "grounded": 0.39523106813430786,
+        "ungrounded": 0.3523416221141815
+      }
+    },
+    {
+      "row_id": "row-108",
+      "csv_line": 109,
+      "text_sha256": "934bd062c0bd72d65113af62bd126d303825f1aa8f36f70316bb1513412705c9",
+      "gold": "grounded",
+      "text": "AI is completely cracking up the emulation bubble. We're not even emulating things anymore, we're just reverse engineering things and directly porting games. This is an awesome timeline for old game preservation. These fuckers aren't profiting from the games anymore, yet they won't release their IP, or update their old games to newer, more accessible platforms. So I really appreciate the work these kinds of developers have been doing.",
+      "source_url": "https://news.ycombinator.com/item?id=49993928",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.7450974583625793,
+      "probabilities": {
+        "request": 0.11705879867076874,
+        "grounded": 0.7450974583625793,
+        "ungrounded": 0.13784374296665192
+      }
+    }
+  ],
+  "method": "Observed the starter evaluate() call's existing Trainer.predict output; no extra predictions."
+}

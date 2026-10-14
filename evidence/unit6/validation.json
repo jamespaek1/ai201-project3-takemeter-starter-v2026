@@ -1,0 +1,665 @@
+{
+  "validated_at": "2026-10-14T22:33:00.005536+00:00",
+  "status": "passed_with_pending_agreement",
+  "errors": [],
+  "notes": [
+    "csv_line in prediction/split evidence means logical CSV record number including the header, not a physical text line.",
+    "Metric checks use saved predictions only; no models are loaded or rerun.",
+    "Confidence thirds use np.argsort on float32 confidences, matching the notebook; numerical tolerance is 1e-7 absolute / 1e-6 relative."
+  ],
+  "agreement": {
+    "verdict": "pending",
+    "target": "24/30 before adjudication",
+    "reason": "Official staff key and computed agreement results are both required; no agreement value inferred.",
+    "official_key_present": false,
+    "agreement_results_present": false
+  },
+  "baselines": {
+    "baseline_results.json": {
+      "sha256": "585f9296eabd85e3c0c9cf009bcbd1479e81cbc6ad4ab50b3b3e5ae7d4afa4c5",
+      "recomputed_scores": {
+        "accuracy": 0.5333333333333333,
+        "f1_macro": 0.23703703703703705,
+        "per_label": {
+          "request": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 7
+          },
+          "grounded": {
+            "precision": 0.5517241379310345,
+            "recall": 1.0,
+            "f1": 0.7111111111111111,
+            "support": 16
+          },
+          "ungrounded": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 7
+          }
+        },
+        "n": 30
+      }
+    },
+    "baseline_bare_names_results.json": {
+      "sha256": "c441066185009fa002216bd24d00676db07a417985fc23fe8c039939d15ba898",
+      "recomputed_scores": {
+        "accuracy": 0.3333333333333333,
+        "f1_macro": 0.2605128205128205,
+        "per_label": {
+          "request": {
+            "precision": 0.3157894736842105,
+            "recall": 0.8571428571428571,
+            "f1": 0.46153846153846156,
+            "support": 7
+          },
+          "grounded": {
+            "precision": 0.4444444444444444,
+            "recall": 0.25,
+            "f1": 0.32,
+            "support": 16
+          },
+          "ungrounded": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 7
+          }
+        },
+        "n": 30
+      }
+    }
+  },
+  "phases": {
+    "before": {
+      "per_seed": {
+        "42": {
+          "recomputed_metrics": {
+            "accuracy": 0.5333333333333333,
+            "f1_macro": 0.23188405797101452,
+            "per_label": {
+              "request": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 7
+              },
+              "grounded": {
+                "precision": 0.5333333333333333,
+                "recall": 1.0,
+                "f1": 0.6956521739130436,
+                "support": 16
+              },
+              "ungrounded": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 7
+              }
+            },
+            "n_test": 30,
+            "confusion": {
+              "request": {
+                "request": 0,
+                "grounded": 7,
+                "ungrounded": 0
+              },
+              "grounded": {
+                "request": 0,
+                "grounded": 16,
+                "ungrounded": 0
+              },
+              "ungrounded": {
+                "request": 0,
+                "grounded": 7,
+                "ungrounded": 0
+              }
+            },
+            "confidence": {
+              "mean_when_right": 0.567644476890564,
+              "mean_when_wrong": 0.5424042344093323,
+              "accuracy_most_confident_third": 0.6,
+              "accuracy_least_confident_third": 0.2,
+              "n_per_third": 10
+            }
+          },
+          "criteria": {
+            "1": {
+              "verdict": "fail",
+              "accuracy": 0.5333333333333333,
+              "target": 0.7
+            },
+            "2": {
+              "verdict": "fail",
+              "f1": {
+                "request": 0.0,
+                "grounded": 0.6956521739130436,
+                "ungrounded": 0.0
+              },
+              "target_each": 0.6
+            },
+            "3": {
+              "verdict": "pass",
+              "counts": {
+                "grounded": 108,
+                "ungrounded": 49,
+                "request": 43
+              },
+              "shares": {
+                "request": 0.215,
+                "grounded": 0.54,
+                "ungrounded": 0.245
+              },
+              "target": "20%-60% for every label"
+            },
+            "4": {
+              "verdict": "pending",
+              "target": "24/30 before adjudication",
+              "reason": "Official staff key and computed agreement results are both required; no agreement value inferred.",
+              "official_key_present": false,
+              "agreement_results_present": false
+            },
+            "5": {
+              "verdict": "pass",
+              "accuracy_gap": 0.39999999999999997,
+              "target": 0.15,
+              "n_per_third": 10
+            }
+          }
+        },
+        "7": {
+          "recomputed_metrics": {
+            "accuracy": 0.5333333333333333,
+            "f1_macro": 0.23188405797101452,
+            "per_label": {
+              "request": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 7
+              },
+              "grounded": {
+                "precision": 0.5333333333333333,
+                "recall": 1.0,
+                "f1": 0.6956521739130436,
+                "support": 16
+              },
+              "ungrounded": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 7
+              }
+            },
+            "n_test": 30,
+            "confusion": {
+              "request": {
+                "request": 0,
+                "grounded": 7,
+                "ungrounded": 0
+              },
+              "grounded": {
+                "request": 0,
+                "grounded": 16,
+                "ungrounded": 0
+              },
+              "ungrounded": {
+                "request": 0,
+                "grounded": 7,
+                "ungrounded": 0
+              }
+            },
+            "confidence": {
+              "mean_when_right": 0.5951766967773438,
+              "mean_when_wrong": 0.5326167345046997,
+              "accuracy_most_confident_third": 0.9,
+              "accuracy_least_confident_third": 0.3,
+              "n_per_third": 10
+            }
+          },
+          "criteria": {
+            "1": {
+              "verdict": "fail",
+              "accuracy": 0.5333333333333333,
+              "target": 0.7
+            },
+            "2": {
+              "verdict": "fail",
+              "f1": {
+                "request": 0.0,
+                "grounded": 0.6956521739130436,
+                "ungrounded": 0.0
+              },
+              "target_each": 0.6
+            },
+            "3": {
+              "verdict": "pass",
+              "counts": {
+                "grounded": 108,
+                "ungrounded": 49,
+                "request": 43
+              },
+              "shares": {
+                "request": 0.215,
+                "grounded": 0.54,
+                "ungrounded": 0.245
+              },
+              "target": "20%-60% for every label"
+            },
+            "4": {
+              "verdict": "pending",
+              "target": "24/30 before adjudication",
+              "reason": "Official staff key and computed agreement results are both required; no agreement value inferred.",
+              "official_key_present": false,
+              "agreement_results_present": false
+            },
+            "5": {
+              "verdict": "pass",
+              "accuracy_gap": 0.6000000000000001,
+              "target": 0.15,
+              "n_per_third": 10
+            }
+          }
+        },
+        "2024": {
+          "recomputed_metrics": {
+            "accuracy": 0.5333333333333333,
+            "f1_macro": 0.23188405797101452,
+            "per_label": {
+              "request": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 7
+              },
+              "grounded": {
+                "precision": 0.5333333333333333,
+                "recall": 1.0,
+                "f1": 0.6956521739130436,
+                "support": 16
+              },
+              "ungrounded": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 7
+              }
+            },
+            "n_test": 30,
+            "confusion": {
+              "request": {
+                "request": 0,
+                "grounded": 7,
+                "ungrounded": 0
+              },
+              "grounded": {
+                "request": 0,
+                "grounded": 16,
+                "ungrounded": 0
+              },
+              "ungrounded": {
+                "request": 0,
+                "grounded": 7,
+                "ungrounded": 0
+              }
+            },
+            "confidence": {
+              "mean_when_right": 0.526077151298523,
+              "mean_when_wrong": 0.4994046688079834,
+              "accuracy_most_confident_third": 0.6,
+              "accuracy_least_confident_third": 0.3,
+              "n_per_third": 10
+            }
+          },
+          "criteria": {
+            "1": {
+              "verdict": "fail",
+              "accuracy": 0.5333333333333333,
+              "target": 0.7
+            },
+            "2": {
+              "verdict": "fail",
+              "f1": {
+                "request": 0.0,
+                "grounded": 0.6956521739130436,
+                "ungrounded": 0.0
+              },
+              "target_each": 0.6
+            },
+            "3": {
+              "verdict": "pass",
+              "counts": {
+                "grounded": 108,
+                "ungrounded": 49,
+                "request": 43
+              },
+              "shares": {
+                "request": 0.215,
+                "grounded": 0.54,
+                "ungrounded": 0.245
+              },
+              "target": "20%-60% for every label"
+            },
+            "4": {
+              "verdict": "pending",
+              "target": "24/30 before adjudication",
+              "reason": "Official staff key and computed agreement results are both required; no agreement value inferred.",
+              "official_key_present": false,
+              "agreement_results_present": false
+            },
+            "5": {
+              "verdict": "pass",
+              "accuracy_gap": 0.3,
+              "target": 0.15,
+              "n_per_third": 10
+            }
+          }
+        }
+      },
+      "criteria_all_seeds": {
+        "1": "fail",
+        "2": "fail",
+        "3": "pass",
+        "4": "pending",
+        "5": "pass"
+      }
+    },
+    "after": {
+      "per_seed": {
+        "42": {
+          "recomputed_metrics": {
+            "accuracy": 0.6333333333333333,
+            "f1_macro": 0.4795434969853574,
+            "per_label": {
+              "request": {
+                "precision": 1.0,
+                "recall": 0.2857142857142857,
+                "f1": 0.4444444444444445,
+                "support": 7
+              },
+              "grounded": {
+                "precision": 0.5925925925925926,
+                "recall": 1.0,
+                "f1": 0.7441860465116279,
+                "support": 16
+              },
+              "ungrounded": {
+                "precision": 1.0,
+                "recall": 0.14285714285714285,
+                "f1": 0.25,
+                "support": 7
+              }
+            },
+            "n_test": 30,
+            "confusion": {
+              "request": {
+                "request": 2,
+                "grounded": 5,
+                "ungrounded": 0
+              },
+              "grounded": {
+                "request": 0,
+                "grounded": 16,
+                "ungrounded": 0
+              },
+              "ungrounded": {
+                "request": 0,
+                "grounded": 6,
+                "ungrounded": 1
+              }
+            },
+            "confidence": {
+              "mean_when_right": 0.6669939160346985,
+              "mean_when_wrong": 0.6025205254554749,
+              "accuracy_most_confident_third": 0.8,
+              "accuracy_least_confident_third": 0.6,
+              "n_per_third": 10
+            }
+          },
+          "criteria": {
+            "1": {
+              "verdict": "fail",
+              "accuracy": 0.6333333333333333,
+              "target": 0.7
+            },
+            "2": {
+              "verdict": "fail",
+              "f1": {
+                "request": 0.4444444444444445,
+                "grounded": 0.7441860465116279,
+                "ungrounded": 0.25
+              },
+              "target_each": 0.6
+            },
+            "3": {
+              "verdict": "pass",
+              "counts": {
+                "grounded": 108,
+                "ungrounded": 49,
+                "request": 43
+              },
+              "shares": {
+                "request": 0.215,
+                "grounded": 0.54,
+                "ungrounded": 0.245
+              },
+              "target": "20%-60% for every label"
+            },
+            "4": {
+              "verdict": "pending",
+              "target": "24/30 before adjudication",
+              "reason": "Official staff key and computed agreement results are both required; no agreement value inferred.",
+              "official_key_present": false,
+              "agreement_results_present": false
+            },
+            "5": {
+              "verdict": "pass",
+              "accuracy_gap": 0.20000000000000007,
+              "target": 0.15,
+              "n_per_third": 10
+            }
+          }
+        },
+        "7": {
+          "recomputed_metrics": {
+            "accuracy": 0.5666666666666667,
+            "f1_macro": 0.32575757575757575,
+            "per_label": {
+              "request": {
+                "precision": 1.0,
+                "recall": 0.14285714285714285,
+                "f1": 0.25,
+                "support": 7
+              },
+              "grounded": {
+                "precision": 0.5714285714285714,
+                "recall": 1.0,
+                "f1": 0.7272727272727273,
+                "support": 16
+              },
+              "ungrounded": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 7
+              }
+            },
+            "n_test": 30,
+            "confusion": {
+              "request": {
+                "request": 1,
+                "grounded": 5,
+                "ungrounded": 1
+              },
+              "grounded": {
+                "request": 0,
+                "grounded": 16,
+                "ungrounded": 0
+              },
+              "ungrounded": {
+                "request": 0,
+                "grounded": 7,
+                "ungrounded": 0
+              }
+            },
+            "confidence": {
+              "mean_when_right": 0.7146105766296387,
+              "mean_when_wrong": 0.5807892084121704,
+              "accuracy_most_confident_third": 1.0,
+              "accuracy_least_confident_third": 0.4,
+              "n_per_third": 10
+            }
+          },
+          "criteria": {
+            "1": {
+              "verdict": "fail",
+              "accuracy": 0.5666666666666667,
+              "target": 0.7
+            },
+            "2": {
+              "verdict": "fail",
+              "f1": {
+                "request": 0.25,
+                "grounded": 0.7272727272727273,
+                "ungrounded": 0.0
+              },
+              "target_each": 0.6
+            },
+            "3": {
+              "verdict": "pass",
+              "counts": {
+                "grounded": 108,
+                "ungrounded": 49,
+                "request": 43
+              },
+              "shares": {
+                "request": 0.215,
+                "grounded": 0.54,
+                "ungrounded": 0.245
+              },
+              "target": "20%-60% for every label"
+            },
+            "4": {
+              "verdict": "pending",
+              "target": "24/30 before adjudication",
+              "reason": "Official staff key and computed agreement results are both required; no agreement value inferred.",
+              "official_key_present": false,
+              "agreement_results_present": false
+            },
+            "5": {
+              "verdict": "pass",
+              "accuracy_gap": 0.6,
+              "target": 0.15,
+              "n_per_third": 10
+            }
+          }
+        },
+        "2024": {
+          "recomputed_metrics": {
+            "accuracy": 0.5666666666666667,
+            "f1_macro": 0.32037037037037036,
+            "per_label": {
+              "request": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 7
+              },
+              "grounded": {
+                "precision": 0.5517241379310345,
+                "recall": 1.0,
+                "f1": 0.7111111111111111,
+                "support": 16
+              },
+              "ungrounded": {
+                "precision": 1.0,
+                "recall": 0.14285714285714285,
+                "f1": 0.25,
+                "support": 7
+              }
+            },
+            "n_test": 30,
+            "confusion": {
+              "request": {
+                "request": 0,
+                "grounded": 7,
+                "ungrounded": 0
+              },
+              "grounded": {
+                "request": 0,
+                "grounded": 16,
+                "ungrounded": 0
+              },
+              "ungrounded": {
+                "request": 0,
+                "grounded": 6,
+                "ungrounded": 1
+              }
+            },
+            "confidence": {
+              "mean_when_right": 0.6567094326019287,
+              "mean_when_wrong": 0.570284903049469,
+              "accuracy_most_confident_third": 0.6,
+              "accuracy_least_confident_third": 0.4,
+              "n_per_third": 10
+            }
+          },
+          "criteria": {
+            "1": {
+              "verdict": "fail",
+              "accuracy": 0.5666666666666667,
+              "target": 0.7
+            },
+            "2": {
+              "verdict": "fail",
+              "f1": {
+                "request": 0.0,
+                "grounded": 0.7111111111111111,
+                "ungrounded": 0.25
+              },
+              "target_each": 0.6
+            },
+            "3": {
+              "verdict": "pass",
+              "counts": {
+                "grounded": 108,
+                "ungrounded": 49,
+                "request": 43
+              },
+              "shares": {
+                "request": 0.215,
+                "grounded": 0.54,
+                "ungrounded": 0.245
+              },
+              "target": "20%-60% for every label"
+            },
+            "4": {
+              "verdict": "pending",
+              "target": "24/30 before adjudication",
+              "reason": "Official staff key and computed agreement results are both required; no agreement value inferred.",
+              "official_key_present": false,
+              "agreement_results_present": false
+            },
+            "5": {
+              "verdict": "pass",
+              "accuracy_gap": 0.19999999999999996,
+              "target": 0.15,
+              "n_per_third": 10
+            }
+          }
+        }
+      },
+      "criteria_all_seeds": {
+        "1": "fail",
+        "2": "fail",
+        "3": "pass",
+        "4": "pending",
+        "5": "pass"
+      }
+    }
+  },
+  "unit5_files_unchanged": true,
+  "same_before_after_splits": true
+}
