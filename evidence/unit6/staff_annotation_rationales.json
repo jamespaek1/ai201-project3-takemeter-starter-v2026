@@ -1,0 +1,243 @@
+[
+  {
+    "id": "sp_001",
+    "label": "analysis",
+    "rationale": "The contrast between a 40-second winning-time change and a four-minute 100th-place change carries the argument that field depth improved more than the front.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_002",
+    "label": "analysis",
+    "rationale": "Eleven weeks of sleep/session observations and a 6–8-second-per-mile difference support the decision to stop hard sessions after late shifts; the writer also limits the inference to one runner.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_003",
+    "label": "analysis",
+    "rationale": "The dated top-6 to top-10 scoring change and two later B-team finishes above the A team are the stated evidence for a turnout-based scoring explanation.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_004",
+    "label": "analysis",
+    "rationale": "The explicit under/over-1:45 comparison and similar post-18-mile slowdowns support the argument against the hill explanation. Whether that causal inference is persuasive does not remove the load-bearing comparison.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_005",
+    "label": "analysis",
+    "rationale": "The two 2% time changes, same pair of shoes, and mileage rise from 35 to 50 support the claim that carbon plates cannot explain all of the improvement.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_006",
+    "label": "analysis",
+    "rationale": "The 41% versus 26% first-time-distance comparison is the direct support for the explanation of changed finish-line photos.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_007",
+    "label": "analysis",
+    "rationale": "The paired 4C/24C runs, heart-rate effort control, and 90-second difference over six miles support the claim that heat costs more than a little.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_008",
+    "label": "analysis",
+    "rationale": "The stated 2012-onward range of 18–23% nonstarters supports the base-rate explanation rather than an exceptional bad-luck year.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_009",
+    "label": "analysis",
+    "rationale": "The 2021 remeasurement and 60-metre excess directly support the claim that PB comparisons span different distances, with a quantified time implication.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_010",
+    "label": "analysis",
+    "rationale": "The named same-session comparison of three runners in different shoes within ten seconds is explicitly used to argue that the shoe effect was smaller than observed runner variation; the inference can be weak and still be evidence-based analysis.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_011",
+    "label": "hot_take",
+    "rationale": "Asserts a general judgment about runners racing more than monthly without supplying an observed case or supporting argument; the monthly threshold is part of the claim, not evidence.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_012",
+    "label": "hot_take",
+    "rationale": "Makes a categorical analogy dismissing heart-rate zones without any support.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_013",
+    "label": "hot_take",
+    "rationale": "Claims the Tuesday session has never been for everyone without supplying attendance, pace, or experience evidence.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_014",
+    "label": "analysis",
+    "rationale": "The 3% time decline is explicitly connected to the shoe-rule change and introduced as the reason for the conclusion through \"so\". Under rule 1 it is load-bearing, as in the taxonomy's causal shoe example. \"Obviously,\" \"whole story,\" and the broader sport judgment overreach, making hot_take defensible, but they do not make the stated temporal evidence mere decoration.",
+    "ambiguous": true,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation",
+    "alternative": "hot_take"
+  },
+  {
+    "id": "sp_015",
+    "label": "hot_take",
+    "rationale": "Asserts that all marathon plans are identical without naming or comparing any plans.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_016",
+    "label": "hot_take",
+    "rationale": "States an unsupported general diagnosis; 90 minutes is the asserted threshold, not a fact offered to establish the diagnosis.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_017",
+    "label": "hot_take",
+    "rationale": "Declares a peak and subsequent marketing without supporting facts; the approximate 2015 date decorates the conclusion.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_018",
+    "label": "hot_take",
+    "rationale": "Makes a general training prescription without comparisons or outcomes supporting it; the 8-minute pace threshold belongs to the claim itself.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_019",
+    "label": "hot_take",
+    "rationale": "Asserts what all runners really enjoy and calls for honesty without evidence about other runners' experiences.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_020",
+    "label": "hot_take",
+    "rationale": "Generalizes about every injury thread without identifying or comparing actual threads or replies.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_021",
+    "label": "reaction",
+    "rationale": "Reports immediate joy outside the finish after a personal breakthrough; the four-minute and two-year details explain the feeling rather than advance a general argument.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_022",
+    "label": "reaction",
+    "rationale": "Reports the writer's immediate rain-soaked disappointment at a cancelled event after early waking and travel; the numbers describe the experience rather than support an argumentative claim.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_023",
+    "label": "reaction",
+    "rationale": "Reports how a first return run feels after injury absence; eight weeks and two miles supply personal context, not an argument.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_024",
+    "label": "reaction",
+    "rationale": "Describes an immediate physical/emotional response to watching a finish without making a general claim.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_025",
+    "label": "reaction",
+    "rationale": "Reports a recent personal race collapse and disappointment; mile 20 and the pace band contextualize the reaction.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_026",
+    "label": "reaction",
+    "rationale": "Reports the writer crying in response to an orange-slice gesture toward their child; mile 22 is context rather than argumentative evidence.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_027",
+    "label": "reaction",
+    "rationale": "Describes a recent headwind/tailwind experience and how the return felt. The approximate leaning angle colors a personal response; there is no broader proposition being argued.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_028",
+    "label": "reaction",
+    "rationale": "Expresses the writer's immediate disappointment about another DNF and desire to share it; the count is context for the feeling.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_029",
+    "label": "reaction",
+    "rationale": "Reports a just-realized irony about the writer's accidental shoe purchase and PBs without arguing that wrong sizing caused performance gains. The checkable details do not by themselves create analysis.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  },
+  {
+    "id": "sp_030",
+    "label": "reaction",
+    "rationale": "Reports immediate regret after registering and paying, centered on the writer's own experience.",
+    "ambiguous": false,
+    "annotator": "Codex AI",
+    "annotation_method": "AI-assisted instructor example; not unaided human annotation"
+  }
+]
