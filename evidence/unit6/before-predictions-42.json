@@ -1,0 +1,491 @@
+{
+  "seed": 42,
+  "labels": [
+    "request",
+    "grounded",
+    "ungrounded"
+  ],
+  "rows": [
+    {
+      "row_id": "row-037",
+      "csv_line": 38,
+      "text_sha256": "56cf32b2807331123a30d59380b06a2b233e5d351aa4c066a9fa4d8d53cfe65b",
+      "gold": "grounded",
+      "text": "I\u2019m fairly convinced that Debug should never be inlined. Display probably neither, the fmt machinery is heavy enough that not inlining is probably not a bottleneck even in serialization-heavy workloads. I\u2019ve had to #[inline(never)] some of my own Debug/Display impls, shrinking the binary by tens of kilobytes (out of a few hundred, so relatively a significant reduction).",
+      "source_url": "https://news.ycombinator.com/item?id=49992110",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5990236401557922,
+      "probabilities": {
+        "request": 0.18584643304347992,
+        "grounded": 0.5990236401557922,
+        "ungrounded": 0.21512995660305023
+      }
+    },
+    {
+      "row_id": "row-025",
+      "csv_line": 26,
+      "text_sha256": "9261e6b22b27dcaacdf7ee3fcbd1d389bbba4789d2a49212191e4d3367f8d535",
+      "gold": "request",
+      "text": "This looks aesthetically pleasing but this is not ASCII Art it seems, where\u2019s ascii? All those differently sized dots are not ascii chars, are they? Perhaps this is unicode-art?",
+      "source_url": "https://news.ycombinator.com/item?id=49995373",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5367376208305359,
+      "probabilities": {
+        "request": 0.23478424549102783,
+        "grounded": 0.5367376208305359,
+        "ungrounded": 0.22847817838191986
+      }
+    },
+    {
+      "row_id": "row-081",
+      "csv_line": 82,
+      "text_sha256": "f0b0917556a4fb2ca2655ceba4b4938ee708ed3d099d7aef97e7e8f353cfdc2d",
+      "gold": "ungrounded",
+      "text": "I would say these all boil down to empathy. Think about who your target audience is, and write for the least informed among them.\nIt\u2019s ok to be selective about your target audience. Most of us are writing for free anyways so we\u2019re not losing revenue by not explaining what a computer is in an article about optimizing LLM throughput. You might be writing to other engineers who are familiar with the topic but not the particulars of your project.\nPut the most important thing above the fold. If you catch someone\u2019s attention in the first 10 seconds, it buys you another 30.\nAdd visuals. Boxes and arrows, charts, videos where appropriate.\nIf you must write a meandering narrative, put it at the end, not the beginning.",
+      "source_url": "https://news.ycombinator.com/item?id=49999267",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5954486727714539,
+      "probabilities": {
+        "request": 0.1802665740251541,
+        "grounded": 0.5954486727714539,
+        "ungrounded": 0.22428476810455322
+      }
+    },
+    {
+      "row_id": "row-142",
+      "csv_line": 143,
+      "text_sha256": "aea5361f411e9092f19723d3eb34f05b4a75e78c28afda291c9a65975f2c3951",
+      "gold": "grounded",
+      "text": "they hope they can annoy and email every person in the org asking for money , same way as they did it with docker.\nlooks like a weird abstractions. why do i need this if i have modal.com, e2b, cloudflare that use original docker + some toolings around + way to run + isolations on network level.",
+      "source_url": "https://news.ycombinator.com/item?id=49997121",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5889741778373718,
+      "probabilities": {
+        "request": 0.19277124106884003,
+        "grounded": 0.5889741778373718,
+        "ungrounded": 0.21825456619262695
+      }
+    },
+    {
+      "row_id": "row-155",
+      "csv_line": 156,
+      "text_sha256": "710a7bd732bede5cb40206b78fe7fec24a661644f632a57fda104955b2b42193",
+      "gold": "grounded",
+      "text": "I just got one of these, the ecosystem is so exciting right now. I just loaded the sloop firmware on it (super painless webusb) and it's crazy. From another DX7 machine to a simple little groove box with samples and sequences and a really quite lovely UX. So fun",
+      "source_url": "https://news.ycombinator.com/item?id=49995550",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.561061680316925,
+      "probabilities": {
+        "request": 0.1933887004852295,
+        "grounded": 0.561061680316925,
+        "ungrounded": 0.24554963409900665
+      }
+    },
+    {
+      "row_id": "row-104",
+      "csv_line": 105,
+      "text_sha256": "a502711a89b8112b9cbc114fbb4daaec3f972ef2023a7d722f0ada7b5bf47739",
+      "gold": "grounded",
+      "text": "We've hosted an AI game development platform for a while now and found there's a big difference between \"making a game\" and \"making a fun game\". I'd love to see if they are solving the real problem, but the link to try it out is a 403 for me.",
+      "source_url": "https://news.ycombinator.com/item?id=49993470",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5411694049835205,
+      "probabilities": {
+        "request": 0.2074635773897171,
+        "grounded": 0.5411694049835205,
+        "ungrounded": 0.25136706233024597
+      }
+    },
+    {
+      "row_id": "row-185",
+      "csv_line": 186,
+      "text_sha256": "ed972f606f3011903005ae8e765e9e563aa9ca23ac66bb1f0067cd385dbe9c6e",
+      "gold": "request",
+      "text": "\"Nothing else: no lists, tables, links, quotes, images or rules.\"\nClaudish needs to be cleaned up.",
+      "source_url": "https://news.ycombinator.com/item?id=49996255",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5333888530731201,
+      "probabilities": {
+        "request": 0.2173229306936264,
+        "grounded": 0.5333888530731201,
+        "ungrounded": 0.24928820133209229
+      }
+    },
+    {
+      "row_id": "row-087",
+      "csv_line": 88,
+      "text_sha256": "d359f69972be22f6c45ece8d4c411944d2bf7eed164f38f63882e3e9dab7a796",
+      "gold": "grounded",
+      "text": "I started collecting all the links on an \u201cawesome list\u201d since this exploded https://github.com/cicloid/awesome-fm-1\nThe interesting question is how much of the fizz from these efforts will disappear if SOTA models start moving away from moral gray areas or because of security concerns the guardrails disable this type of work.",
+      "source_url": "https://news.ycombinator.com/item?id=49998878",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.573724091053009,
+      "probabilities": {
+        "request": 0.19463570415973663,
+        "grounded": 0.573724091053009,
+        "ungrounded": 0.23164023458957672
+      }
+    },
+    {
+      "row_id": "row-183",
+      "csv_line": 184,
+      "text_sha256": "b618d541a351244ef2456f42395c08672015fe47ee090fddf4a6590c0dcd192b",
+      "gold": "grounded",
+      "text": ">What it is, what it isn\u2019t\nYep, open ai sol model wrote that.",
+      "source_url": "https://news.ycombinator.com/item?id=49997052",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5166861414909363,
+      "probabilities": {
+        "request": 0.21581433713436127,
+        "grounded": 0.5166861414909363,
+        "ungrounded": 0.26749953627586365
+      }
+    },
+    {
+      "row_id": "row-040",
+      "csv_line": 41,
+      "text_sha256": "7b420a4dd4a27cd830fee2f52ecb648351f7656578fccfdcc3e6474fb411f175",
+      "gold": "request",
+      "text": "Hey, I'd actually use that. I build telescopes (see personal site in profile) and only do visual astronomy. I voluntarily prefer to use old-ish phones, i.e. currently I am using an iPhone SE 2022. Do you think the weak signal under the night sky would work with your plate solving ?",
+      "source_url": "https://news.ycombinator.com/item?id=49991267",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5333038568496704,
+      "probabilities": {
+        "request": 0.21680273115634918,
+        "grounded": 0.5333038568496704,
+        "ungrounded": 0.2498934417963028
+      }
+    },
+    {
+      "row_id": "row-169",
+      "csv_line": 170,
+      "text_sha256": "f8f9ec1fb221eb8053b57060979f490199319887668a7f12339a5c61db4e337f",
+      "gold": "request",
+      "text": "We need one for the ZX Spectrum too!",
+      "source_url": "https://news.ycombinator.com/item?id=49990634",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.4564509093761444,
+      "probabilities": {
+        "request": 0.2569532096385956,
+        "grounded": 0.4564509093761444,
+        "ungrounded": 0.2865959107875824
+      }
+    },
+    {
+      "row_id": "row-039",
+      "csv_line": 40,
+      "text_sha256": "5fcef477f86a8a8a13bad16fad45b222a926ef2745400019e4c8d42c053303d5",
+      "gold": "grounded",
+      "text": "I built procinsh, a 3D Linux process inspector inspired by Ghost in the Shell.\nIt visualizes running processes and their relationships in a 3D UI. Process activity, memory maps, file I/O, and socket communication are reflected in real time.\nThe backend is written in Rust and uses procfs, eBPF, ptrace, and process_vm_readv to collect information from the system.\nDemo video:\nhttps://www.youtube.com/watch?v=9rnWvN8ej2A\nMore details about the motivation and implementation:\nhttps://akawashiro.com/articles/procinsh-en",
+      "source_url": "https://news.ycombinator.com/item?id=49991997",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.6179053783416748,
+      "probabilities": {
+        "request": 0.1936459094285965,
+        "grounded": 0.6179053783416748,
+        "ungrounded": 0.18844877183437347
+      }
+    },
+    {
+      "row_id": "row-157",
+      "csv_line": 158,
+      "text_sha256": "36eefcd6605fd3eaef2e4708b0cbc0040240c79f3af6aff9c3ec846816161cec",
+      "gold": "ungrounded",
+      "text": "Look at that FPS!! Now we need another inspector to monitor Procinsh.",
+      "source_url": "https://news.ycombinator.com/item?id=49994365",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5072481632232666,
+      "probabilities": {
+        "request": 0.2265210598707199,
+        "grounded": 0.5072481632232666,
+        "ungrounded": 0.26623085141181946
+      }
+    },
+    {
+      "row_id": "row-180",
+      "csv_line": 181,
+      "text_sha256": "38c11cc8f89680b928b839f8416fda46eaf5b638b1a1278ba679b22f5919a902",
+      "gold": "ungrounded",
+      "text": "Piracy is rampant, platform providers aren't going to be able to keep up, especially in this AI age.\nIME, the best route is to disincentivize it, make it harder to copy (obfuscation , etc) or just change your product/lower friction.\nIf people don't want ads, offer a low-cost ad free option.  Having auto-play video ads is extremely distracting.",
+      "source_url": "https://news.ycombinator.com/item?id=49999062",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5818787813186646,
+      "probabilities": {
+        "request": 0.18788036704063416,
+        "grounded": 0.5818787813186646,
+        "ungrounded": 0.2302408069372177
+      }
+    },
+    {
+      "row_id": "row-099",
+      "csv_line": 100,
+      "text_sha256": "a05e54ada56aad20fc4b3305939c2f6e4a8a55857c36840f75cd03a76e3fab87",
+      "gold": "ungrounded",
+      "text": "This sort of incredibly simple, crisp idea is what changes the world. Great job!",
+      "source_url": "https://news.ycombinator.com/item?id=49999387",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.4744891822338104,
+      "probabilities": {
+        "request": 0.23353588581085205,
+        "grounded": 0.4744891822338104,
+        "ungrounded": 0.29197487235069275
+      }
+    },
+    {
+      "row_id": "row-123",
+      "csv_line": 124,
+      "text_sha256": "bd3e64cef1441b7c63743bdb6c3ac389796c1196e015e4fb5857168242becd4d",
+      "gold": "grounded",
+      "text": "The tortoises have somehow outrun the hare because Safari still hasn't turned on progressive loading in libjxl (which had this feature since before Safari added the feature), while FF (non Android) and Chrome shipped with it enabled. The 3 year long chess clock is now flipped.",
+      "source_url": "https://news.ycombinator.com/item?id=49991617",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5600244402885437,
+      "probabilities": {
+        "request": 0.21723434329032898,
+        "grounded": 0.5600244402885437,
+        "ungrounded": 0.2227412462234497
+      }
+    },
+    {
+      "row_id": "row-038",
+      "csv_line": 39,
+      "text_sha256": "0a0eb554850fd49dbfe2b9b348ba343c1f2d000bc6f60d95f86daacfd475cc47",
+      "gold": "request",
+      "text": "This looks incredibly cool!\nBut I do note that it's pulling the images from Wikipedia's servers directly. That feels like it could be pretty bad for Wikipedia's bandwidth. I think I'd feel more comfortable if the art was cached by artfrompixels.com itself, where licensing allows. (And I imagine that for a lot of it there'll be no issue.)",
+      "source_url": "https://news.ycombinator.com/item?id=49996243",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5693299174308777,
+      "probabilities": {
+        "request": 0.2020922303199768,
+        "grounded": 0.5693299174308777,
+        "ungrounded": 0.2285778671503067
+      }
+    },
+    {
+      "row_id": "row-191",
+      "csv_line": 192,
+      "text_sha256": "a54a760416f6a41f2198fcfd8eb7e126902ca56d68b1fc29890d6446951c04b1",
+      "gold": "grounded",
+      "text": "Many folks are great writers, but bad editors and the meandering intro is what kills most blog posts for me. Too bad because we really need more personal stories.\nI start with the conclusion in the first paragraph[1], and the user can decide if it\u2019s worth their time or not. Unless you\u2019re Gabriel Garcia Marquez, no one\u2019s going to read your rambling.\n[1] https://samkhawase.com/blog/email-is-crazy/",
+      "source_url": "https://news.ycombinator.com/item?id=49996395",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.546985924243927,
+      "probabilities": {
+        "request": 0.20260193943977356,
+        "grounded": 0.546985924243927,
+        "ungrounded": 0.2504121661186218
+      }
+    },
+    {
+      "row_id": "row-164",
+      "csv_line": 165,
+      "text_sha256": "a45076a04beeca423a20cb9467bd416c7105a3faff67105571e9ff52e36ee88d",
+      "gold": "grounded",
+      "text": "I like it, but to do fizzbuzz in this way, you'd have to separate what's inside the loop into a reused function.",
+      "source_url": "https://news.ycombinator.com/item?id=49998856",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5277156233787537,
+      "probabilities": {
+        "request": 0.2055368721485138,
+        "grounded": 0.5277156233787537,
+        "ungrounded": 0.26674750447273254
+      }
+    },
+    {
+      "row_id": "row-154",
+      "csv_line": 155,
+      "text_sha256": "69a9d85aef9a06dc3975dd62b327dfd57478feb45c572019c8b2195960c0ce11",
+      "gold": "grounded",
+      "text": "You can see how the OpenAI agents that hacked Huggingface used something like this when communicating between them:\nhttps://youtu.be/87DyyMV0kCY?si=CSBzdYgkwy0kLhV6&t=749",
+      "source_url": "https://news.ycombinator.com/item?id=49992286",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5618900060653687,
+      "probabilities": {
+        "request": 0.21206034719944,
+        "grounded": 0.5618900060653687,
+        "ungrounded": 0.22604966163635254
+      }
+    },
+    {
+      "row_id": "row-088",
+      "csv_line": 89,
+      "text_sha256": "b4226f00e75d77d2af2681a9415fdada64e009d06145f121c5d27729863de807",
+      "gold": "grounded",
+      "text": "100ms for a write - not usable for anything beyond toys.\nI mean we have https://github.com/denoland/celld - with a known good open source history. Durable writes there are as low as 1ms.",
+      "source_url": "https://news.ycombinator.com/item?id=49996305",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.6053693294525146,
+      "probabilities": {
+        "request": 0.1814388632774353,
+        "grounded": 0.6053693294525146,
+        "ungrounded": 0.21319174766540527
+      }
+    },
+    {
+      "row_id": "row-144",
+      "csv_line": 145,
+      "text_sha256": "da47a073d368a499e70006b8907701b6c64ff473d3fa283cfec1bd4b0ae8ac93",
+      "gold": "request",
+      "text": "Completely different architecture, but would be amazing if another device could control what message (or photo, embedded video) is displayed.\nThere's a huge industry around digital signage and I've always felt it could be replaced with a simple Chromium kiosk + auto-refreshed webpage content. There's really no need for expensive HDMI connections or custom video streams when we already have browsers.",
+      "source_url": "https://news.ycombinator.com/item?id=49997258",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.577670156955719,
+      "probabilities": {
+        "request": 0.19292345643043518,
+        "grounded": 0.577670156955719,
+        "ungrounded": 0.2294064164161682
+      }
+    },
+    {
+      "row_id": "row-178",
+      "csv_line": 179,
+      "text_sha256": "8f8ee5c07dc0c63a237171272bceb2197b8fdb336df822aba768c2de952edaff",
+      "gold": "ungrounded",
+      "text": "Good call ditching ML. Traditional CV still wins on power, latency, and determinism for star centroiding.",
+      "source_url": "https://news.ycombinator.com/item?id=49991506",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5310765504837036,
+      "probabilities": {
+        "request": 0.20459961891174316,
+        "grounded": 0.5310765504837036,
+        "ungrounded": 0.26432380080223083
+      }
+    },
+    {
+      "row_id": "row-043",
+      "csv_line": 44,
+      "text_sha256": "718df616bd64b2cc9b6adbd4934dd772a49f501698dd6b55524e78cdad74631f",
+      "gold": "grounded",
+      "text": "Weird how the readme talks about hash collisions, but not in the way I would expect. Two blocked domains with the same hash isn't a problem, they both need to be blocked.\nWhere hash collisions matter is false positives, e.g. if hash(google.com) = hash(adserver.com). There does appear to be a web dashboard and /unblock api so should be straightforward to resolve.",
+      "source_url": "https://news.ycombinator.com/item?id=49987489",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.6025094985961914,
+      "probabilities": {
+        "request": 0.19052495062351227,
+        "grounded": 0.6025094985961914,
+        "ungrounded": 0.2069656401872635
+      }
+    },
+    {
+      "row_id": "row-126",
+      "csv_line": 127,
+      "text_sha256": "fff63325248b8a89188ef5ea0848c902fc9e36c0f94d286615ac7c14dcdaff3f",
+      "gold": "grounded",
+      "text": "The special characters / punctuation are not aligned. The !#$% characters either float too high or need to be a little bigger.\n(Yes, I copied the image from the page into Paint and drew a line)",
+      "source_url": "https://news.ycombinator.com/item?id=49992444",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5533817410469055,
+      "probabilities": {
+        "request": 0.21200495958328247,
+        "grounded": 0.5533817410469055,
+        "ungrounded": 0.23461326956748962
+      }
+    },
+    {
+      "row_id": "row-028",
+      "csv_line": 29,
+      "text_sha256": "5a80f414302741d98f395806fdd78b60a3e9c49ca856598073a435505d174abf",
+      "gold": "grounded",
+      "text": "I may just like games too much, but I can't take this seriously in its current form. This feels like one of the old and basic 'build your own game' toolboxes for non-developers, but with AI - not an 'AI game engine'. It shows that even the demos they made for the trailer are all simplistic endless games that remind me of average Flash games with a different coat of paint. When your entire 'game idea' can be expressed in two sentences, it's going to get old fast. There's only so many endless runners, trivia and single screen 'move from point to point' games one can tolerate. I can't see this specific product having any impact on the gaming industry, despite many people here already talking about the industry at large.",
+      "source_url": "https://news.ycombinator.com/item?id=49999381",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5888494253158569,
+      "probabilities": {
+        "request": 0.18164211511611938,
+        "grounded": 0.5888494253158569,
+        "ungrounded": 0.22950848937034607
+      }
+    },
+    {
+      "row_id": "row-149",
+      "csv_line": 150,
+      "text_sha256": "9f868ba89f00eb66af7e0350a9d760b2afb3fbadccb36758e767a06226ca3923",
+      "gold": "ungrounded",
+      "text": "I'm okay with Google offering models, but I'm not okay with Google offering more PaaS offerings.\nLet developers use your models and tools and build stuff with it. Why own everything.\nGoogle has too much already and in my opinion they have no business owning a gaming platform.",
+      "source_url": "https://news.ycombinator.com/item?id=49993264",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.581756591796875,
+      "probabilities": {
+        "request": 0.19068941473960876,
+        "grounded": 0.581756591796875,
+        "ungrounded": 0.22755400836467743
+      }
+    },
+    {
+      "row_id": "row-128",
+      "csv_line": 129,
+      "text_sha256": "90df5d48ddfe1446ab680c5e9e05ea6e5472911764ee1cdb85ffa54e375b7efa",
+      "gold": "ungrounded",
+      "text": "\"The meandering intro\"\nNot only the intro. Many bloggers try to write as if they'd writing a story, building suspense and all. For technical writing, don't bury the lede.",
+      "source_url": "https://news.ycombinator.com/item?id=49994391",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5345339775085449,
+      "probabilities": {
+        "request": 0.19515714049339294,
+        "grounded": 0.5345339775085449,
+        "ungrounded": 0.27030885219573975
+      }
+    },
+    {
+      "row_id": "row-042",
+      "csv_line": 43,
+      "text_sha256": "46c59d136a78088248c0a33b094bf1cd52f0c2dd65bc710a44557e14be220441",
+      "gold": "request",
+      "text": "Is there a ticket code or other contact you've been in touch with?\nAs for DMCA filings, we publish all of them here: https://github.com/github/dmca\nI see two from Photopea, one from 2022 (https://github.com/github/dmca/blob/d97814f268e07e62aabe8b5c...) and one from 2024 (https://github.com/github/dmca/blob/d97814f268e07e62aabe8b5c...) - could you point to the recent filing?\nI work at GH, but am not involved in DMCA filings, and can in no way answer or judge this case, but potentially follow up internally.",
+      "source_url": "https://news.ycombinator.com/item?id=49990074",
+      "prediction": "grounded",
+      "correct": false,
+      "confidence": 0.5803456902503967,
+      "probabilities": {
+        "request": 0.19411899149417877,
+        "grounded": 0.5803456902503967,
+        "ungrounded": 0.22553536295890808
+      }
+    },
+    {
+      "row_id": "row-004",
+      "csv_line": 5,
+      "text_sha256": "9f5542ef45fa966bf3369d2ba0708b6dca8465913d2cb664c00848cc8f09ce58",
+      "gold": "grounded",
+      "text": "- Accurate up to within 10 arcseconds (1/360 of a degree)\n- Computes coordinates in less than a second\nFor comparison, the sky moves 15 arcseconds per second. So without a motorized mount to keep the telescope on target, the accuracy will be short-lived.",
+      "source_url": "https://news.ycombinator.com/item?id=49991661",
+      "prediction": "grounded",
+      "correct": true,
+      "confidence": 0.5370420217514038,
+      "probabilities": {
+        "request": 0.22633765637874603,
+        "grounded": 0.5370420217514038,
+        "ungrounded": 0.23662035167217255
+      }
+    }
+  ],
+  "method": "Observed the starter evaluate() call's existing Trainer.predict output; no extra predictions."
+}

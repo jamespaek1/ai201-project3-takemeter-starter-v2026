@@ -1,0 +1,17 @@
+{
+  "change": "EPOCHS",
+  "before": 3,
+  "after": 10,
+  "reason": "All three before seeds predict only grounded (accuracy 16/30, request and ungrounded F1 zero). Each seed has only 27 optimizer steps. Validation loss continues declining from epochs 1 to 3 (42:1.01369 to0.98145;7:0.98388 to0.95659;2024:0.98488 to0.93705), without a validation-loss upturn in the observed window. Test one longer, predeclared 10-epoch run (90 steps) to probe undertraining; this is a hypothesis, not proof that annotations are consistent. Staff-reference agreement is unavailable and does not support a labeling diagnosis. No other hyperparameter, label, taxonomy, split, or criterion changes.",
+  "labels_sha256": "743ccf0f73b4c6656154e253e1d874770df4b38ea1ca22618e60480c79ab8706",
+  "criteria_sha256": "c3b021cd688140f3a1875b42e35eec4fcebc6829c6eb96926297154901b23575",
+  "before_results_sha256": "c6f4c3aedcd0920fe954068cfde6821f9c22521e0c3a5ae2992c13d672476635",
+  "seeds": [
+    42,
+    7,
+    2024
+  ],
+  "stop_rule": "Run the declared 10 epochs once for each seed; report every outcome and stop. Do not tune again on these test sets.",
+  "derived_effect": "The unchanged default linear learning-rate schedule spans 90 rather than 27 optimizer steps as a consequence of changing EPOCHS; initial learning rate remains 2e-5.",
+  "agreement_status": "pending_authentic_staff_reference"
+}

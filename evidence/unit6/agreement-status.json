@@ -1,0 +1,59 @@
+{
+  "status": "pending_unavailable_reference",
+  "recorded_at_utc": "2026-10-14T22:28:59.460519+00:00",
+  "reason": "The required staff answer key is unavailable locally, and the official staff repository could not be accessed with the current authenticated GitHub account.",
+  "annotation_method": "Codex AI blind annotation for an instructor example; not unaided human labeling.",
+  "blind_labels_commit": "778d8b0",
+  "blind_labels_commit_full": "778d8b074d2f4765d1376ad25eb536bf513bd980",
+  "file_sha256": {
+    "data/staff_posts.csv": "543caeee0c3ddcd920f9330caff502606bf651f66c50e6d1f49a159a76f82035",
+    "data/staff_taxonomy.md": "49ffb40b207f4d36b4bb1a7165340cd98dc357f0d96ba969f29800eda5d44603",
+    "my_staff_labels.csv": "348bbadf6defff2bd5fc6ad45bfc5ada164b150234369d0e9400910af5553ab1",
+    "evidence/unit6/staff_annotation_rationales.json": "ac69c9dff5485dc15eeec6e11f43949894c90c09f91898efa65128f2284a058e"
+  },
+  "validation": {
+    "staff_posts_rows": 30,
+    "blind_labels_rows": 30,
+    "columns": [
+      "text",
+      "label"
+    ],
+    "exact_text_matches": 30,
+    "exact_text_match_preserves_order": true,
+    "unique_staff_ids": 30,
+    "unique_source_texts": 30,
+    "blind_labels_unchanged_since_commit": true,
+    "blind_rationales_unchanged_since_commit": true
+  },
+  "official_reference_source": {
+    "url": "https://github.com/codepath/ai201-project3-takemeter-staff-v2026",
+    "source": "Official course guide link",
+    "access_method": "Authenticated GitHub API repository metadata request",
+    "http_status": 404,
+    "access_outcome": "Unavailable to the current authenticated account; HTTP 404 does not distinguish a private repository from an absent repository.",
+    "access_check_provenance": "Verified by parent agent before this status record was written"
+  },
+  "missing_required_file": "data/staff_labels.csv",
+  "required_reference_columns": [
+    "id",
+    "label"
+  ],
+  "agreement_score": null,
+  "agreement_count": null,
+  "disagreement_count": null,
+  "compared_count": null,
+  "disagreements": null,
+  "criterion_4": {
+    "target": "At least 24 of 30 exact pre-adjudication staff-set matches (0.80)",
+    "status": "pending_external_reference",
+    "passed": null,
+    "note": "Not evaluated; this is neither a missed target nor a model failure."
+  },
+  "resume": {
+    "prerequisite": "Obtain the authentic staff key through the instructor/TF or official repository and save it as data/staff_labels.csv; preserve the committed blind labels.",
+    "working_directory": "Repository root",
+    "command": ".venv/bin/python agreement.py --staff-posts data/staff_posts.csv --staff-labels data/staff_labels.csv --mine my_staff_labels.csv --out agreement_results.json",
+    "after_comparison": "Report the actual pre-adjudication agreement and adjudicate every actual disagreement using data/staff_taxonomy.md."
+  },
+  "agreement_results_generated": false
+}

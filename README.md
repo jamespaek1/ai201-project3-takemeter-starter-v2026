@@ -187,3 +187,162 @@ second improvement or taxonomy change is planned. Labels, taxonomy and the five
 original criteria remain fixed; choose the one training change only after the
 before-run diagnosis. Continue the explicit AI-assisted instructor provenance
 from Unit 5, including the separate staff annotation exercise.
+
+
+### Observed baseline comparison
+
+The primary BART MNLI baseline used the exact three definition lines and **all 30
+original Unit 5 held-out comments**, in the original order. The trained column
+is the preserved Unit 5 seed-42 model; differences are trained minus baseline.
+
+| Measure | Zero-shot with definitions | Unit 5 trained | Difference |
+|---|---:|---:|---:|
+| Accuracy | 0.5333 | 0.5333 | 0.0000 |
+| Macro F1 | 0.2370 | 0.2319 | -0.0052 |
+| Grounded F1 | 0.7111 | 0.6957 | -0.0155 |
+| Request F1 | 0.0000 | 0.0000 | 0.0000 |
+| Ungrounded F1 | 0.0000 | 0.0000 | 0.0000 |
+
+The forecast was not supported: grounded recall tied at 1.00, and the baseline
+also failed to recognize either minority class. BART predicted 29 grounded and
+one incorrect ungrounded; the trained model predicted 30 grounded. The small
+macro-F1 difference does not indicate a useful three-way classifier.
+
+The additional bare-name baseline scored accuracy **0.3333**, macro F1 **0.2605**,
+grounded F1 **0.3200**, request F1 **0.4615**, and ungrounded F1 **0.0000**.
+Definitions raised accuracy by 0.20 but reduced request F1 and macro F1; they
+changed the error pattern rather than uniformly improving performance. Both
+runs use the same BART model, hypothesis template, data and split. These are
+small-sample observations, not evidence that definitions are generally harmful.
+
+Evidence: [primary baseline](baseline_results.json), [bare-name diagnostic](baseline_bare_names_results.json),
+[definitions log](evidence/unit6/baseline-definitions.log), and
+[bare-name log](evidence/unit6/baseline-bare-names.log).
+
+## Run Log — Before
+
+Actual runs used seeds **42, 7 and 2024**, `distilbert-base-uncased`, three epochs,
+initial learning rate 0.00002, batch size 16 and maximum input length 128.
+Device: Apple Silicon GPU (MPS), Torch 2.14.1. Each stratified split contains
+139 training, 31 validation and 30 test rows, with test supports request 7,
+grounded 16 and ungrounded 7. The same seed controls the split and model/training
+randomness, so this experiment does not isolate those two sources of variation.
+
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Max − min |
+|---|---:|---:|---:|---:|
+| Accuracy | 0.5333 | 0.5333 | 0.5333 | 0.0000 |
+| Macro F1 | 0.2319 | 0.2319 | 0.2319 | 0.0000 |
+| Request F1 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
+| Grounded F1 | 0.6957 | 0.6957 | 0.6957 | 0.0000 |
+| Ungrounded F1 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
+
+| Original criterion | Seed 42 | Seed 7 | Seed 2024 | Overall verdict |
+|---|---|---|---|---|
+| 1. Accuracy ≥0.70 | 0.5333 — MISSED | 0.5333 — MISSED | 0.5333 — MISSED | MISSED |
+| 2. Every label F1 ≥0.60 | min 0.0000 — MISSED | min 0.0000 — MISSED | min 0.0000 — MISSED | MISSED |
+| 3. Each full-CSV label 20–60% | Shared dataset | Shared dataset | Shared dataset | MET: 21.5%, 54.0%, 24.5% |
+| 4. Staff agreement ≥24/30 | Shared external check | Shared external check | Shared external check | PENDING: authentic staff reference unavailable |
+| 5. High-third minus low-third accuracy ≥0.15 | 0.60 − 0.20 = 0.40 — MET | 0.90 − 0.30 = 0.60 — MET | 0.60 − 0.30 = 0.30 — MET | MET |
+
+Criterion 5 uses ten examples in each third. Criteria 3 and 4 are shared checks,
+not three independent measurements. MET for a seed-dependent criterion requires
+all three seeds to meet the original target. Zero spread here means repeatable
+majority-class collapse; it does **not** mean reliable classification. This
+qualifies the starter notebook's generic “Stable enough to trust” message.
+
+### Confusion matrix and direction
+
+Rows are actual labels; columns are predictions. **All three before seeds have
+this same matrix** (though they contain different test comments).
+
+| Actual / predicted | request | grounded | ungrounded |
+|---|---:|---:|---:|
+| request | 0 | 7 | 0 |
+| grounded | 0 | 16 | 0 |
+| ungrounded | 0 | 7 | 0 |
+
+There is a tie for the largest off-diagonal: **request → grounded: 7** and
+**ungrounded → grounded: 7**. Both reverse directions have zero errors. This is
+collapse toward the largest class, not just a two-label swap. The full dataset
+contains 43 request, 108 grounded and 49 ungrounded comments. Both minority
+labels exist in training (30 request and 34 ungrounded per split), so they were
+not lost through an empty training class.
+
+## Verdicts and Diagnoses
+
+**Criterion 1 — MISSED.** The 53.33% accuracy equals always predicting the test
+majority class, with no variation across seeds. The matrix and 54% grounded
+training-corpus share support a majority shortcut. The dataset meets the balance
+rule, but that rule does not guarantee the model will learn each class. The
+missing staff reference prevents external assessment of annotation consistency;
+we cannot conclude that label noise is or is not the cause.
+
+**Criterion 2 — MISSED.** Request and ungrounded have zero precision, recall and
+F1 in every seed because neither is ever predicted. Grounded F1 alone clears
+0.60. Three epochs provide only 27 optimizer steps. Validation loss falls
+through epoch 3 for every seed: **1.0137 → 0.9814**, **0.9839 → 0.9566**, and
+**0.9849 → 0.9371** (seed order 42, 7, 2024), while validation accuracy remains
+17/31. This is evidence compatible with insufficient optimization, not proof
+of it. A one-parameter training experiment is more directly motivated by these
+curves than relabeling examples merely to improve the score.
+
+**Criterion 3 — MET.** The 21.5%/54.0%/24.5% label shares meet the original
+20–60% limits. Seven test examples per minority class still make their metrics
+coarse and sensitive to individual errors; balance alone is insufficient.
+
+**Criterion 4 — PENDING.** All 30 blind staff-taxonomy labels are saved, but the
+authentic answer key is unavailable. There is no agreement score to use as
+support for a consistency diagnosis, and no disagreement adjudication is
+claimed. The staff taxonomy also differs from the project taxonomy.
+
+**Criterion 5 — MET.** Gaps of 0.40, 0.60 and 0.30 meet the target. Confidence
+ranks some correct majority-class predictions above wrong ones, even while both
+minority classes fail. This measures triage ranking only, not calibration or
+usable overall classification.
+
+## Agreement Report
+
+Codex AI labeled all 30 staff posts using the supplied staff taxonomy and
+committed them in `778d8b0` before opening any reference answers. All texts match
+the source exactly. Labels: 11 analysis, 9 hot_take and 10 reaction. These are
+AI-assisted instructor annotations, not human cold labels.
+
+The authentic `data/staff_labels.csv` remains unavailable. The instructor guide
+links the [official staff repository](https://github.com/codepath/ai201-project3-takemeter-staff-v2026),
+but authenticated access returned HTTP 404. That response does not establish
+whether the repository is private, unavailable, or inaccessible to this account.
+**Agreement and every-disagreement adjudication remain pending; criterion 4 is
+not scored.** No substitute answer key, invented score, or empty successful
+`agreement_results.json` has been created.
+
+The [status record](evidence/unit6/agreement-status.json) includes the input hashes,
+text checks and resume command. After the authentic key is supplied, preserve
+`my_staff_labels.csv` and run:
+
+```sh
+.venv/bin/python agreement.py --staff-posts data/staff_posts.csv --staff-labels data/staff_labels.csv --mine my_staff_labels.csv --out agreement_results.json
+```
+
+Then report the pre-adjudication numerator out of 30 and, for **every** actual
+disagreement, quote the post, show both labels, explain a decision, and classify
+it as (a) loose rule application, (b) a definition gap, or (c) a defensible
+ambiguous reading. The blind rationale flags `sp_014` as ambiguous; this is not
+a claim that it disagrees with staff. Reference agreement would evaluate applying
+the separate staff taxonomy, not validate all 200 project labels as human truth.
+
+## The Improvement
+
+**Exactly one declared change: EPOCHS 3 → 10.** The [committed plan](evidence/unit6/improvement_plan.json)
+was written after the before diagnosis and before the after runs. The goal is
+to test whether extra optimization breaks majority-class collapse. Ten epochs
+provide 90 optimizer steps. Initial learning rate, batch size, model, maximum
+length, labels, taxonomy, split seeds, device and acceptance criteria stay the
+same. The unchanged default linear learning-rate schedule consequently spans
+90 rather than 27 steps; this follows from the epoch change and is not a
+separate tuned parameter.
+
+This is a hypothesis-driven experiment with incomplete annotation evidence,
+not a promise that more epochs will help. The planned stopping rule is one
+10-epoch run per seed, followed by honest reporting; no further tuning on these
+test sets. Because the assignment uses test results to diagnose and choose this
+change, a future performance claim needs a fresh untouched evaluation set.
